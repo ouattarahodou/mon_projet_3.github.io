@@ -1,0 +1,78 @@
+header
+{
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+body
+{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+#header_Functioning
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+#restaurant
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.restaurant_Belleville img 
+{
+    width: 590px;
+    height: 440px;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.restaurant_Belleville 
+{
+    background-color: white;
+    border-radius: 20px;
+    width: 590px;
+    margin: 0;
+    padding: 0;
+}
+.restaurant_Belleville h4  
+{
+    margin-left: 20px;
+    justify-content: space-between;
+}
+.restaurant_Belleville h2 
+{
+    margin-left: 20px;
+    
+}
+footer h3
+{
+    margin-left: 30px;
+}
+footer P 
+{
+    margin-left: 30px;
+}
+footer
+{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-right: 200px;
+    background-color: black;
+    width: 400px;
+    height: auto;
+}
