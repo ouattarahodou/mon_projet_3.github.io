@@ -100,10 +100,22 @@ body
 .restaurant_Belleville 
 {
     background-color: white;
-    border-radius: 0px;
+    border-radius: 0px 0px 20px 20px;
     width: 590px;
     margin: 20px;
     padding: 0;
+}
+.restaurant_Belleville p 
+{
+    margin-left: 15em;
+    position: relative;top: 3em;
+    font-size: 30px;
+    background-color: rgb(192, 212, 198);
+    border-radius: 4px;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    color: #14fa0cec;
 }
 .restaurant_Belleville h4  
 {
