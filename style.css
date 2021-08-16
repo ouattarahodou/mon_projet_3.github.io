@@ -1,11 +1,62 @@
 header
 {
-    background-color: wheat;
+    background-color: #c51111b6;
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
     align-items: center;
+    height: 400px;
+    margin-left: 34em;
+    margin-right: 34em;
+    border-radius: 0px;
+       
+}
+input
+{
+    width: 600px;
+    height: 50px;
+    background-color: hsla(0, 0%, 96%, 0.521);
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+header p 
+{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+header h1
+{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header h2
+{
+    background-color: rgba(196, 88, 196, 0.712);
+    text-align: center;
+    justify-content: center;
+    margin-left: 130px;
+    border-radius: 50px;
+    line-height: 50px;
+    color: white;
+    box-shadow: 16px violet;
+    height: 60px;
+    width: 300px;
+}
+.Functioning p 
+{
+    text-align: center;
+    justify-content: center;
+    margin-left: 5px;
+    border-radius: 50px;
+    line-height: 80px;
+    background-color: white;
+    box-shadow: 16px white;
+    height: 80px;
+    width: 500px;
+    font-size: 20px;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body
 {
@@ -33,19 +84,25 @@ body
 }
 .restaurant_Belleville img 
 {
-    width: 590px;
+    width: 100%;
     height: 440px;
     border-radius: 20px 20px 0px 0px;
     display: flex;
     margin: 0;
     padding: 0;
 }
+.restaurant_Belleville h1
+{
+    margin-left: 15px;
+    margin: 25px;
+    font-size: 30px;
+}
 .restaurant_Belleville 
 {
     background-color: white;
-    border-radius: 20px;
+    border-radius: 0px;
     width: 590px;
-    margin: 0;
+    margin: 20px;
     padding: 0;
 }
 .restaurant_Belleville h4  
@@ -61,6 +118,8 @@ body
 footer h3
 {
     margin-left: 30px;
+    font-style: oblique;
+    font-size: 25px;
 }
 footer P 
 {
@@ -71,8 +130,8 @@ footer
     display: flex;
     flex-direction: column;
     color: white;
-    margin-right: 200px;
-    background-color: black;
-    width: 400px;
+    margin-left: 10px;
+    background-color: rgba(20, 19, 2, 0.788);
+    width: 590px;
     height: auto;
 }
