@@ -160,3 +160,420 @@ footer
     width: 590px;
     height: auto;
 }
+/* html page 1*/
+header
+{
+    background-color: greenyellow;
+    font-size: large; 
+}
+.img 
+{
+    width: 200px;
+    height: 440px;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;bottom: 5em;left: 40em;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.entree b 
+{
+    position: relative;left: 28em;top: 5em;
+}
+.entree h2, h3
+{
+    margin-left: 20px;
+    margin: 2px;
+}
+.entree  
+{
+    background-color: white;
+    
+    margin: 15px;
+    border-radius: 15px;
+    color: black;
+    box-shadow: 16px white;
+    height: 80px;
+    width: 500px;
+}
+.plats b 
+{
+    position: relative;left: 28em;top: 5em;
+}
+.plats h2, h3
+{
+    margin-left: 20px;
+    margin: 2px;
+}
+.plats 
+{
+    background-color: red;
+    
+    margin: 15px;
+    border-radius: 15px;
+    color: black;
+    box-shadow: 16px violet;
+    height: 80px;
+    width: 500px;
+}
+.desserts b 
+{
+    position: relative;left: 28em;top: 5em;
+}
+.desserts h2, h3
+{
+    margin-left: 20px;
+    margin: 2px;
+}
+.desserts  
+{
+    background-color: white;
+    
+    margin: 15px;
+    border-radius: 15px;
+    color: black;
+    box-shadow: 16px white;
+    height: 80px;
+    width: 500px;
+}
+.A_la_française h1
+{
+    display: grid;
+    justify-content: center;
+    font-size: 40px;
+}
+.A_la_française h4 
+{
+    display: grid;
+    justify-content: center;
+    background-color: violet;
+    position: relative;left: 6em;
+    line-height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    height: 60px;
+    width: 250px;
+}
+.A_la_française,.symbol
+{
+    margin-left: 20px;
+}
+.A_la_française 
+{
+    display: grid;
+    justify-content: center;
+
+}
+footer
+{
+    position: relative;left: 35em;
+}
+/* html page 2*/
+header
+{
+    background-color:wheat ;
+}
+header img 
+{
+    width: 100%;
+    height: 440px;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.LaNoteEnchantee h1
+{
+    display: grid;
+    justify-content: center;
+    font-size: 40px;
+}
+.LaNoteEnchantee h4
+{
+    display: grid;
+    justify-content: center;
+    background-color: violet;
+    position: relative;left: 6em;
+    line-height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    height: 60px;
+    width: 250px;
+}
+.LaNoteEnchantee, .symbol
+{
+    margin-left: 20px;
+}
+.LaNoteEnchantee
+{
+    justify-content: center;
+    display: grid;
+}
+.entree b 
+{
+    position: relative;left: 28em;top: 5em;
+}
+.entree h2, h3
+{
+    margin-left: 20px;
+    margin: 2px;
+}
+.entree  
+{
+    background-color: white;
+    
+    margin: 15px;
+    border-radius: 15px;
+    color: black;
+    box-shadow: 16px white;
+    height: 80px;
+    width: 500px;
+}
+.plats b 
+{
+    position: relative;left: 28em;top: 5em;
+}
+.plats h2, h3
+{
+    margin-left: 20px;
+    margin: 2px;
+}
+.plats 
+{
+    background-color: white;
+    
+    margin: 15px;
+    border-radius: 15px;
+    color: black;
+    box-shadow: 16px white;
+    height: 80px;
+    width: 500px;
+}
+.desserts b 
+{
+    position: relative;left: 28em;top: 5em;
+}
+.desserts h2, h3
+{
+    margin-left: 20px;
+    margin: 2px;
+}
+.desserts  
+{
+    background-color: white;
+    
+    margin: 15px;
+    border-radius: 15px;
+    color: black;
+    box-shadow: 16px white;
+    height: 80px;
+    width: 500px;
+}
+footer
+{
+    position: relative;left: 35em;
+}
+/* html page 3*/
+
+header img 
+{
+    width: 100%;
+    height: 440px;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.LaPaletteDuGout h1
+{
+    display: grid;
+    justify-content: center;
+    font-size: 40px;
+}
+.LaPaletteDuGout h4
+{
+    display: grid;
+    justify-content: center;
+    background-color: violet;
+    position: relative;left: 6em;
+    line-height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    height: 60px;
+    width: 250px;
+}
+.LaPaletteDuGout, .symbol
+{
+    margin-left: 20px;
+}
+.LaPaletteDuGout
+{
+    justify-content: center;
+    display: grid;
+}
+.entree b 
+{
+    position: relative;left: 28em;top: 5em;
+}
+.entree h2, h3
+{
+    margin-left: 20px;
+    margin: 2px;
+}
+.entree  
+{
+    background-color: white;
+    
+    margin: 15px;
+    border-radius: 15px;
+    color: black;
+    box-shadow: 16px white;
+    height: 80px;
+    width: 500px;
+}
+.plats b 
+{
+    position: relative;left: 28em;top: 5em;
+}
+.plats h2, h3
+{
+    margin-left: 20px;
+    margin: 2px;
+}
+.plats 
+{
+    background-color: white;
+    
+    margin: 15px;
+    border-radius: 15px;
+    color: black;
+    box-shadow: 16px white;
+    height: 80px;
+    width: 500px;
+}
+.desserts b 
+{
+    position: relative;left: 28em;top: 5em;
+}
+.desserts h2, h3
+{
+    margin-left: 20px;
+    margin: 2px;
+}
+.desserts  
+{
+    background-color: white;
+    
+    margin: 15px;
+    border-radius: 15px;
+    color: black;
+    box-shadow: 16px white;
+    height: 80px;
+    width: 500px;
+}
+footer
+{
+    position: relative;left: 35em;
+}
+/* html page 4*/
+
+header img 
+{
+    width: 100%;
+    height: 440px;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.LeDeliceDesSens,.symbol
+{
+    margin-left: 20px;
+}
+.LeDeliceDesSens h1
+{
+    display: grid;
+    justify-content: center;
+    font-size: 40px;
+}
+.LeDeliceDesSens h4
+{
+    display: grid;
+    justify-content: center;
+    background-color: violet;
+    position: relative;left: 6em;
+    line-height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    height: 60px;
+    width: 250px;
+}
+.LeDeliceDesSens
+{
+    justify-content: center;
+    display: grid;
+}
+.entree b 
+{
+    position: relative;left: 28em;top: 5em;
+}
+.entree h2, h3
+{
+    margin-left: 20px;
+    margin: 2px;
+}
+.entree  
+{
+    background-color: white;
+    
+    margin: 15px;
+    border-radius: 15px;
+    color: black;
+    box-shadow: 16px white;
+    height: 80px;
+    width: 500px;
+}
+.plats b 
+{
+    position: relative;left: 28em;top: 5em;
+}
+.plats h2, h3
+{
+    margin-left: 20px;
+    margin: 2px;
+}
+.plats 
+{
+    background-color: white;
+    
+    margin: 15px;
+    border-radius: 15px;
+    color: black;
+    box-shadow: 16px white;
+    height: 80px;
+    width: 500px;
+}
+.desserts b 
+{
+    position: relative;left: 28em;top: 5em;
+}
+.desserts h2, h3
+{
+    margin-left: 20px;
+    margin: 2px;
+}
+.desserts  
+{
+    background-color: white;
+    
+    margin: 15px;
+    border-radius: 15px;
+    color: black;
+    box-shadow: 16px white;
+    height: 80px;
+    width: 500px;
+}
+footer
+{
+    position: relative;left: 35em;
+}
