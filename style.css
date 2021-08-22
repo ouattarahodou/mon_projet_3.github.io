@@ -365,6 +365,11 @@ header img
     justify-content: center;
     font-size: 40px;
 }
+a, a:hover, a:visited, a:active
+{
+    
+    text-decoration: none;
+}
 .A_la_française h4 
 {
     display: grid;
