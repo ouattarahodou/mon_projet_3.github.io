@@ -11,6 +11,12 @@ header
     border-radius: 0px;
     position: relative;top: 0em;right: 23em;  
 }
+header, img  
+{
+    width: 200px;
+    height: 20px;
+    
+}
 footer i 
 {
     position: relative;top: 1em;right: 5em;
