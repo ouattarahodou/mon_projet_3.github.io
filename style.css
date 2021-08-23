@@ -4,11 +4,12 @@ header
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 400px;
+    width: 600px;
+    height: 480px;
     margin-left: 34em;
     margin-right: 34em;
     border-radius: 0px;
-       
+    position: relative;top: 0em;right: 23em;  
 }
 footer i 
 {
@@ -18,7 +19,7 @@ footer i
 }
 .search_map i 
 {
-    position: relative;top: 1.5em;left: 7em;
+    position: relative;top: 1.5em;left: 6em;
     font-size: 25px;
 }
 input
@@ -29,17 +30,22 @@ input
     border: none;
     font-size: 20px;
     text-align: center;
+    justify-content: center;
+    display: flex;
 }
 header p 
 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
+    
 }
 header h1
 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 400px;
+    margin-left: 80px;
 }
 header h2
 {
@@ -58,7 +64,7 @@ header h2
 {
     text-align: center;
     justify-content: center;
-    margin-left: 5px;
+    margin: 5px;
     border-radius: 50px;
     line-height: 80px;
     background-color: white;
@@ -173,17 +179,24 @@ footer
 {
     display: flex;
     flex-direction: column;
+    position: relative;left: 35em;
     color: white;
     margin-right: 70em;
     background-color: rgba(20, 19, 2, 0.788);
     width: 590px;
     height: auto;
 }
-/* a_la_française.html*/
+/* A_la_française */
 header
 {
     background-color: greenyellow;
     font-size: large; 
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    align-items: center;
 }
 header i 
 {
@@ -248,7 +261,7 @@ header img
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 500px;
+    width: 590px;
 }
 .entree_2
 {
@@ -258,18 +271,17 @@ header img
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 500px;
+    width: 590px;
 }
 .entree_3   
 {
     background-color: white;
     margin: 15px;
-    
     border-radius: 15px;
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 500px;
+    width: 590px;
 }
 .plats_1 h2,.plats_2 h2,.plats_3 h2
 {
@@ -293,7 +305,7 @@ header img
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 500px;
+    width: 590px;
 }
 .plats_2 
 {
@@ -303,7 +315,7 @@ header img
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 500px;
+    width: 590px;
 }
 .plats_3 
 {
@@ -313,7 +325,7 @@ header img
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 500px;
+    width: 590px;
 }
 .desserts_1 b, .desserts_2 b, .desserts_3 b  
 {
@@ -337,7 +349,7 @@ header img
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 500px;
+    width: 590px;
 }
 .desserts_2
 {
@@ -347,7 +359,7 @@ header img
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 500px;
+    width: 590px;
 }
 .desserts_3 
 {
@@ -357,7 +369,7 @@ header img
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 500px;
+    width: 590px;
 }
 .A_la_française h1
 {
@@ -394,9 +406,9 @@ a, a:hover, a:visited, a:active
 }
 footer
 {
-    position: relative;left: 35em;
+    margin: 0;
 }
-/* html page 2*/
+/* La_note_enchantee */
 header
 {
     background-color:wheat ;
@@ -410,6 +422,7 @@ header img
     margin: 0;
     padding: 0;
 }
+
 .LaNoteEnchantee h1
 {
     display: grid;
@@ -455,7 +468,7 @@ header img
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 500px;
+    width: 100%;
 }
 .plats b 
 {
@@ -475,7 +488,7 @@ header img
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 500px;
+    width: 100%;
 }
 .desserts b 
 {
@@ -495,13 +508,14 @@ header img
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 500px;
+    width: 100%;
 }
 footer
 {
-    position: relative;left: 35em;
+    margin: 0;
+   
 }
-/* html page 3*/
+/* La_palette_du_gout */
 
 header img 
 {
@@ -512,6 +526,7 @@ header img
     margin: 0;
     padding: 0;
 }
+
 .LaPaletteDuGout h1
 {
     display: grid;
@@ -557,7 +572,7 @@ header img
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 500px;
+    width: 100%;
 }
 .plats b 
 {
@@ -571,13 +586,12 @@ header img
 .plats 
 {
     background-color: white;
-    
     margin: 15px;
     border-radius: 15px;
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 500px;
+    width: 100%;
 }
 .desserts b 
 {
@@ -591,19 +605,18 @@ header img
 .desserts  
 {
     background-color: white;
-    
     margin: 15px;
     border-radius: 15px;
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 500px;
+    width: 100%;
 }
 footer
 {
-    position: relative;left: 35em;
+    margin: 0;
 }
-/* html page 4*/
+/* le_délice_des_sens */
 
 header img 
 {
@@ -614,6 +627,7 @@ header img
     margin: 0;
     padding: 0;
 }
+
 .LeDeliceDesSens,.symbol
 {
     margin-left: 20px;
@@ -653,13 +667,12 @@ header img
 .entree  
 {
     background-color: white;
-    
     margin: 15px;
     border-radius: 15px;
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 500px;
+    width: 100%;
 }
 .plats b 
 {
@@ -679,7 +692,7 @@ header img
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 500px;
+    width: 100%;
 }
 .desserts b 
 {
@@ -693,13 +706,12 @@ header img
 .desserts  
 {
     background-color: white;
-    
     margin: 15px;
     border-radius: 15px;
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 500px;
+    width: 100%;
 }
 footer
 {
