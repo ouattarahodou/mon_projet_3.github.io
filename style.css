@@ -11,11 +11,10 @@ header
     border-radius: 0px;
     position: relative;top: 0em;right: 23em;  
 }
-header, img  
+header, .logo   
 {
     width: 200px;
-    height: 20px;
-    
+    height: 30px;  
 }
 footer i 
 {
@@ -193,54 +192,57 @@ footer P
     height: auto;
 }
 /* A_la_française */
-header
+
+.logo  
 {
-    background-color: greenyellow;
-    font-size: large; 
+    position: relative;top: 52em;left: 20em;
+    font-size: 10px;
+    display: flex;
+    
 }
 header
 {
-    padding: 100px;
+   
+    align-items: center;
+    
 }
 body
 {
     margin: 0;
     padding: 0;
     align-items: center;
+    width: 50%;
+
 }
 header i 
 {
-    position: relative;left: 19em;bottom: 2em;
+    position: relative;right: 2em;top: 1em;
     font-size: 25px;
 }
-.logo   
+.A_la_française img 
 {
-    position: relative;bottom: 15em;left: 35em;
-    width: 200px;
-    height: 20px;
-}
-.img 
-{
-    width: 590px;
+    width: 150%;
     height: 440px;
-    border-radius: 0px 20px 0px 0px;
-    position: relative;bottom: 17em;left: 25em;
+    border-radius: 0px 0px -50px -50px;
+    position: relative;top: 5em;left: 1em;
+    flex-direction: column;
     display: flex;
     margin: 0;
     padding: 0;
     padding-top: 250px;
+
 }
 .entree_1 b 
 {
-    position: relative;left: 28em;bottom: 3.6em;
+    position: relative;left: 24em;bottom: 4.6em;
 }
 .entree_2 b 
 {
-    position: relative;left: 28em;bottom: 3.6em;
+    position: relative;left: 24em;bottom: 4.6em;
 }
 .entree_3 b 
 {
-    position: relative;left: 22em;bottom: 3.6em;
+    position: relative;left: 18em;bottom: 4.6em;
     
 }
 .entree_4 b 
@@ -249,7 +251,7 @@ header i
 }
 .entree_3 i 
 {
-    position: relative;bottom: 3.3em;left: 10.5em;
+    position: relative;bottom: 3.7em;left: 8.9em;
     font-size: 40px;
     display: flex;
     align-items: center;
@@ -259,6 +261,8 @@ header i
     margin-top: 20px;
     width: 80px;
     height: 80px;
+    
+    
 }
 .entree_1 h2, .entree_2 h2, .entree_3 h2, .entree_4 h2
 {
@@ -278,7 +282,8 @@ header i
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 550px;
+    width: 150%;
+    display: grid;
 }
 .entree_2
 {
@@ -288,7 +293,9 @@ header i
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 550px;
+    width: 150%;
+    display: grid;
+    
 }
 .entree_3   
 {
@@ -298,7 +305,9 @@ header i
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 550px;
+    width: 150%;
+    display: grid;
+    
 }
 .plats_1 h2,.plats_2 h2,.plats_3 h2
 {
@@ -312,7 +321,8 @@ header i
 }
 .plats_1 b,.plats_2 b,.plats_3 b 
 {
-    position: relative;left: 28em;bottom: 3.6em;
+    position: relative;left: 24em;bottom: 4.6em;
+
 } 
 .plats_1 
 {
@@ -322,7 +332,9 @@ header i
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 550px;
+    width: 150%;
+    display: grid;
+
 }
 .plats_2 
 {
@@ -332,7 +344,9 @@ header i
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 550px;
+    width: 150%;
+    display: grid;
+
 }
 .plats_3 
 {
@@ -342,11 +356,13 @@ header i
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 550px;
+    width: 150%;
+    display: grid;
+
 }
 .desserts_1 b, .desserts_2 b, .desserts_3 b  
 {
-    position: relative;left: 28em;bottom: 3.6em;
+    position: relative;left: 24em;bottom: 4.6em;
 }
 .desserts_1 h2, .desserts_2 h2, .desserts_3 h2
 {
@@ -366,7 +382,8 @@ header i
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 550px;
+    width: 150%;
+    display: grid;
 }
 .desserts_2
 {
@@ -376,7 +393,8 @@ header i
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 550px;
+    width: 150%;
+    display: grid;
 }
 .desserts_3 
 {
@@ -386,14 +404,16 @@ header i
     color: black;
     box-shadow: 16px white;
     height: 80px;
-    width: 550px;
+    width: 150%;
+    display: grid;
 }
 .A_la_française h1
 {
     display: grid;
-    font-size: 40px;
+    font-size: 35px;
     padding-top: 90px;
-    margin-left: 15px;
+    margin-left: 40px;
+
 }
 a, a:hover, a:visited, a:active
 {
@@ -402,27 +422,30 @@ a, a:hover, a:visited, a:active
 }
 .A_la_française h4 
 {
-    display: grid;
+    display: flex;
     justify-content: center;
+    align-items: center;
     background-color: violet;
-    position: relative;left: 6em;
+    position: relative;left: 4em;
     line-height: 50px;
     border-radius: 50px;
     font-size: 20px;
     height: 60px;
     width: 250px;
-    margin-left: 40px;
+    margin-left: 35px;
+
+    
 }
-.A_la_française,.symbol
+.A_la_française .symbol
 {
-    margin-left: 20px;
+    position: relative;left: 15em;bottom: 2.5em;
 }
 .A_la_française p 
 {
     margin-left: 15px;
     
 }
-.A_la_française 
+.A_la_française
 {
     display: grid;
     justify-content: center;
@@ -430,775 +453,28 @@ a, a:hover, a:visited, a:active
     margin: 230px;
     margin-left: 552px;
     margin-right: 540px;
-}
-footer
-{
-    margin: 0;
-}
-/* La_note_enchantee */
-header
-{
-    background-color:wheat ;
-}
-header img 
-{
-    width: 100%;
-    height: 440px;
-    border-radius: 20px 20px 0px 0px;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-header i 
-{
-    position: relative;left: 19em;bottom: 2em;
-    font-size: 25px;
-}
-.LaNoteEnchantee h1
-{
-    display: grid;
-    font-size: 40px;
-    padding-top: 90px;
-    margin-left: 15px;
-}
-.LaNoteEnchantee h4
-{
-    display: grid;
-    justify-content: center;
-    background-color: violet;
-    position: relative;left: 6em;
-    line-height: 50px;
-    border-radius: 50px;
-    font-size: 20px;
-    height: 60px;
-    width: 250px;
-    margin-left: 40px;
-}
-.LaNoteEnchantee, .symbol
-{
-    margin-left: 20px;
-}
-.LaNoteEnchantee p 
-{
-    margin-left: 15px;
-}
-.LaNoteEnchantee
-{
-    display: grid;
-    justify-content: center;
-    background-color: darkred;
-    margin: 230px;
-    margin-left: 552px;
-    margin-right: 540px;
-}
-.entree_1 
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.entree_2
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.entree_3   
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.entree_4
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.plats_1 
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.plats_2 
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.plats_3 
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.desserts_1  
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.desserts_2
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.desserts_3 
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.entree_1 b 
-{
-    position: relative;left: 28em;bottom: 3.6em;
-}
-.entree_2 b 
-{
-    position: relative;left: 28em;bottom: 3.6em;
-}
-.entree_3 b 
-{
-    position: relative;left: 22em;bottom: 3.6em;
-    
-}
-.entree_3 i 
-{
-    position: relative;bottom: 3.3em;left: 10.5em;
-    font-size: 40px;
-    display: flex;
-    align-items: center;
-    color: white;
-    background-color: aquamarine;
-    border-radius: 0px 20px 20px 0px;
-    margin-top: 20px;
-    width: 80px;
-    height: 80px;
-}
-.entree_1 h2, .entree_2 h2, .entree_3 h2,
-.entree_1 h3, .entree_2 h3, .entree_3 h3
-{
-    margin-left: 30px;
-    margin: 15px;
-}
-.plats_1 h2,.plats_2 h2,.plats_3 h2,
-.plats_1 h3,.plats_2 h3,.plats_3 h3
-{
-    margin-left: 30px;
-    margin: 15px;
-}
-.desserts_1 h2, .desserts_2 h2, .desserts_3 h2,
-.desserts_1 h3, .desserts_2 h3, .desserts_3 h3
-{
-    margin-left: 30px;
-    margin: 15px;
-}
-.entree b 
-{
-    position: relative;left: 28em;top: 5em;
-}
-entree h2, h3
-{
-    margin-left: 20px;
-    margin: 2px;
-}
-.entree  
-{
-    background-color: white;
-    
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 100%;
-}
-.plats b 
-{
-    position: relative;left: 28em;top: 5em;
-}
-plats h2, h3
-{
-    margin-left: 20px;
-    margin: 2px;
-}
-.plats 
-{
-    background-color: white;
-    
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 100%;
-}
-.desserts b 
-{
-    position: relative;left: 28em;top: 5em;
-}
-desserts h2, h3
-{
-    margin-left: 20px;
-    margin: 2px;
-}
-.desserts  
-{
-    background-color: white;
-    
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 590px;
-}
-footer
-{
-    margin: 0;
-   
-}
-/* La_palette_du_gout */
 
-.imgL 
-{
-    width: 590px;
-    height: 440px;
-    border-radius: 20px 20px 0px 0px;
-    display: flex;
-    margin: 0;
-    padding: 0;
-
-}
-
-.LaPaletteDuGout h1
-{
-    display: grid;
-    font-size: 40px;
-    padding-top: 90px;
-    margin-left: 15px;
-}
-.LaPaletteDuGout h4
-{
-    display: grid;
-    justify-content: center;
-    background-color: violet;
-    position: relative;left: 6em;
-    line-height: 50px;
-    border-radius: 50px;
-    font-size: 20px;
-    height: 60px;
-    width: 250px;
-    margin-left: 40px;
-}
-.LaPaletteDuGout, .symbol
-{
-    margin-left: 20px;
-}
-.LaPaletteDuGout p 
-{
-    margin-left: 15px;
-}
-.LaPaletteDuGout
-{
-    display: grid;
-    justify-content: center;
-    background-color: royalblue;
-    margin: 230px;
-    margin-left: 552px;
-    margin-right: 540px;
-}
-.entree_1 
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.entree_2
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.entree_3   
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.plats_1 
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.plats_2 
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.plats_3 
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.desserts_1  
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.desserts_2
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.desserts_3 
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.entree_1 b 
-{
-    position: relative;left: 28em;bottom: 3.6em;
-}
-.entree_2 b 
-{
-    position: relative;left: 28em;bottom: 3.6em;
-}
-.entree_3 b 
-{
-    position: relative;left: 22em;bottom: 3.6em;
-    
-}
-.entree_3 i 
-{
-    position: relative;bottom: 3.3em;left: 10.5em;
-    font-size: 40px;
-    display: flex;
-    align-items: center;
-    color: white;
-    background-color: aquamarine;
-    border-radius: 0px 20px 20px 0px;
-    margin-top: 20px;
-    width: 80px;
-    height: 80px;
-}
-.entree_1 h2, .entree_2 h2, .entree_3 h2,
-.entree_1 h3, .entree_2 h3, .entree_3 h3
-{
-    margin-left: 30px;
-    margin: 15px;
-}
-.plats_1 h2,.plats_2 h2,.plats_3 h2,
-.plats_1 h3,.plats_2 h3,.plats_3 h3
-{
-    margin-left: 30px;
-    margin: 15px;
-}
-.desserts_1 h2, .desserts_2 h2, .desserts_3 h2,
-.desserts_1 h3, .desserts_2 h3, .desserts_3 h3
-{
-    margin-left: 30px;
-    margin: 15px;
-}
-.entree b 
-{
-    position: relative;left: 28em;top: 5em;
-}
-.entree h2, h3
-{
-    margin-left: 20px;
-    margin: 2px;
-}
-.entree  
-{
-    background-color: white;
-    
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 590px;
-}
-.plats b 
-{
-    position: relative;left: 28em;top: 5em;
-}
-.plats h2, h3
-{
-    margin-left: 20px;
-    margin: 2px;
-}
-.plats 
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 590px;
-}
-.desserts b 
-{
-    position: relative;left: 28em;top: 5em;
-}
-.desserts h2, h3
-{
-    margin-left: 20px;
-    margin: 2px;
-}
-.desserts  
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 590px;
-}
-footer
-{
-    margin: 0;
-}
-/* le_délice_des_sens */
-
-header img 
-{
-    width: 100%;
-    height: 440px;
-    border-radius: 20px 20px 0px 0px;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-header i 
-{
-    position: relative;left: 19em;bottom: 2em;
-    font-size: 25px;
-}
-.LeDeliceDesSens,.symbol
-{
-    margin-left: 20px;
-}
-.LeDeliceDesSens h1
-{
-    display: grid;
-    font-size: 40px;
-    padding-top: 90px;
-    margin-left: 15px;
-}
-.LeDeliceDesSens h4
-{
-    display: grid;
-    justify-content: center;
-    background-color: violet;
-    position: relative;left: 6em;
-    line-height: 50px;
-    border-radius: 50px;
-    font-size: 20px;
-    height: 60px;
-    width: 250px;
-    margin-left: 40px;
-}
-.LeDeliceDesSens p 
-{
-    margin-left: 15px;
-}
-.LeDeliceDesSens
-{
-    display: grid;
-    justify-content: center;
-    background-color: deeppink;
-    margin: 230px;
-    margin-left: 552px;
-    margin-right: 540px;
-}
-.entree_1 
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.entree_2
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.entree_3   
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.plats_1 
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.plats_2 
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.plats_3 
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.entree_1 b 
-{
-    position: relative;left: 28em;bottom: 3.6em;
-}
-.entree_2 b 
-{
-    position: relative;left: 28em;bottom: 3.6em;
-}
-.entree_3 b 
-{
-    position: relative;left: 22em;bottom: 3.6em;
-    
-}
-.entree_3 i 
-{
-    position: relative;bottom: 3.3em;left: 10.5em;
-    font-size: 40px;
-    display: flex;
-    align-items: center;
-    color: white;
-    background-color: aquamarine;
-    border-radius: 0px 20px 20px 0px;
-    margin-top: 20px;
-    width: 80px;
-    height: 80px;
-}
-.entree_1 h2, .entree_2 h2, .entree_3 h2,
-.entree_1 h3, .entree_2 h3, .entree_3 h3
-{
-    margin-left: 30px;
-    margin: 15px;
-}
-.plats_1 h2,.plats_2 h2,.plats_3 h2,
-.plats_1 h3,.plats_2 h3,.plats_3 h3
-{
-    margin-left: 30px;
-    margin: 15px;
-}
-.desserts_1 h2, .desserts_2 h2, .desserts_3 h2,
-.desserts_1 h3, .desserts_2 h3, .desserts_3 h3
-{
-    margin-left: 30px;
-    margin: 15px;
-}
-.entree b 
-{
-    position: relative;left: 28em;top: 5em;
-}
-.entree h2, h3
-{
-    margin-left: 20px;
-    margin: 2px;
-}
-.entree  
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 590px;
-}
-.plats b 
-{
-    position: relative;left: 28em;top: 5em;
-}
-.plats h2, h3
-{
-    margin-left: 20px;
-    margin: 2px;
-}
-.plats 
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 590px;
-}
-.desserts_1  
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.desserts_2
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.desserts_3 
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 550px;
-}
-.desserts b 
-{
-    position: relative;left: 28em;top: 5em;
-}
-.desserts h2, h3
-{
-    margin-left: 20px;
-    margin: 2px;
-}
-.desserts  
-{
-    background-color: white;
-    margin: 15px;
-    border-radius: 15px;
-    color: black;
-    box-shadow: 16px white;
-    height: 80px;
-    width: 590px;
 }
 footer
 {
     display: flex;
     flex-direction: column;
-    position: relative;left: 35em;
+    position: relative;left: 26em;bottom: 12em;
     color: white;
-    margin-right: 70em;
     background-color: rgba(20, 19, 2, 0.788);
-    width: 590px;
+    width: 55%;
     height: auto;
-    
+
+}
+
+/* le_délice_des_sens */
+
+.LeDeliceDesSens
+{
+    display: grid;
+    justify-content: center;
+    background-color: darkred;
+    margin: 230px;
+    margin-left: 552px;
+    margin-right: 540px;
 }
