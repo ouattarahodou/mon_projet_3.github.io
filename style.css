@@ -221,7 +221,7 @@ header i
 }
 .A_la_française img 
 {
-    width: 150%;
+    width: 100%;
     height: 440px;
     border-radius: 0px 0px -50px -50px;
     position: relative;top: 5em;left: 1em;
@@ -234,24 +234,27 @@ header i
 }
 .entree_1 b 
 {
-    position: relative;left: 24em;bottom: 4.6em;
+    position: relative;left: 22em;bottom: 2.2em;
+    
 }
 .entree_2 b 
 {
-    position: relative;left: 24em;bottom: 4.6em;
+    position: relative;left: 22em;bottom: 2.2em;
+  
 }
 .entree_3 b 
 {
-    position: relative;left: 18em;bottom: 4.6em;
+    position: relative;left: 17em;bottom: 2.2em;
     
 }
 .entree_4 b 
 {
     position: relative;left: 22em;bottom: 3.6em;
+    
 }
 .entree_3 i 
 {
-    position: relative;bottom: 3.7em;left: 8.9em;
+    position: relative;bottom: 2.4em;left: 8.2em;
     font-size: 40px;
     display: flex;
     align-items: center;
@@ -259,20 +262,22 @@ header i
     background-color: aquamarine;
     border-radius: 0px 20px 20px 0px;
     margin-top: 20px;
-    width: 80px;
-    height: 80px;
-    
+    width: 17%;
+    height: 85px;
+    display: grid;
     
 }
 .entree_1 h2, .entree_2 h2, .entree_3 h2, .entree_4 h2
 {
     margin-left: 30px;
     margin: 15px;
+    
 }
 .entree_1 h3, .entree_2 h3, .entree_3 h3, .entree_4 h3  
 {
     margin-left: 30px;
     margin: 15px;
+    
 }
 .entree_1 
 {
@@ -281,8 +286,9 @@ header i
     border-radius: 15px;
     color: black;
     box-shadow: 16px white;
-    height: 80px;
-    width: 150%;
+    line-height: 5px;
+    height: 85px;
+    width: 190%;
     display: grid;
 }
 .entree_2
@@ -292,8 +298,9 @@ header i
     border-radius: 15px;
     color: black;
     box-shadow: 16px white;
-    height: 80px;
-    width: 150%;
+    line-height: 5px;
+    height: 85px;
+    width: 190%;
     display: grid;
     
 }
@@ -304,8 +311,9 @@ header i
     border-radius: 15px;
     color: black;
     box-shadow: 16px white;
-    height: 80px;
-    width: 150%;
+    line-height: 5px;
+    height: 85px;
+    width: 190%;
     display: grid;
     
 }
@@ -321,9 +329,13 @@ header i
 }
 .plats_1 b,.plats_2 b,.plats_3 b 
 {
-    position: relative;left: 24em;bottom: 4.6em;
-
+    position: relative;left: 22em;bottom: 2.2em;
+    display: grid;
 } 
+.desserts_1 b, .desserts_2 b, .desserts_3 b 
+{
+    position: relative;left: 22em;bottom: 2.2em;
+}
 .plats_1 
 {
     background-color: white;
@@ -331,8 +343,9 @@ header i
     border-radius: 15px;
     color: black;
     box-shadow: 16px white;
-    height: 80px;
-    width: 150%;
+    line-height: 5px;
+    height: 85px;
+    width: 190%;
     display: grid;
 
 }
@@ -343,8 +356,9 @@ header i
     border-radius: 15px;
     color: black;
     box-shadow: 16px white;
-    height: 80px;
-    width: 150%;
+    line-height: 5px;
+    height: 85px;
+    width: 190%;
     display: grid;
 
 }
@@ -355,14 +369,11 @@ header i
     border-radius: 15px;
     color: black;
     box-shadow: 16px white;
-    height: 80px;
-    width: 150%;
+    line-height: 5px;
+    height: 85px;
+    width: 190%;
     display: grid;
 
-}
-.desserts_1 b, .desserts_2 b, .desserts_3 b  
-{
-    position: relative;left: 24em;bottom: 4.6em;
 }
 .desserts_1 h2, .desserts_2 h2, .desserts_3 h2
 {
@@ -381,8 +392,9 @@ header i
     border-radius: 15px;
     color: black;
     box-shadow: 16px white;
-    height: 80px;
-    width: 150%;
+    line-height: 5px;
+    height: 85px;
+    width: 190%;
     display: grid;
 }
 .desserts_2
@@ -392,8 +404,9 @@ header i
     border-radius: 15px;
     color: black;
     box-shadow: 16px white;
-    height: 80px;
-    width: 150%;
+    line-height: 5px;
+    height: 85px;
+    width: 190%;
     display: grid;
 }
 .desserts_3 
@@ -403,8 +416,9 @@ header i
     border-radius: 15px;
     color: black;
     box-shadow: 16px white;
-    height: 80px;
-    width: 150%;
+    line-height: 5px;
+    height: 85px;
+    width: 190%;
     display: grid;
 }
 .A_la_française h1
@@ -467,14 +481,100 @@ footer
 
 }
 
-/* le_délice_des_sens */
+/* la_palette_du_Gout */
 
-.LeDeliceDesSens
+.la_palette_du_Gout img 
 {
-    display: grid;
+    width: 100%;
+    height: 440px;
+    border-radius: 0px 0px -50px -50px;
+    position: relative;top: 5em;left: 1em;
+    flex-direction: column;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-top: 35%;
+}
+.la_palette_du_Gout h4
+{
+    display: flex;
     justify-content: center;
-    background-color: darkred;
-    margin: 230px;
-    margin-left: 552px;
-    margin-right: 540px;
+    align-items: center;
+    background-color: violet;
+    position: relative;left: 4em;
+    line-height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    height: 60px;
+    width: 100%;
+    margin-left: 35px;
+}
+.la_palette_du_Gout p 
+{
+    margin-left: 20px;
+}
+
+/* la_note_enchantee */
+
+.la_note_enchantee img 
+{
+    width: 100%;
+    height: 440px;
+    border-radius: 0px 0px -50px -50px;
+    position: relative;top: 5em;left: 1em;
+    flex-direction: column;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-top: 250px;
+}
+.la_note_enchantee h4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: violet;
+    position: relative;left: 4em;
+    line-height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    height: 60px;
+    width: 100%;
+    margin-left: 35px;
+}
+.la_note_enchantee p 
+{
+    margin-left: 20px;
+}
+/* la_note_enchantee */
+
+.le_delice_des_sens img 
+{
+    width: 100%;
+    height: 440px;
+    border-radius: 0px 0px -50px -50px;
+    position: relative;top: 5em;left: 1em;
+    flex-direction: column;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-top: 250px;
+}
+.le_delice_des_sens h4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: violet;
+    position: relative;left: 4em;
+    line-height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    height: 60px;
+    width: 100%;
+    margin-left: 35px;
+}
+.le_delice_des_sens p 
+{
+    margin-left: 20px;
 }
