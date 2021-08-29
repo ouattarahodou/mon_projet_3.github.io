@@ -1,20 +1,20 @@
 header
 {
-    background-color: #c51111b6;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 600px;
-    height: 480px;
+    
     margin-left: 34em;
     margin-right: 34em;
     border-radius: 0px;
-    position: relative;top: 0em;right: 23em;  
+    position: relative;top: 0em;right: 25em;  
 }
-header, .logo   
+header .logo   
 {
-    width: 200px;
-    height: 30px;  
+    
+    margin-bottom: 50em;
+    margin-right: 50em;
 }
 footer i 
 {
@@ -38,12 +38,12 @@ input
     justify-content: center;
     display: flex;
 }
-header p 
+.restaurant_Belleville p 
 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-    
+    position: relative;top: 5em;
 }
 header h1
 {
@@ -86,6 +86,7 @@ body
     margin: 0;
     padding: 0;
     align-items: center;
+    justify-content:center;
 }
 #header_Functioning
 {
@@ -94,24 +95,34 @@ body
     margin: 0;
     padding: 0;
     align-items: center;
+    justify-content:center;
 }
 #restaurant
 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    align-content:center;
+    justify-content:center;
     margin: 0;
     padding: 0;
-    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 .restaurant_Belleville img 
 {
     width: 100%;
-    height: 440px;
+    height: 500px;
     border-radius: 20px 20px 0px 0px;
     display: flex;
-    margin: 0;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 0;
+    margin-left: em;
+    margin-right: 0em;
 }
 .restaurant_Belleville h1
 {
@@ -123,9 +134,17 @@ body
 {
     background-color: white;
     border-radius: 0px 0px 20px 20px;
-    width: 590px;
-    margin: 20px;
+    width: 50%;
+    
+    
+    margin-left: 100px;
     padding: 0;
+
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content:center;
+    justify-content:center;
 }
 .search_mobile i 
 {
@@ -190,6 +209,12 @@ footer P
     background-color: rgba(20, 19, 2, 0.788);
     width: 590px;
     height: auto;
+
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content:center;
+    justify-content:center;
 }
 /* A_la_française */
 
@@ -578,3 +603,4 @@ footer
 {
     margin-left: 20px;
 }
+
