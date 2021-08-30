@@ -83,7 +83,7 @@ header h2
 body
 {
     background-color: whitesmoke;
-    margin: 0;
+    margin-right: 15em;
     padding: 0;
     align-items: center;
     justify-content:center;
@@ -130,14 +130,14 @@ body
     margin: 25px;
     font-size: 30px;
 }
-.restaurant_Belleville 
+restaurant_Belleville 
 {
     background-color: white;
     border-radius: 0px 0px 20px 20px;
-    width: 50%;
+    width: 70%;
     
     
-    margin-left: 100px;
+    margin-left: 50em;
     padding: 0;
 
     flex-direction: column;
