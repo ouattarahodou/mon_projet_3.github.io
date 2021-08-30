@@ -5,10 +5,10 @@ header
     align-items: center;
     width: 600px;
     
-    margin-left: 34em;
-    margin-right: 34em;
+    margin-left: 40em;
+    
     border-radius: 0px;
-    position: relative;top: 0em;right: 25em;  
+    position: relative;bottom: 30em;right: 25em;  
 }
 header .logo   
 {
@@ -92,37 +92,29 @@ body
 {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    position: relative;bottom: 25em;
+    margin-left: 15em;
     padding: 0;
-    align-items: center;
-    justify-content:center;
+    
 }
 #restaurant
 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    align-content:center;
-    justify-content:center;
-    margin: 0;
-    padding: 0;
-
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;bottom: 20em;
     
+      
 }
 .restaurant_Belleville img 
 {
-    width: 100%;
-    height: 500px;
+    width:100%;
+    height: 450px;
     border-radius: 20px 20px 0px 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0;
-    margin-left: em;
-    margin-right: 0em;
+    
 }
 .restaurant_Belleville h1
 {
@@ -130,21 +122,19 @@ body
     margin: 25px;
     font-size: 30px;
 }
-restaurant_Belleville 
+.restaurant_Belleville 
 {
-    background-color: white;
-    border-radius: 0px 0px 20px 20px;
-    width: 70%;
-    
-    
-    margin-left: 50em;
-    padding: 0;
-
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    align-content:center;
-    justify-content:center;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    width: 180%;
+    margin-left: 0em;
+    margin: 2em;
+    padding: 0;
+    
+    
 }
 .search_mobile i 
 {
@@ -199,16 +189,20 @@ footer P
 {
     margin-left: 30px;
 }
+.ohmyfood i 
+{
+    font-size: medium;
+}
 .ohmyfood
 {
     display: flex;
     flex-direction: column;
-    position: relative;left: 35em;
+    margin-top: 20em;
     color: white;
-    margin-right: 70em;
+    margin-right: 50em;
     background-color: rgba(20, 19, 2, 0.788);
     width: 590px;
-    height: auto;
+    height: 500px;
 
     flex-direction: column;
     justify-content: space-between;
