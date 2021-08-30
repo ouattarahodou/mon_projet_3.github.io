@@ -140,6 +140,7 @@ body
 {
     position: relative;bottom: 2.5em;left: 3em;
     font-size: 30px;
+    
 }
 .search_menu i 
 {
@@ -153,31 +154,41 @@ body
 }
 .symbol
 {
-    position: relative;left: 20em;bottom: 3em;
+    position: relative;left: 30em;bottom: 4em;
     font-size: 25px;
     border-bottom: none;
 }
 .restaurant_Belleville p 
 {
-    margin-left: 15em;
-    position: relative;top: 3em;
+    margin-left: 20em;
+    position: relative;bottom: 40em;
     font-size: 30px;
     background-color: rgb(192, 212, 198);
     border-radius: 4px;
-    text-align: center;
     width: 120px;
     height: 40px;
     color: #14fa0cec;  
 }
+.Functioning h2
+{
+    font-size: 50px;
+}
 .restaurant_Belleville h4  
 {
-    margin-left: 20px;
-    justify-content: space-between;
-}
-.restaurant_Belleville h2 
-{
-    margin-left: 20px;
+    margin-left: 40px;
+    font-size: 20px;
     
+}
+.restaurant_Belleville h3  
+{
+    margin-left: 40px;
+    font-size: 2em;
+    
+}
+#restaurant h2
+{
+    margin-left: 30px;
+    font-size: 50px;
 }
 footer h3
 {
@@ -197,18 +208,12 @@ footer P
 {
     display: flex;
     flex-direction: column;
-    margin-top: 20em;
+    margin-top: 0em;
     color: white;
-    margin-right: 50em;
+    position: relative;left: 0em;
     background-color: rgba(20, 19, 2, 0.788);
-    width: 590px;
-    height: 500px;
-
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    align-content:center;
-    justify-content:center;
+    width: 190%;
+    height: auto;  
 }
 /* A_la_française */
 
@@ -235,7 +240,7 @@ body
 }
 header i 
 {
-    position: relative;right: 2em;top: 1em;
+    position: relative;right: 0em;top: 41em;
     font-size: 25px;
 }
 .A_la_française img 
