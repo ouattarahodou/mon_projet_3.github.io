@@ -3,18 +3,19 @@ header
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 600px;
-    
-    margin-left: 40em;
-    
+    width: 175%;
+    height: 1100px;
+    background-color: hsla(0, 0%, 96%, 0.521);
+    margin-left: 33em;
+    box-shadow: 0 0 20px #0000002e;
     border-radius: 0px;
-    position: relative;bottom: 30em;right: 25em;  
+    position: relative;bottom: 30em;right: 30em;  
 }
 header .logo   
 {
     
     margin-bottom: 50em;
-    margin-right: 50em;
+    margin-right: 40em;
 }
 footer i 
 {
@@ -24,16 +25,18 @@ footer i
 }
 .search_map i 
 {
-    position: relative;top: 1.5em;left: 6em;
+    position: relative;top: 2em;left: 12em;
     font-size: 25px;
+    color: black;
 }
 input
 {
-    width: 600px;
-    height: 50px;
-    background-color: hsla(0, 0%, 96%, 0.521);
+    width: 100%;
+    height: 90px;
+    background-color: gray;
     border: none;
-    font-size: 20px;
+    font-size: 22px;
+    margin-left: 0em;
     text-align: center;
     justify-content: center;
     display: flex;
@@ -45,19 +48,25 @@ input
     font-size: 20px;
     position: relative;top: 5em;
 }
+header p 
+{
+    font-size: 42px;
+    margin-left: 100px;
+}
 header h1
 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 400px;
-    margin-left: 80px;
+    margin-left: 6em;
+    font-size: 40px;
 }
 header h2
 {
     background-color: rgba(196, 88, 196, 0.712);
     text-align: center;
     justify-content: center;
-    margin-left: 130px;
+    margin-left: 12em;
     border-radius: 50px;
     line-height: 50px;
     color: white;
@@ -70,12 +79,13 @@ header h2
     text-align: center;
     justify-content: center;
     margin: 5px;
+    position: relative;right: 7em;
     border-radius: 50px;
     line-height: 80px;
     background-color: white;
     box-shadow: 16px white;
-    height: 80px;
-    width: 500px;
+    height: 90px;
+    width: 300%;
     font-size: 20px;
     border-radius: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -138,18 +148,18 @@ body
 }
 .search_mobile i 
 {
-    position: relative;bottom: 2.5em;left: 3em;
+    position: relative;bottom: 2.5em;left: 0em;
     font-size: 30px;
     
 }
 .search_menu i 
 {
-    font-size: 30px;
-    position: relative;top: 2.5em;left: 3em;
+    font-size: 60px;
+    position: relative;top: 1.4em;left: 0em;
 }
 .search_restaurant i 
 {
-    position: relative;top: 2.5em;left: 3em;
+    position: relative;top: 1.4em;left: 0em;
     font-size: 30px;
 }
 .symbol
@@ -161,7 +171,7 @@ body
 .restaurant_Belleville p 
 {
     margin-left: 20em;
-    position: relative;bottom: 40em;
+    position: relative;bottom: 30em;
     font-size: 30px;
     background-color: rgb(192, 212, 198);
     border-radius: 4px;
@@ -172,6 +182,7 @@ body
 .Functioning h2
 {
     font-size: 50px;
+    position: relative;right: 2.6em;
 }
 .restaurant_Belleville h4  
 {
@@ -212,7 +223,7 @@ footer P
     color: white;
     position: relative;left: 0em;
     background-color: rgba(20, 19, 2, 0.788);
-    width: 190%;
+    width: 199%;
     height: auto;  
 }
 /* A_la_française */
