@@ -1,21 +1,22 @@
-header
+header 
 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 175%;
-    height: 1100px;
+    width: 180%;
+    height: 90em;
     background-color: hsla(0, 0%, 96%, 0.521);
     margin-left: 33em;
+    margin-bottom: 25em;
     box-shadow: 0 0 20px #0000002e;
     border-radius: 0px;
-    position: relative;bottom: 30em;right: 30em;  
+    position: relative;bottom: 10em;right: 30em; 
 }
-header .logo   
+.logo    
 {
-    
     margin-bottom: 50em;
     margin-right: 40em;
+    position: relative;top: 48em;left: 20em;
 }
 footer i 
 {
@@ -31,7 +32,7 @@ footer i
 }
 input
 {
-    width: 100%;
+    width: 99.5%;
     height: 90px;
     background-color: gray;
     border: none;
@@ -52,12 +53,13 @@ header p
 {
     font-size: 42px;
     margin-left: 100px;
+    width: 90%;
 }
 header h1
 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 400px;
+    width: 50%;
     margin-left: 6em;
     font-size: 40px;
 }
@@ -66,13 +68,13 @@ header h2
     background-color: rgba(196, 88, 196, 0.712);
     text-align: center;
     justify-content: center;
-    margin-left: 12em;
+    margin-left: 9em;
     border-radius: 50px;
     line-height: 50px;
     color: white;
     box-shadow: 16px violet;
     height: 60px;
-    width: 300px;
+    width: 50%;
 }
 .Functioning p 
 {
@@ -183,6 +185,7 @@ body
 {
     font-size: 50px;
     position: relative;right: 2.6em;
+    width: 50%;
 }
 .restaurant_Belleville h4  
 {
@@ -228,18 +231,11 @@ footer P
 }
 /* A_la_française */
 
-.logo  
+h  
 {
-    position: relative;top: 52em;left: 20em;
-    font-size: 10px;
-    display: flex;
-    
-}
-header
-{
-   
-    align-items: center;
-    
+    width: 20%;
+    height: 10em;
+    position: relative;bottom: 14em;left: 10em;
 }
 body
 {
@@ -247,24 +243,25 @@ body
     padding: 0;
     align-items: center;
     width: 50%;
-
+    
+    
 }
 header i 
 {
-    position: relative;right: 0em;top: 41em;
+    position: relative;right: 0em;top: 55em;
     font-size: 25px;
 }
 .A_la_française img 
 {
-    width: 100%;
-    height: 440px;
+    width: 133%;
+    height: 450px;
     border-radius: 0px 0px -50px -50px;
-    position: relative;top: 5em;left: 1em;
+    position: relative;bottom: 35em;left: 5em;
     flex-direction: column;
     display: flex;
     margin: 0;
     padding: 0;
-    padding-top: 250px;
+    
 
 }
 .entree_1 b 
@@ -318,24 +315,26 @@ header i
 {
     background-color: white;
     margin: 15px;
+    margin-left: 4em;
     border-radius: 15px;
     color: black;
     box-shadow: 16px white;
     line-height: 5px;
     height: 85px;
-    width: 190%;
+    width: 180%;
     display: grid;
 }
 .entree_2
 {
     background-color: white;
     margin: 15px;
+    margin-left: 4em;
     border-radius: 15px;
     color: black;
     box-shadow: 16px white;
     line-height: 5px;
     height: 85px;
-    width: 190%;
+    width: 180%;
     display: grid;
     
 }
@@ -343,12 +342,13 @@ header i
 {
     background-color: white;
     margin: 15px;
+    margin-left: 4em;
     border-radius: 15px;
     color: black;
     box-shadow: 16px white;
     line-height: 5px;
     height: 85px;
-    width: 190%;
+    width: 180%;
     display: grid;
     
 }
@@ -375,12 +375,13 @@ header i
 {
     background-color: white;
     margin: 15px;
+    margin-left: 4em;
     border-radius: 15px;
     color: black;
     box-shadow: 16px white;
     line-height: 5px;
     height: 85px;
-    width: 190%;
+    width: 180%;
     display: grid;
 
 }
@@ -388,12 +389,13 @@ header i
 {
     background-color: white;
     margin: 15px;
+    margin-left: 4em;
     border-radius: 15px;
     color: black;
     box-shadow: 16px white;
     line-height: 5px;
     height: 85px;
-    width: 190%;
+    width: 180%;
     display: grid;
 
 }
@@ -401,12 +403,13 @@ header i
 {
     background-color: white;
     margin: 15px;
+    margin-left: 4em;
     border-radius: 15px;
     color: black;
     box-shadow: 16px white;
     line-height: 5px;
     height: 85px;
-    width: 190%;
+    width: 180%;
     display: grid;
 
 }
@@ -424,36 +427,39 @@ header i
 {
     background-color: white;
     margin: 15px;
+    margin-left: 4em;
     border-radius: 15px;
     color: black;
     box-shadow: 16px white;
     line-height: 5px;
     height: 85px;
-    width: 190%;
+    width: 180%;
     display: grid;
 }
 .desserts_2
 {
     background-color: white;
     margin: 15px;
+    margin-left: 4em;
     border-radius: 15px;
     color: black;
     box-shadow: 16px white;
     line-height: 5px;
     height: 85px;
-    width: 190%;
+    width: 180%;
     display: grid;
 }
 .desserts_3 
 {
     background-color: white;
     margin: 15px;
+    margin-left: 4em;
     border-radius: 15px;
     color: black;
     box-shadow: 16px white;
     line-height: 5px;
     height: 85px;
-    width: 190%;
+    width: 180%;
     display: grid;
 }
 .A_la_française h1
@@ -461,7 +467,7 @@ header i
     display: grid;
     font-size: 35px;
     padding-top: 90px;
-    margin-left: 40px;
+    margin-left: 70px;
 
 }
 a, a:hover, a:visited, a:active
@@ -491,27 +497,25 @@ a, a:hover, a:visited, a:active
 }
 .A_la_française p 
 {
-    margin-left: 15px;
+    margin-left: 70px;
     
 }
 .A_la_française
 {
     display: grid;
     justify-content: center;
-    background-color: darkred;
-    margin: 230px;
-    margin-left: 552px;
-    margin-right: 540px;
+    width: auto;
+    
 
 }
 footer
 {
     display: flex;
     flex-direction: column;
-    position: relative;left: 26em;bottom: 12em;
+    position: relative;left: 0em;top: 4em;
     color: white;
     background-color: rgba(20, 19, 2, 0.788);
-    width: 55%;
+    width: 260%;
     height: auto;
 
 }
