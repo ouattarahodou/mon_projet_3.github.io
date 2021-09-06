@@ -174,19 +174,21 @@ body
 }
 .symbol
 {
-    position: relative;left: 30em;bottom: 4em;
+    position: relative;left: 55em;bottom: 4em;
     font-size: 25px;
     border-bottom: none;
 }
-.restaurant_Belleville p 
+#restaurant p 
 {
-    margin-left: 20em;
-    position: relative;bottom: 30em;
+    
+    position: relative;top: 5em;left: 44em;
     font-size: 30px;
+    line-height: 10em;
+    text-align: center;
     background-color: rgb(192, 212, 198);
     border-radius: 4px;
-    width: 120px;
-    height: 40px;
+    width: 150px;
+    height: 50px;
     color: #14fa0cec;  
 }
 .Functioning h2
@@ -212,33 +214,28 @@ body
     margin-left: 30px;
     font-size: 50px;
 }
-footer h3
+footer p, h3 
 {
     margin-left: 30px;
-    font-style: oblique;
-    font-size: 25px;
 }
 footer i 
 {
-    position: relative;top: 1em;right: 5em;
-    font-size: 45px;
-    color: aliceblue;
+    position: relative;left: 1em;top: 2.4em;
 }
-footer P 
+footer h5
 {
-    margin-left: 30px;
+    position: relative;left: 4em;top: 0em;
 }
-.ohmyfood i 
-{
-    font-size: medium;
-}
-.ohmyfood
+footer
 {
     display: flex;
     flex-direction: column;
+    position: relative;left: 0em;top: 4em;
     color: white;
-    position: relative;left: 0em;bottom: 0em;
     background-color: rgba(20, 19, 2, 0.788);
-    width: 220%;
-    height: auto;  
+    width: 225%;
+    height: auto;
+    font-size: 50px;
+    
 }
+
