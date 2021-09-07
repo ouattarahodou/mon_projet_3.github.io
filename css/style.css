@@ -1,77 +1,41 @@
-.header
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 218%;
-    height: 40em;
-    
-    margin-left: 33em;
-    margin-bottom: 25em;
-    
-    border-radius: 0px;
-    position: relative;bottom: 10em;right: 30em; 
-    
+img{
+    max-width: 100%;
 }
-a, a:hover, a:visited, a:active
-{
-    
-    text-decoration: none;
+body{
+    margin: 0 auto;
+    font-size: 1.5rem;
 }
-header img    
-{
-    width: 80%;
-    height: 150px;
-    margin-bottom: 50em;
-    position: relative;top: 8em;left: 30em;
+.logo{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.logo img {
+    padding: 2rem;
+    width: 50%;
 }
 .search_map i 
 {
-    position: relative;left: 6.4em;bottom: 11em;
-    font-size: 70px;
-    color: black;
-    
+    font-size: 1.5em;
+    margin-right: 11rem;
 }
-input
-{
-    width: 220%;
-    height: 200px;
+.search_map{
     background-color: lightgray;
-    border: none;
-    font-size: 32px;
-    margin-left: 15px;
-    text-align: center;
+    display: flex;
     justify-content: center;
-    display: grid;
-    position: relative;bottom: 20em;left: 0em;
+    align-items: center;
+    font-size: 2.5rem;
+   
 }
-.restaurant_Belleville p 
-{
+.presentation{
+    background-color: rgb(226, 225, 225);
+    padding: 5rem;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    position: relative;top: 5em;
 }
-.header p 
-{
-    font-size: 80px;
-    width: 90%;
-    position: relative;bottom: 7em;left: 1em;
-    
-}
-.header h1
-{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 50%;
-    font-size: 80px;
-    position: relative;bottom: 6em;left: 0em;
-    
-}
-.header h2
+.presentation h2
 {
     background-color: rgba(196, 88, 196, 0.712);
-    text-align: center;
+    display: flex;
+    margin-left: 11rem;
     justify-content: center;
     font-size: 40px;
     border-radius: 80px;
@@ -79,146 +43,41 @@ input
     color: white;
     box-shadow: 16px violet;
     height: 150px;
-    width: 200%;
-    position: relative;bottom: 14em;right: 4em;
+    max-width: 60%;
+   
 }
-.Functioning p 
+a, a:hover, a:visited, a:active
 {
-    text-align: center;
-    justify-content: center;
-    margin: 5px;
-    position: relative;right: 4em;
-    border-radius: 50px;
-    line-height: 6em;
-    background-color: white;
-    box-shadow: 16px white;
-    height: 200px;
-    width: 300%;
-    font-size: 40px;
-    border-radius: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
 }
-body
-{
-    background-color: whitesmoke;
-    margin-right: 15em;
-    padding: 0;
+#functioning{
+    padding: 2rem;
+}
+
+.cardFunction{
+    position: relative;
+    background-color: lightgray;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 60px;
+    display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: space-around;
+    font-size: 3rem;
 }
-#header_Functioning
-{
-    display: flex;
-    flex-direction: column;
-    position: relative;bottom: 25em;
-    margin-left: 15em;
-    padding: 0;
-    
+.cardFunction:hover{
+    background-color: rgb(216, 187, 187);
 }
-#restaurant
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: relative;bottom: 20em;
-    
-      
-}
-.restaurant_Belleville img 
-{
-    width:100%;
-    height: 700px;
-    border-radius: 20px 20px 0px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-}
-.restaurant_Belleville h1
-{
-    margin-left: 15px;
-    margin: 25px;
-    font-size: 30px;
-}
-.restaurant_Belleville 
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: white;
-    border-radius: 0px 0px 20px 20px;
-    width: 215%;
-    margin-left: 0em;
-    margin: 2em;
-    padding: 0;
-    
-    
-}
-.fa-circle-1,
-.fa-circle-2, 
-.fa-circle-3
-{
-    font-size: 30px;
-    position: relative;bottom: 3.5em;left: 0em;
-    background-color: maroon;
-}
-.search_mobile i 
-{
-    position: relative;bottom: 3.5em;left: 0em;
-    font-size: 30px;
-    
-}
-.search_menu i 
-{
-    font-size: 30px;
-    position: relative;bottom: 3.5em;left: 0em;
-}
-.search_restaurant i 
-{
-    position: relative;bottom: 3.5em;left: 0em;
-    font-size: 30px;
-}
-.symbol
-{
-    position: relative;left: 55em;bottom: 4em;
-    font-size: 25px;
-    border-bottom: none;
-}
-#restaurant p 
-{
-    
-    position: relative;top: 5em;left: 44em;
-    font-size: 30px;
-    line-height: 10em;
-    text-align: center;
-    background-color: rgb(192, 212, 198);
-    border-radius: 4px;
-    width: 150px;
+.cardNumber {
+    position: absolute;
+    left: -20px;
+    background-color: darkmagenta;
+    width: 50px;
     height: 50px;
-    color: #14fa0cec;  
-}
-.Functioning h2
-{
-    font-size: 6em;
-    position: relative;right: 1em;bottom: 1em;
-    width: 50%;
-}
-.restaurant_Belleville h4  
-{
-    margin-left: 40px;
-    font-size: 20px;
-    
-}
-.restaurant_Belleville h3  
-{
-    margin-left: 40px;
-    font-size: 2em;
-    
-}
-#restaurant h2
-{
-    margin-left: 30px;
-    font-size: 50px;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
 }
 footer p, h3 
 {
@@ -226,11 +85,11 @@ footer p, h3
 }
 footer i 
 {
-    position: relative;left: 1em;top: 2.4em;
+    position: absolute;left: 1em;top: 2.4em;
 }
 footer h5
 {
-    position: relative;left: 4em;top: 0em;
+    position: absolute;left: 4em;top: 0em;
 }
 footer
 {
@@ -239,9 +98,8 @@ footer
     position: relative;left: 0em;top: 4em;
     color: white;
     background-color: rgba(20, 19, 2, 0.788);
-    width: 225%;
+    max-width: 100%;
     height: auto;
     font-size: 50px;
     
 }
-
