@@ -2,38 +2,39 @@
 
 /* le_delice_des_sens */
 
+body{
+    margin: 0 auto;
+    font-size: 1.5rem;
+    background-color: whitesmoke;
+}
 header img
 {
-    width: 90%;
-    height: 150px;
-    position: relative;bottom: 2em;left: 7em;
-    
+    padding: 0rem;
+    margin-left: 5rem;
+    width: 50%;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    border-bottom: 1px solid black;
 }
+
 header i 
 {
-    position: relative;left: 2em;top: 2em;
+    position: absoluteC;left: 2em;top: 2em;
     font-size: 25px;
 }
 img 
 {
-    width: 196%;
+    max-width: 100%;
     height: 350px;
     border-radius: 0px 0px -50px -50px;
-    position: relative;bottom: 5em;left: 0.3em;
+    position: relativeC;bottom: 5em;left: 0.3em;
     flex-direction: column;
     display: flex;
     margin: 0;
     padding: 0;
     
 
-}
-body 
-{
-    background-color: whitesmoke;
-    margin:0;
-    padding: 0;
-    width: 50%;
-    
 }
 .le_delice_des_sens
 .A_la_française 
@@ -46,27 +47,27 @@ body
 }
 .entree_1 b 
 {
-    position: relative;left: 22em;bottom: 2.2em;
-    width: 50%;
+    position: absoluteC;left: 22em;bottom: 2.2em;
+    
 }
 .entree_2 b 
 {
-    position: relative;left: 22em;bottom: 2.2em;
-    width: 50%;
+    position: absoluteC;left: 22em;bottom: 2.2em;
+    
 }
 .entree_3 b 
 {
-    position: relative;left: 17em;bottom: 2.2em;
-    width: 50%;
+    position: absoluteC;left: 17em;bottom: 2.2em;
+    
 }
 .entree_4 b 
 {
-    position: relative;left: 22em;bottom: 3.6em;
-    width: 50%;
+    position: absoluteC;left: 22em;bottom: 3.6em;
+    
 }
 .entree_3 i 
 {
-    position: relative;bottom: 2.4em;left: 8.2em;
+    position: absoluteC;bottom: 2.4em;left: 8.2em;
     font-size: 40px;
     display: flex;
     align-items: center;
@@ -101,7 +102,7 @@ body
     box-shadow: 16px white;
     line-height: 5px;
     height: 85px;
-    width: 189%;
+    max-width: 100%;
     display: grid;
 }
 .entree_2
@@ -114,7 +115,7 @@ body
     box-shadow: 16px white;
     line-height: 5px;
     height: 85px;
-    width: 189%;
+    max-width: 100%;
     display: grid;
     
 }
@@ -128,7 +129,7 @@ body
     box-shadow: 16px white;
     line-height: 5px;
     height: 85px;
-    width: 189%;
+    max-width: 100%;
     display: grid;
     
 }
@@ -142,7 +143,7 @@ body
     box-shadow: 16px white;
     line-height: 5px;
     height: 85px;
-    width: 189%;
+    max-width: 100%;
     display: grid;
     
 }
@@ -158,12 +159,12 @@ body
 }
 .plats_1 b,.plats_2 b,.plats_3 b 
 {
-    position: relative;left: 22em;bottom: 2.2em;
+    position: relativeC;left: 22em;bottom: 2.2em;
     display: grid;
 } 
 .desserts_1 b, .desserts_2 b, .desserts_3 b 
 {
-    position: relative;left: 22em;bottom: 2.2em;
+    position: relativeC;left: 22em;bottom: 2.2em;
 }
 .plats_1 
 {
@@ -175,7 +176,7 @@ body
     box-shadow: 16px white;
     line-height: 5px;
     height: 85px;
-    width: 189%;
+    max-width: 100%;
     display: grid;
 
 }
@@ -189,7 +190,7 @@ body
     box-shadow: 16px white;
     line-height: 5px;
     height: 85px;
-    width: 189%;
+    max-width: 100%;
     display: grid;
 
 }
@@ -203,7 +204,7 @@ body
     box-shadow: 16px white;
     line-height: 5px;
     height: 85px;
-    width: 189%;
+    max-width: 100%;
     display: grid;
 
 }
@@ -227,7 +228,7 @@ body
     box-shadow: 16px white;
     line-height: 5px;
     height: 85px;
-    width: 189%;
+    max-width: 100%;
     display: grid;
 }
 .desserts_2
@@ -240,7 +241,7 @@ body
     box-shadow: 16px white;
     line-height: 5px;
     height: 85px;
-    width: 189%;
+    max-width: 100%;
     display: grid;
 }
 .desserts_3 
@@ -253,7 +254,7 @@ body
     box-shadow: 16px white;
     line-height: 5px;
     height: 85px;
-    width: 189%;
+    max-width: 100%;
     display: grid;
 }
 .le_delice_des_sens h1,
@@ -264,7 +265,7 @@ body
     display: grid;
     font-size: 35px;
     margin-left: 30px;
-    width: 150%;
+    max-width: 100%;
 
 }
 a, a:hover, a:visited, a:active
@@ -281,12 +282,12 @@ a, a:hover, a:visited, a:active
     justify-content: center;
     align-items: center;
     background-color: violet;
-    position: relative;left: 4em;
+    position: relativeC;left: 4em;
     line-height: 50px;
     border-radius: 50px;
     font-size: 20px;
     height: 60px;
-    width: 100%;
+    max-width: 50%;
     margin-left: 35px;
 
     
@@ -296,7 +297,7 @@ a, a:hover, a:visited, a:active
 .la_note_enchantee .symbol,
 .la_palette_du_Gout .symbol
 {
-    position: relative;left: 23em;bottom: 3em;
+    position: relativeC;left: 23em;bottom: 3em;
 }
 .le_delice_des_sens p,
 .A_la_française p,
@@ -312,20 +313,20 @@ footer p, h3
 }
 footer i 
 {
-    position: relative;left: 2em;top: 2.4em;
+    position: relativeC;left: 2em;top: 2.4em;
 }
 footer h5
 {
-    position: relative;left: 5em;top: 0em;
+    position: relativeC;left: 5em;top: 0em;
 }
 footer
 {
     display: flex;
     flex-direction: column;
-    position: relative;left: 0em;top: 4em;
+    position: relativeC;left: 0Cem;top: 4Cem;
     color: white;
     background-color: rgba(20, 19, 2, 0.788);
-    width: 200%;
+    max-width: 100%;
     height: auto;
     
 }
