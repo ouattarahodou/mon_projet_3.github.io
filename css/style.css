@@ -4,6 +4,7 @@ img{
 body{
     margin: 0 auto;
     font-size: 1.5rem;
+    background-color: whitesmoke;
 }
 .logo{
     text-align: center;
@@ -17,6 +18,19 @@ body{
 {
     font-size: 1.5em;
     margin-right: 11rem;
+}
+.symbol:hover
+{
+    background: violet;
+}
+.symbol
+{
+    position: absolute;
+    right: 6rem;
+    font-size: 3rem;
+    position: absolute;
+    top: 55em;
+    color: white;
 }
 .search_map{
     background-color: lightgray;
@@ -54,7 +68,27 @@ a, a:hover, a:visited, a:active
 #functioning{
     padding: 2rem;
 }
-
+.restaurant_Belleville
+{
+    background-color: white;
+    box-shadow: 16px white;
+    border-radius: 0px 0px 20px 20px;
+    justify-content: space-between;
+    max-width: 100%;
+    height: auto;
+    margin: 25px;
+}
+.restaurant_Belleville h4
+{
+    margin-left: 2rem;
+    padding-bottom: 3rem;
+}
+.new  
+{
+    position: relative;
+    left: 32em;
+    color: crimson;
+}
 .cardFunction{
     position: relative;
     background-color: lightgray;
@@ -79,27 +113,30 @@ a, a:hover, a:visited, a:active
     color: white;
     text-align: center;
 }
+
 footer p, h3 
 {
     margin-left: 30px;
 }
-footer i 
+footer i  
 {
-    position: absolute;left: 1em;top: 2.4em;
+    margin-left: 2rem;
+    
 }
+
 footer h5
 {
-    position: absolute;left: 4em;top: 0em;
+    margin-left: 5rem;
+    margin-top: -2rem;
 }
 footer
 {
     display: flex;
     flex-direction: column;
-    position: relative;left: 0em;top: 4em;
+    white-space: pre;
     color: white;
     background-color: rgba(20, 19, 2, 0.788);
     max-width: 100%;
     height: auto;
-    font-size: 50px;
     
 }
