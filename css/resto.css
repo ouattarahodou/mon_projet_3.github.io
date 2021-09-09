@@ -291,13 +291,17 @@ a, a:hover, a:visited, a:active
     max-width: 50%;
     
 }
+.symbol:hover 
+{
+    background-color: violet;
+}
 .le_delice_des_sens .symbol,
 .A_la_française .symbol,
 .la_note_enchantee .symbol,
 .la_palette_du_Gout .symbol
 {
     margin-left: 13em;
-    margin-top: -5em;
+    position: relative;top: -3.4rem;
 }
 .le_delice_des_sens p,
 .A_la_française p,
