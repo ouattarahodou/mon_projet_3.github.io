@@ -19,12 +19,12 @@ body{
     font-size: 1.5em;
     margin-right: 11rem;
 }
-.restaurant_Belleville i:hover
+.fa-heart_1:hover
 {
     color: violet;
     
 }
-.restaurant_Belleville i  
+.fa-heart_1 
 {
     position: absolute;
     right: 6rem;
@@ -32,6 +32,28 @@ body{
     position: absolute;
     top: 58em;
     
+}
+.fa-heart_2
+{
+    position: absolute;
+    right: 6rem;
+    font-size: 3rem;
+    position: absolute;
+    top: 58em;
+}
+.fa-heart_3
+{
+    position: absolute;
+    right: 6rem;
+    font-size: 3rem;
+    position: absolute;
+    top: 58em;
+}
+.fa-heart_4
+{
+    margin-left: 50rem;
+    font-size: 3rem;
+    margin-top: 0em;
 }
 .search_map{
     background-color: lightgray;
@@ -97,11 +119,20 @@ a, a:hover, a:visited, a:active
     margin-left: 2rem;
     padding-bottom: 3rem;
 }
-.new  
+.new-1 
 {
     position: relative;
-    left: 32em;
-    color: crimson;
+    left: 30em;top: -35rem;
+    color: greenyellow;
+    background-color: gainsboro;
+    
+}
+.new-2
+{
+    position: relative;
+    left: 30em;top: -70rem;
+    color: greenyellow;
+    background-color: gainsboro;
 }
 .cardFunction{
     position: relative;
