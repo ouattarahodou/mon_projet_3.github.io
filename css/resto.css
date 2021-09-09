@@ -45,26 +45,13 @@ img
     justify-content: right;
     
 }
-.entree_1 b 
+.entree_1 b, .entree_2 b, .entree_3 b, .entree_4 b
 {
-    position: absoluteC;left: 22em;bottom: 2.2em;
+    margin-left: 11em;
+    margin-bottom: 6em;
     
 }
-.entree_2 b 
-{
-    position: absoluteC;left: 22em;bottom: 2.2em;
-    
-}
-.entree_3 b 
-{
-    position: absoluteC;left: 17em;bottom: 2.2em;
-    
-}
-.entree_4 b 
-{
-    position: absoluteC;left: 22em;bottom: 3.6em;
-    
-}
+
 .entree_3 i 
 {
     position: absoluteC;bottom: 2.4em;left: 8.2em;
@@ -84,13 +71,13 @@ img
 {
     margin-left: 25px;
     margin: 15px;
-    
+    font-size: small;
 }
 .entree_1 h3, .entree_2 h3, .entree_3 h3, .entree_4 h3  
 {
     margin-left: 25px;
     margin: 15px;
-    
+    font-size: small;
 }
 .entree_1 
 {
@@ -151,20 +138,24 @@ img
 {
     margin-left: 30px;
     margin: 15px;
+    font-size: small;
 }
 .plats_1 h3,.plats_2 h3,.plats_3 h3
 {
     margin-left: 30px;
     margin: 15px;
+    font-size: small;
 }
 .plats_1 b,.plats_2 b,.plats_3 b 
 {
-    position: relativeC;left: 22em;bottom: 2.2em;
-    display: grid;
+    margin-left: 11em;
+    margin-bottom: 6em;
+    
 } 
 .desserts_1 b, .desserts_2 b, .desserts_3 b 
 {
-    position: relativeC;left: 22em;bottom: 2.2em;
+    margin-left: 11em;
+    margin-bottom: 6em;
 }
 .plats_1 
 {
@@ -212,11 +203,13 @@ img
 {
     margin-left: 28px;
     margin: 15px;
+    font-size: small;
 }
 .desserts_1 h3, .desserts_2 h3, .desserts_3 h3
 {
     margin-left: 28px;
     margin: 15px;
+    font-size: small;
 }
 .desserts_1  
 {
@@ -308,20 +301,24 @@ a, a:hover, a:visited, a:active
     
 }
 
-footer p, h3 
+footer p 
 {
-    margin-left: 30px;
+    margin-left: 2rem;
+    margin-top: -0.5rem;
 }
 footer i  
 {
     margin-left: 2rem;
     
 }
-
+footer h3
+{
+    margin-left: 2rem;
+}
 footer h5
 {
     margin-left: 5rem;
-    margin-top: -2rem;
+    margin-top: -1.5rem;
 }
 footer
 {
