@@ -291,17 +291,18 @@ a, a:hover, a:visited, a:active
     max-width: 50%;
     
 }
-.symbol:hover 
+i:hover 
 {
-    background-color: violet;
+    color: violet;
 }
-.le_delice_des_sens .symbol,
-.A_la_française .symbol,
-.la_note_enchantee .symbol,
-.la_palette_du_Gout .symbol
+.le_delice_des_sens i,
+.A_la_française i,
+.la_note_enchantee i,
+.la_palette_du_Gout i 
 {
     margin-left: 13em;
     position: relative;top: -3.4rem;
+    
 }
 .le_delice_des_sens p,
 .A_la_française p,
@@ -311,7 +312,14 @@ a, a:hover, a:visited, a:active
     margin-left: 30px;
     font-size: 20px;
 }
-
+.fa-heart:hover
+{
+    color: violet;
+}
+.fa-heart
+{
+    color: white;
+}
 footer p 
 {
     margin-left: 2rem;
