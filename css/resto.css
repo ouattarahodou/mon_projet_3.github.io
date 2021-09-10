@@ -58,7 +58,7 @@ img
     margin-top: -1em;
     font-size: large;
 }
-.entree_3 i 
+.entree_3 .fa-check-circle
 {
     margin-top: -1.7em;
     margin-left: 7.0em;
@@ -66,12 +66,16 @@ img
     display: flex;
     align-items: center;
     color: white;
-    background-color: aquamarine;
+    background-color: white;
     border-radius: 0px 20px 20px 0px;
     width: 17%;
     height: 85px;
     display: grid;
     
+}
+.entree_3 .fa-check-circle:hover
+{ 
+    background-color: aquamarine;  
 }
 .entree_1 h2, .entree_2 h2, .entree_3 h2, .entree_4 h2
 {
@@ -291,18 +295,18 @@ a, a:hover, a:visited, a:active
     max-width: 50%;
     
 }
-i:hover 
+.fa-heart:hover
 {
-    color: violet;
+    color : violet;
 }
-.le_delice_des_sens i,
-.A_la_française i,
-.la_note_enchantee i,
-.la_palette_du_Gout i 
+.le_delice_des_sens .fa-heart,
+.A_la_française .fa-heart,
+.la_note_enchantee .fa-heart,
+.la_palette_du_Gout .fa-heart 
 {
     margin-left: 13em;
     position: relative;top: -3.4rem;
-    
+    color: white;
 }
 .le_delice_des_sens p,
 .A_la_française p,
