@@ -94,7 +94,7 @@ body{
     border-radius: 80px;
     line-height: 4em;
     color: white;
-    box-shadow: 16px violet;
+    
     height: 150px;
     max-width: 60%;
    
@@ -114,7 +114,6 @@ a, a:hover, a:visited, a:active
 .restaurant_Belleville
 {
     background-color: white;
-    box-shadow: 20px white;
     border-radius: 0px 0px 30px 30px;
     justify-content: space-between;
     max-width: 100%;
