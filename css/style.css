@@ -164,7 +164,7 @@ a, a:hover, a:visited, a:active
     width: 88%;
 }
 .cardFunction:hover{
-    background-color: rgb(216, 187, 187);
+    background-color: rgb(218, 199, 218);
 }
 .cardNumber {
     position: absolute;
