@@ -29,13 +29,18 @@ header i
 img 
 {
     max-width: 100%;
-    
+    height: 250px;
     border-radius: 0px 0px 0px 0px;
     margin-top: -6rem;
     flex-direction: column;
     display: flex;
     margin: 0;
     padding: 0;
+}
+section
+{
+    display: flex;
+    justify-content: flex-end;
 }
 section p 
 {
@@ -44,22 +49,7 @@ section p
     border-bottom: 3px aquamarine solid;
     width: 3rem;
 }
-.le_delice_des_sens
-{
-    justify-content: right;
-    display: grid;
-}
 
-.la_note_enchantee
-{
-    justify-content: right;
-    display: grid;
-}  
-.la_palette_du_Gout
-{
-    justify-content: right;
-    display: grid;
-}
 .entree_1 b, .entree_2 b, .entree_4 b
 {
     margin-left: 16em;
@@ -112,7 +102,7 @@ section p
     color: black;
     line-height: 5px;
     height: 85px;
-    width: 100%;
+    max-width: 100%;
     display: grid;
 }
 .entree_2
@@ -124,7 +114,7 @@ section p
     color: black;
     line-height: 5px;
     height: 85px;
-    width: 100%;
+    max-width: 100%;
     display: grid;
     
 }
@@ -137,7 +127,7 @@ section p
     color: black;
     line-height: 5px;
     height: 85px;
-    width: 100%;
+    max-width: 100%;
     display: grid;
     
 }
@@ -150,7 +140,7 @@ section p
     color: black;
     line-height: 5px;
     height: 85px;
-    width: 100%;
+    max-width: 100%;
     display: grid;
     
 }
@@ -188,7 +178,7 @@ section p
     color: black;
     line-height: 5px;
     height: 85px;
-    width: 100%;
+    max-width: 100%;
     display: grid;
 
 }
@@ -201,7 +191,7 @@ section p
     color: black;
     line-height: 5px;
     height: 85px;
-    width: 100%;
+    max-width: 100%;
     display: grid;
 
 }
@@ -214,7 +204,7 @@ section p
     color: black;
     line-height: 5px;
     height: 85px;
-    width: 100%;
+    max-width: 100%;
     display: grid;
 
 }
@@ -239,7 +229,7 @@ section p
     color: black;
     line-height: 5px;
     height: 85px;
-    width: 100%;
+    max-width: 100%;
     display: grid;
 }
 .desserts_2
@@ -251,7 +241,7 @@ section p
     color: black;
     line-height: 5px;
     height: 85px;
-    width: 100%;
+    max-width: 100%;
     display: grid;
 }
 .desserts_3 
@@ -263,7 +253,7 @@ section p
     color: black;
     line-height: 5px;
     height: 85px;
-    width: 100%;
+    max-width: 100%;
     display: grid;
 }
 
