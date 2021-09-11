@@ -46,10 +46,12 @@ section p
 {
     margin-left: 2rem;
     color: black;
-    border-bottom: 3px aquamarine solid;
     width: 3rem;
 }
-
+section p:hover
+{
+    border-bottom: 3px aquamarine solid;
+}
 .entree_1 b, .entree_2 b, .entree_4 b
 {
     margin-left: 16em;
@@ -275,7 +277,8 @@ section h4
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: violet;
+    background-color: white;
+    color: black;
     margin-left: 6rem;
     line-height: 50px;
     border-radius: 50px;
@@ -283,7 +286,11 @@ section h4
     height: 60px;
     max-width: 50%;
 }
-
+section h4:hover
+{
+    background-color: violet;
+    color: white;
+}
 .fa-heart:hover
 {
     color : violet;
