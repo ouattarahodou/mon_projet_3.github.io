@@ -36,10 +36,10 @@ img
     max-width: 100%;
     height: 250px;
     border-radius: 0px 0px 0px 0px;
-    margin-top: -6rem;
+    margin-top: 0rem;
+    margin-left: -1.0rem;
     display: flex;
-    margin: 0;
-    padding: 0;
+    
 }
 section
 {
@@ -49,7 +49,7 @@ section
 }
 section p 
 {
-    margin-left: 2rem;
+    margin-left: -0.5rem;
     color: black;
     width: 3rem;
 }
@@ -100,11 +100,11 @@ section p:hover
     margin: 15px;
     font-size: medium;
 }
-.entree_1 
+.entree_1, .entree_2, .entree_3, .entree_4
 {
     background-color: white;
     margin: 15px;
-    margin-left: 1em;
+    margin-left: -0.7em;
     border-radius: 15px;
     color: black;
     line-height: 5px;
@@ -112,24 +112,11 @@ section p:hover
     max-width: 100%;
     display: grid;
 }
-.entree_2
+entree_2
 {
     background-color: white;
     margin: 15px;
-    margin-left: 1em;
-    border-radius: 15px;
-    color: black;
-    line-height: 5px;
-    height: 85px;
-    max-width: 100%;
-    display: grid;
-    
-}
-.entree_3   
-{
-    background-color: white;
-    margin: 15px;
-    margin-left: 1em;
+    margin-left: 0em;
     border-radius: 15px;
     color: black;
     line-height: 5px;
@@ -138,11 +125,24 @@ section p:hover
     display: grid;
     
 }
-.entree_4   
+entree_3   
 {
     background-color: white;
     margin: 15px;
-    margin-left: 1em;
+    margin-left: 0em;
+    border-radius: 15px;
+    color: black;
+    line-height: 5px;
+    height: 85px;
+    max-width: 100%;
+    display: grid;
+    
+}
+entree_4   
+{
+    background-color: white;
+    margin: 15px;
+    margin-left: 0em;
     border-radius: 15px;
     color: black;
     line-height: 5px;
@@ -176,11 +176,11 @@ section p:hover
     margin-top: -1em;
     font-size: large;
 }
-.plats_1 
+.plats_1, .plats_2, .plats_3
 {
     background-color: white;
     margin: 15px;
-    margin-left: 1em;
+    margin-left: -0.7em;
     border-radius: 15px;
     color: black;
     line-height: 5px;
@@ -189,11 +189,11 @@ section p:hover
     display: grid;
 
 }
-.plats_2 
+plats_2 
 {
     background-color: white;
     margin: 15px;
-    margin-left: 1em;
+    margin-left: 0em;
     border-radius: 15px;
     color: black;
     line-height: 5px;
@@ -202,11 +202,11 @@ section p:hover
     display: grid;
 
 }
-.plats_3 
+plats_3 
 {
     background-color: white;
     margin: 15px;
-    margin-left: 1em;
+    margin-left: 0em;
     border-radius: 15px;
     color: black;
     line-height: 5px;
@@ -227,11 +227,11 @@ section p:hover
     margin: 15px;
     font-size: medium;
 }
-.desserts_1  
+.desserts_1,  .desserts_2, .desserts_3
 {
     background-color: white;
     margin: 15px;
-    margin-left: 1em;
+    margin-left: -0.7em;
     border-radius: 15px;
     color: black;
     line-height: 5px;
@@ -239,11 +239,11 @@ section p:hover
     max-width: 100%;
     display: grid;
 }
-.desserts_2
+desserts_2
 {
     background-color: white;
     margin: 15px;
-    margin-left: 1em;
+    margin-left: 0em;
     border-radius: 15px;
     color: black;
     line-height: 5px;
@@ -251,11 +251,11 @@ section p:hover
     max-width: 100%;
     display: grid;
 }
-.desserts_3 
+desserts_3 
 {
     background-color: white;
     margin: 15px;
-    margin-left: 1em;
+    margin-left: 0em;
     border-radius: 15px;
     color: black;
     line-height: 5px;
@@ -272,7 +272,7 @@ a, a:hover, a:visited, a:active
 section h1
 {
     font-size: 30px;
-    margin-left: 30px;
+    margin-left: -0.5rem;
     max-width: 100%;
     color: black;
 }
@@ -284,7 +284,7 @@ section h4
     align-items: center;
     background-color: white;
     color: black;
-    margin-left: 6rem;
+    margin-left: 4rem;
     line-height: 50px;
     border-radius: 50px;
     font-size: 20px;
@@ -300,9 +300,9 @@ section h4:hover
 {
     color : violet;
 }
-.le_delice_des_sens, .fa-heart
+.fa-heart
 {
-    margin-left: 13em;
+    margin-left: 12em;
     position: relative;top: -3.4rem;
     color: white;
 }
@@ -355,33 +355,53 @@ body
 header i
 {
     margin-left: 5rem;
+    margin-top: 2rem;
 }
 .fa-heart
 {
-    position: relative;left: 12rem;
+    position: relative;left: 20rem;
+    
 }
 img  
 {
-    margin-left: 11rem;
-    
+    margin-left: 2rem;
+    width: 40rem;
+    height: 300px;
 }
 .la_note_enchantee img
 {
     max-width: 80%;
     margin-left: 4rem;
 }
-h1 
+section h1 
 {
-    margin-left: 14rem;
+    margin-left: 2rem;
 }
 header img 
 {
     margin-left: 12rem;
 }
+section p 
+{
+    margin-left: 2.4rem;
+}
+.entree_1, .entree_2, .entree_3, .entree_4
+{
+    text-align: start;
+    margin-left: 2rem;
+    width: 40rem;
+}
+.plats_1, .plats_2, .plats_3
+{
+    text-align: start;
+    margin-left: 2rem;
+    width: 40rem;
+}
 .desserts_1, .desserts_2, .desserts_3
 {
     text-align: start;
-    margin-left: 22rem
+    margin-left: 2rem;
+    width: 40rem;
 }
 
 section h4 
@@ -406,10 +426,11 @@ header i
 .fa-heart
 {
     position: relative;left: 22rem;
+    margin-top: 0rem;
 }
 img  
 {
-    margin-left: 1rem;
+    margin-left: -0.5rem;
     width: 45rem;
     height: 350px;
 }
@@ -418,24 +439,45 @@ img
     max-width: 80%;
     margin-left: 4rem;
 }
-h1 
+section h1 
 {
-    margin-left: 14rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    font-size: 3rem;
 }
 header img 
 {
     margin-left: 12rem;
 }
+.entree_1, .entree_2, .entree_3, .entree_4
+{
+    text-align: start;
+    margin-left: -0.5rem;
+    width: 45rem;
+    height: 120px;
+}
+.plats_1, .plats_2, .plats_3
+{
+    text-align: start;
+    margin-left: -0.4rem;
+    width: 45rem;
+    height: 120px;
+}
 .desserts_1, .desserts_2, .desserts_3
 {
     text-align: start;
-    margin-left: 27rem;
-    
+    margin-left: -0.3rem;
+    width: 45rem;
+    height: 120px;
 }
-
+section p 
+{
+    margin-left: 0rem;
+}
 section h4 
 {
-    margin-left: 12rem;
+    margin-left: 11rem;
+    height: 90px;
 }
 
 }
@@ -452,14 +494,15 @@ header i
     margin-left: 7rem;
     margin-top: 5rem;
 }
-.fa-heart
+section .fa-heart
 {
-    position: relative;left: 40rem;
+    position: relative;left: 37rem;
+    margin-top: 0rem;
 }
 img  
 {
-    margin-left: 2rem;
-    width: 61rem;
+    margin-left: -1.8rem;
+    width: 60rem;
     height: 400px;
     
 }
@@ -468,24 +511,44 @@ img
     max-width: 80%;
     margin-left: 4rem;
 }
-h1 
+section h1 
 {
-    margin-left: 14rem;
+    margin-left: 0rem;
+    margin-top: 4rem;
+    font-size: 3rem;
 }
 header img 
 {
     margin-left: 15rem;
 }
+.entree_1, .entree_2, .entree_3, .entree_4
+{
+    text-align: start;
+    margin-left: -2rem;
+    width: 60rem;
+    height: 120px;
+}
+.plats_1, .plats_2, .plats_3
+{
+    text-align: start;
+    margin-left: -2rem;
+    width: 60rem;
+    height: 120px;
+}
 .desserts_1, .desserts_2, .desserts_3
 {
     text-align: start;
-    margin-left: 44rem;
-    
+    margin-left: -1.9rem;
+    width: 60rem;
+    height: 140px;
 }
-
+section p  
+{
+    margin-left: -1rem;
+}
 section h4 
 {
-    margin-left: 17rem;
+    margin-left: 13rem;
 }
 
 
