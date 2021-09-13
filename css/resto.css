@@ -37,7 +37,7 @@ img
     height: 250px;
     border-radius: 0px 0px 0px 0px;
     margin-top: 0rem;
-    margin-left: -1.0rem;
+    margin-left: -0.8rem;
     display: flex;
     
 }
@@ -59,20 +59,20 @@ section p:hover
 }
 .entree_1 b, .entree_2 b, .entree_4 b
 {
-    margin-left: 16em;
+    margin-left: 17em;
     margin-top: -1em;
     font-size: large;
 }
 .entree_3 b
 {
-    margin-left: 12em;
+    margin-left: 14em;
     margin-top: -1em;
     font-size: large;
 }
 .entree_3 .fa-check-circle
 {
     margin-top: -1.7em;
-    margin-left: 7.0em;
+    margin-left: 7.5em;
     font-size: 40px;
     display: flex;
     align-items: center;
@@ -112,45 +112,6 @@ section p:hover
     max-width: 100%;
     display: grid;
 }
-entree_2
-{
-    background-color: white;
-    margin: 15px;
-    margin-left: 0em;
-    border-radius: 15px;
-    color: black;
-    line-height: 5px;
-    height: 85px;
-    max-width: 100%;
-    display: grid;
-    
-}
-entree_3   
-{
-    background-color: white;
-    margin: 15px;
-    margin-left: 0em;
-    border-radius: 15px;
-    color: black;
-    line-height: 5px;
-    height: 85px;
-    max-width: 100%;
-    display: grid;
-    
-}
-entree_4   
-{
-    background-color: white;
-    margin: 15px;
-    margin-left: 0em;
-    border-radius: 15px;
-    color: black;
-    line-height: 5px;
-    height: 85px;
-    max-width: 100%;
-    display: grid;
-    
-}
 .plats_1 h2,.plats_2 h2,.plats_3 h2
 {
     margin-left: 30px;
@@ -165,14 +126,14 @@ entree_4
 }
 .plats_1 b,.plats_2 b,.plats_3 b 
 {
-    margin-left: 16em;
+    margin-left: 17em;
     margin-top: -1em;
     font-size: large;
     
 } 
 .desserts_1 b, .desserts_2 b, .desserts_3 b 
 {
-    margin-left: 16em;
+    margin-left: 17em;
     margin-top: -1em;
     font-size: large;
 }
@@ -347,7 +308,7 @@ footer
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (min-width: 601px)  and (max-width: 767px) 
 {
-body 
+section  
 {
     background-color: tomato;
     
@@ -364,8 +325,8 @@ header i
 }
 img  
 {
-    margin-left: 2rem;
-    width: 40rem;
+    margin-left: 0.9rem;
+    width: 42rem;
     height: 300px;
 }
 .la_note_enchantee img
@@ -384,6 +345,27 @@ header img
 section p 
 {
     margin-left: 2.4rem;
+}
+.entree_3 b
+{
+    margin-left: 30rem;
+}
+.entree_1 b, .entree_2 b, .entree_4 b
+{
+    margin-left: 35rem;
+}
+.plats_1 b,.plats_2 b,.plats_3 b 
+{
+    margin-left: 35rem;
+}
+.desserts_1 b, .desserts_2 b, .desserts_3 b
+{
+    margin-left: 35rem;
+}
+.entree_3 .fa-check-circle
+{
+    margin-left: 33.2rem;
+    height: 84px;
 }
 .entree_1, .entree_2, .entree_3, .entree_4
 {
@@ -414,7 +396,7 @@ section h4
 /* Small devices (portrait tablets and large phones, 769px and up) */
 @media (min-width: 768px) and (max-width: 1024px) 
 {
-body 
+section  
 {
     background-color: blue;
 }
@@ -430,8 +412,8 @@ header i
 }
 img  
 {
-    margin-left: -0.5rem;
-    width: 45rem;
+    margin-left: 0.0rem;
+    width: 48rem;
     height: 350px;
 }
 .la_note_enchantee img
@@ -439,45 +421,103 @@ img
     max-width: 80%;
     margin-left: 4rem;
 }
+header i
+{
+    font-size: 3rem;
+    margin-top: 0.1rem;
+    margin-left: 1rem;
+}
 section h1 
 {
     margin-left: 2rem;
     margin-top: 5rem;
     font-size: 3rem;
 }
+.entree_1 h2, .entree_2 h2, .entree_3 h2, .entree_4 h2  
+{
+    font-size: 32px;
+}
+.entree_1 h3, .entree_2 h3, .entree_3 h3, .entree_4 h3
+{
+    font-size: 28px;
+}
+.plats_1 h2,.plats_2 h2,.plats_3 h2
+{
+    font-size: 32px;
+}
+.plats_1 h3,.plats_2 h3,.plats_3 h3
+{
+    font-size: 28px;
+}
+.desserts_1 h2, .desserts_2 h2, .desserts_3 h2
+{
+    font-size: 32px;
+}
+.desserts_1 h3, .desserts_2 h3, .desserts_3 h3
+{
+    font-size: 28px;
+}
 header img 
 {
     margin-left: 12rem;
 }
+.entree_3 b
+{
+    margin-left: 32rem;
+    margin-top: 0rem;
+    font-size: 2rem;
+}
+.entree_1 b, .entree_2 b, .entree_4 b
+{
+    margin-left: 40rem;
+    font-size: 2rem;
+}
+.plats_1 b,.plats_2 b,.plats_3 b 
+{
+    margin-left: 40rem;
+    font-size: 2rem;
+}
+.desserts_1 b, .desserts_2 b, .desserts_3 b
+{
+    margin-left: 40rem;
+    font-size: 2rem;
+}
 .entree_1, .entree_2, .entree_3, .entree_4
 {
     text-align: start;
-    margin-left: -0.5rem;
+    margin-left: 1.5rem;
     width: 45rem;
     height: 120px;
 }
 .plats_1, .plats_2, .plats_3
 {
     text-align: start;
-    margin-left: -0.4rem;
+    margin-left: 1.5rem;
     width: 45rem;
     height: 120px;
 }
 .desserts_1, .desserts_2, .desserts_3
 {
     text-align: start;
-    margin-left: -0.3rem;
+    margin-left: 1.5rem;
     width: 45rem;
     height: 120px;
 }
+.entree_3 .fa-check-circle
+{
+    height: 120px;
+    margin-left: 37.3rem;
+    margin-top: -4.6rem;
+}
 section p 
 {
-    margin-left: 0rem;
+    margin-left: 2rem;
 }
 section h4 
 {
-    margin-left: 11rem;
+    margin-left: 12rem;
     height: 90px;
+    font-size: 30px;
 }
 
 }
@@ -485,14 +525,15 @@ section h4
 /* Small devices (portrait tablets and large phones, 1200px and up) */
 @media (min-width: 1024px) and (max-width: 1440px) 
 {
-body 
+section  
 {
     background-color: darkturquoise;
 }
 header i
 {
-    margin-left: 7rem;
-    margin-top: 5rem;
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
 }
 section .fa-heart
 {
@@ -501,8 +542,8 @@ section .fa-heart
 }
 img  
 {
-    margin-left: -1.8rem;
-    width: 60rem;
+    margin-left: -0.1rem;
+    width: 63.8rem;
     height: 400px;
     
 }
@@ -521,34 +562,56 @@ header img
 {
     margin-left: 15rem;
 }
+.entree_3 b
+{
+    margin-left: 42rem;
+    
+}
+.entree_1 b, .entree_2 b, .entree_4 b
+{
+    margin-left: 52rem;
+}
+.plats_1 b,.plats_2 b,.plats_3 b 
+{
+    margin-left: 52rem;
+}
+.desserts_1 b, .desserts_2 b, .desserts_3 b
+{
+    margin-left: 52rem;
+}
 .entree_1, .entree_2, .entree_3, .entree_4
 {
     text-align: start;
-    margin-left: -2rem;
+    margin-left: 2rem;
     width: 60rem;
     height: 120px;
 }
 .plats_1, .plats_2, .plats_3
 {
     text-align: start;
-    margin-left: -2rem;
+    margin-left: 2rem;
     width: 60rem;
     height: 120px;
 }
 .desserts_1, .desserts_2, .desserts_3
 {
     text-align: start;
-    margin-left: -1.9rem;
+    margin-left: 2rem;
     width: 60rem;
     height: 140px;
 }
+.entree_3 .fa-check-circle
+{
+    height: 120px;
+    margin-left: 49.8rem;
+}
 section p  
 {
-    margin-left: -1rem;
+    margin-left: 2rem;
 }
 section h4 
 {
-    margin-left: 13rem;
+    margin-left: 16rem;
 }
 
 
