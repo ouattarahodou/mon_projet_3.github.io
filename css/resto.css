@@ -30,6 +30,7 @@ header i
 {
     width: 100%;
     height: 250px;
+    margin-left: -0.3rem;
 }
 img 
 {
@@ -37,7 +38,7 @@ img
     height: 250px;
     border-radius: 0px 0px 0px 0px;
     margin-top: 0rem;
-    margin-left: -0.8rem;
+    margin-left: -0.1rem;
     display: flex;
     
 }
@@ -49,7 +50,7 @@ section
 }
 section p 
 {
-    margin-left: -0.5rem;
+    margin-left: 1rem;
     color: black;
     width: 3rem;
 }
@@ -104,7 +105,7 @@ section p:hover
 {
     background-color: white;
     margin: 15px;
-    margin-left: -0.7em;
+    margin-left: 0.4em;
     border-radius: 15px;
     color: black;
     line-height: 5px;
@@ -141,33 +142,7 @@ section p:hover
 {
     background-color: white;
     margin: 15px;
-    margin-left: -0.7em;
-    border-radius: 15px;
-    color: black;
-    line-height: 5px;
-    height: 85px;
-    max-width: 100%;
-    display: grid;
-
-}
-plats_2 
-{
-    background-color: white;
-    margin: 15px;
-    margin-left: 0em;
-    border-radius: 15px;
-    color: black;
-    line-height: 5px;
-    height: 85px;
-    max-width: 100%;
-    display: grid;
-
-}
-plats_3 
-{
-    background-color: white;
-    margin: 15px;
-    margin-left: 0em;
+    margin-left: 0.4em;
     border-radius: 15px;
     color: black;
     line-height: 5px;
@@ -192,7 +167,7 @@ plats_3
 {
     background-color: white;
     margin: 15px;
-    margin-left: -0.7em;
+    margin-left: 0.4em;
     border-radius: 15px;
     color: black;
     line-height: 5px;
@@ -200,31 +175,6 @@ plats_3
     max-width: 100%;
     display: grid;
 }
-desserts_2
-{
-    background-color: white;
-    margin: 15px;
-    margin-left: 0em;
-    border-radius: 15px;
-    color: black;
-    line-height: 5px;
-    height: 85px;
-    max-width: 100%;
-    display: grid;
-}
-desserts_3 
-{
-    background-color: white;
-    margin: 15px;
-    margin-left: 0em;
-    border-radius: 15px;
-    color: black;
-    line-height: 5px;
-    height: 85px;
-    max-width: 100%;
-    display: grid;
-}
-
 a, a:hover, a:visited, a:active
 {
     
@@ -233,7 +183,7 @@ a, a:hover, a:visited, a:active
 section h1
 {
     font-size: 30px;
-    margin-left: -0.5rem;
+    margin-left: 1rem;
     max-width: 100%;
     color: black;
 }
@@ -245,7 +195,7 @@ section h4
     align-items: center;
     background-color: white;
     color: black;
-    margin-left: 4rem;
+    margin-left: 6rem;
     line-height: 50px;
     border-radius: 50px;
     font-size: 20px;
@@ -263,7 +213,7 @@ section h4:hover
 }
 .fa-heart
 {
-    margin-left: 12em;
+    margin-left: 13em;
     position: relative;top: -3.4rem;
     color: white;
 }
@@ -325,14 +275,14 @@ header i
 }
 img  
 {
-    margin-left: 0.9rem;
+    margin-left: 0.8rem;
     width: 42rem;
     height: 300px;
 }
 .la_note_enchantee img
 {
-    max-width: 80%;
-    margin-left: 4rem;
+    max-width: 96.5%;
+    margin-left: 1.4rem;
 }
 section h1 
 {
@@ -418,8 +368,9 @@ img
 }
 .la_note_enchantee img
 {
-    max-width: 80%;
-    margin-left: 4rem;
+    max-width: 100%;
+    height: 400px;
+    margin-left: -0.2rem;
 }
 header i
 {
@@ -549,18 +500,20 @@ img
 }
 .la_note_enchantee img
 {
-    max-width: 80%;
-    margin-left: 4rem;
+    max-width: 100%;
+    height: 500px;
+    margin-left: -0.5rem;
 }
 section h1 
 {
-    margin-left: 0rem;
+    margin-left: 1.5rem;
     margin-top: 4rem;
     font-size: 3rem;
 }
 header img 
 {
     margin-left: 15rem;
+    
 }
 .entree_3 b
 {
@@ -582,21 +535,21 @@ header img
 .entree_1, .entree_2, .entree_3, .entree_4
 {
     text-align: start;
-    margin-left: 2rem;
+    margin-left: 1.8rem;
     width: 60rem;
     height: 120px;
 }
 .plats_1, .plats_2, .plats_3
 {
     text-align: start;
-    margin-left: 2rem;
+    margin-left: 1.8rem;
     width: 60rem;
     height: 120px;
 }
 .desserts_1, .desserts_2, .desserts_3
 {
     text-align: start;
-    margin-left: 2rem;
+    margin-left: 1.8rem;
     width: 60rem;
     height: 140px;
 }
