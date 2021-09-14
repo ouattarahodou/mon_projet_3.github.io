@@ -14,6 +14,7 @@ body{
 .logo img {
     padding: 2rem;
     width: 50%;
+
 }
 .search_map i  
 {
@@ -23,20 +24,20 @@ body{
 }
 .fa-heart_1:hover
 {
-    color: violet;
+    color: #FF79DA ;
     
 }
 .fa-heart_2:hover
 {
-    color: violet;
+    color: #FF79DA;
 }
 .fa-heart_3:hover
 {
-    color: violet;
+    color: #FF79DA;
 }
 .fa-heart_4:hover
 {
-    color: violet;
+    color: #FF79DA;
 }
 .fa-heart_1 
 {
@@ -86,7 +87,7 @@ body{
 }
 .presentation h2
 {
-    background-color: rgba(196, 88, 196, 0.712);
+    background-color: #ff79d9b2;
     display: flex;
     margin-left: 11rem;
     justify-content: center;
@@ -168,7 +169,7 @@ a, a:hover, a:visited, a:active
 .cardNumber {
     position: absolute;
     left: -20px;
-    background-color: rgb(53, 0, 139);
+    background-color: #9356DC;
     width: 50px;
     height: 50px;
     border-radius: 25px;
@@ -180,20 +181,24 @@ footer p
 {
     margin-left: 2rem;
     margin-top: -0.5rem;
+    color: white;
 }
 footer i  
 {
-    margin-left: 2rem;
-    
+    margin-left: -0.6rem;
+    margin-top: -1.8rem;
+    color: white;
 }
 footer h3 
 {
     margin-left: 2rem;
+    color: white;
 }
 footer h5
 {
-    margin-left: 5rem;
-    margin-top: -1.5rem;
+    margin-left: 6rem;
+    margin-top: -3.5rem;
+    color: white;
 }
 footer
 {
