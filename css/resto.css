@@ -227,28 +227,28 @@ section h4:hover
 }
 footer p 
 {
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-top: -0.5rem;
     color: white;
     
 }
 footer i  
 {
-    margin-left: -2.2rem;
+    margin-left: 1rem;
     margin-top: 0rem;
     color: white;
     
 }
 footer h3 
 {
-    margin-left: 2rem;
+    margin-left: 1rem;
     color: white;
     
 }
 footer h5
 {
-    margin-left: 6rem;
-    margin-top: -3.0rem;
+    margin-left: 3.5rem;
+    margin-top: -2.0rem;
     color: white;
     
 }
@@ -256,7 +256,7 @@ footer
 {
     display: flex;
     flex-direction: column;
-    white-space: pre;
+    
     color: white;
     background-color: rgba(20, 19, 2, 0.788);
     max-width: 100%;
