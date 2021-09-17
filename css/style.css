@@ -180,31 +180,33 @@ a, a:hover, a:visited, a:active
 footer p 
 {
     margin-left: 2rem;
-    margin-top: -0.5rem;
+    margin-top: 1.5rem;
     color: white;
 }
 footer i  
 {
-    margin-left: -2.4rem;
-    margin-top: -1.8rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
     color: white;
 }
 footer h3 
 {
     margin-left: 2rem;
+    font-size: 3rem;
+    
     color: white;
 }
 footer h5
 {
     margin-left: 6rem;
-    margin-top: -3.5rem;
+    margin-top: -1.6rem;
     color: white;
 }
 footer
 {
     display: flex;
     flex-direction: column;
-    white-space: pre;
+    font-size: 1.8rem;
     color: white;
     background-color: rgba(20, 19, 2, 0.788);
     max-width: 100%;
