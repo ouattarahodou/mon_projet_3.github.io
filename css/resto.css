@@ -185,10 +185,11 @@ section h1
     font-size: 30px;
     position: relative;
     padding-left: 1rem;
-    margin-top: -35px;
-    background-color: red;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    margin-top: -55px;
+    height: 5rem;
+    background-color: whitesmoke;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     max-width: 100%;
     color: #9356DC;
 }
