@@ -87,7 +87,7 @@ body{
 }
 .presentation h2
 {
-    background-color: #ff79d9b2;
+    
     display: flex;
     margin-left: 11rem;
     justify-content: center;
@@ -98,6 +98,13 @@ body{
     
     height: 150px;
     max-width: 60%;
+
+
+    background: radial-gradient(ellipse farthest-corner at top left,
+     #FF79DA, #9356DC);
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0.2rem 0.6rem 0.5rem 0 rgb(92 90 90 / 10%);
    
 }
 a, a:hover, a:visited, a:active
@@ -120,6 +127,10 @@ a, a:hover, a:visited, a:active
     max-width: 100%;
     height: auto;
     margin: 25px;
+
+
+    box-shadow: 1px 1px 10px #afaeae;
+    font-family: "Roboto", sans-serif;
 }
 .restaurant_Belleville h3
 {
@@ -130,21 +141,30 @@ a, a:hover, a:visited, a:active
 {
     margin-left: 2rem;
     padding-bottom: 3rem;
+
+    
 }
 .new_1 
 {
     position: relative;
     left: 30em;top: -35rem;
-    color: greenyellow;
-    background-color: gainsboro
+    color: #2c9c81;
+    
+    
+    background-color: #99e2d0;
+    font-weight: bold;
     
 }
 .new_2
 {
     position: relative;
     left: 30em;top: -70rem;
-    color: greenyellow;
-    background-color: gainsboro;
+    color: #2c9c81;
+    
+
+    
+    background-color: #99e2d0;
+    font-weight: bold;
 }
 .cardFunction p 
 {
@@ -212,4 +232,39 @@ footer
     max-width: 100%;
     height: auto;
     
+}
+
+/* Small devices (portrait tablets and large phones, 1200px and up) */
+@media (min-width: 1024px) and (max-width: 1440px) 
+{
+DD  
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    position: absolute;
+    max-width: 40%;
+    object-fit: cover;
+}
+.restaurant img 
+{
+    display: flex;
+    
+    justify-content: space-around;
+
+    position: absolute;
+    max-width: 40%;
+    
+    
+}
+footert 
+{
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-around;
+}
+
+
+
 }
