@@ -3,54 +3,45 @@
 /* le_delice_des_sens */
 
 body{
-    margin: 0 auto;
+    margin: 0 ;
+    padding: 0;
     font-size: 1.5rem;
     background-color: whitesmoke;
     
 } 
-header img 
-{
-    padding: 0rem;
-    margin-left: 5rem;
-    margin-top: -4rem;
-    width: 50%;
-    display: flex;
+.header_title
+{ 
     text-align: center;
-    align-content: center;
-    
-}
+    font-family: "Shrikhand", cursive;
 
-header i 
-{
-    position: absolute;left: 1em;top: 2em;
-    font-size: 25px;
-    color: black;
 }
-.la_note_enchantee img
+.fa-arrow-left
 {
-    width: 100%;
-    height: 250px;
+    margin-left: 2rem;
+    position: relative;
+    top: 5.5rem;
+    color: black;
     
+    
+}
+.menu-img
+{
+    max-width: 100%;
+
 }
 img 
 {
+    object-fit: cover;
     max-width: 100%;
-    height: 250px;
-    border-radius: 0px 0px 0px 0px;
-    margin-top: 0rem;
-    
-    display: flex;
-    
 }
-section
+.menu 
 {
-    display: flex;
-    justify-content: flex-end;
-
-
-
     background-color: #F6F6F6;
     border-radius: 35px 35px 0 0;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
     padding: 1rem;
     padding-top: 1rem;
     padding-right: 1rem;
@@ -58,65 +49,61 @@ section
     padding-left: 1rem;
     position: relative;
     margin-top: -3rem;
+}
+.menu_header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_title
+{
+    font-weight: bold;
+    margin-bottom: 0;
     
 }
-section p 
+.fa-heart
 {
-    margin-left: 1rem;
-    color: black;
-    width: 3rem;
-}
-section p:hover
-{
-    border-bottom: 3px #99E2D0 solid;
-
-
-
-    background-color: #99e2d0;
-}
-.entree_1 b, .entree_2 b, .entree_4 b
-{
-    margin-left: 17em;
-    margin-top: -1em;
-    font-size: large;
-
-    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    padding-right: 0.5rem;
     cursor: pointer;
-    animation:  1s both;
-    animation-duration: 1s;
-    animation-timing-function: ease;
+}
+.menu_place
+{
+    padding-top: 1.5rem;
+}
+.box_title
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    position: relative;
+}
+.box_title ::before
+{
+    position: absolute;
+    content: "";
+    background-color: #99e2d0;
+    left: 0;
+    bottom: -0.4rem;
+    width: 2.5rem;
+    height: 0.15rem;
+}
+.box_choix
+{
     animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: both;
-    animation-play-state: running;
-    
-
-
-
-
-
+}
+.box_choix
+{
     background-color: white;
     border-radius: 12px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
-    border-bottom-left-radius: 12px;
     font-family: "Roboto", sans-serif;
     font-size: 0.8rem;
     padding: 0.5rem;
-    padding-top: 0.5rem;
-    padding-right: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 0.5rem;
     margin: 0.5rem 0 0.5rem 0;
-    margin-top: 0.5rem;
-    margin-right: 0px;
-    margin-bottom: 0.5rem;
-    margin-left: 0px;
     cursor: pointer;
     position: relative;
-    animation: 1s both;
+    animation: menuAppaer 1s both;
     animation-duration: 1s;
     animation-timing-function: ease;
     animation-delay: 0s;
@@ -124,36 +111,10 @@ section p:hover
     animation-direction: normal;
     animation-fill-mode: both;
     animation-play-state: running;
-    
+    animation-name: menuAppaer;
 }
-.entree_3 b
+.box_choix ::after
 {
-    margin-left: 14em;
-    margin-top: -1em;
-    font-size: large;
-}
-.entree_3 .fa-check-circle
-{
-    margin-top: -1.7em;
-    margin-left: 7.5em;
-    font-size: 40px;
-    display: flex;
-    align-items: center;
-    color: white;
-    border-radius: 0px 20px 20px 0px;
-    width: 17%;
-    height: 85px;
-    display: grid;
-
-
-    background-color: white;
-    border-radius: 50%;
-    color: #99e2d0;
-    padding: 0.3rem;
-    z-index: 2;
-
-
-
     content: "";
     position: absolute;
     right: 0;
@@ -164,24 +125,87 @@ section p:hover
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
     transition: width 0.3s ease-in-out;
-    
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
 }
-.entree_3 .fa-check-circle:hover
-{ 
-    background-color: #99E2D0;  
+@keyframes menuAppaer{ 
+    0%
+    {
+        transform: translateY(-200px);
+        filter: blur(10px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
-.entree_1 h2, .entree_2 h2, .entree_3 h2, .entree_4 h2
+.choix_t
 {
-    margin-left: 28px;
-    margin: 15px;
-    font-size: large;
-
+    margin: 0;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
-
-
-
-    animation: 1s both;
+}
+.choix_f
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.choix_n
+{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.choix_p
+{
+    margin: 0;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.menu_bloc_part_choice_check
+{
+    display: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.menu_bloc_part_choice_check_faCheck
+{
+    background-color: white;
+    border-radius: 50%;
+    color: #99e2d0;
+    padding: 0.3rem;
+    z-index: 2;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.box_choix
+{
+    animation-delay: 0.3s;
+}
+.box_choix
+{
+    background-color: white;
+    border-radius: 12px;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0 0.5rem 0;
+    cursor: pointer;
+    position: relative;
+    animation: menuAppaer 1s both;
     animation-duration: 1s;
     animation-timing-function: ease;
     animation-delay: 0s;
@@ -189,531 +213,756 @@ section p:hover
     animation-direction: normal;
     animation-fill-mode: both;
     animation-play-state: running;
+    animation-name: menuAppaer;
+}
+.box_choix::after
+{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0rem;
+    height: 100%;
+    background-color: #99e2d0;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    transition: width 0.3s ease-in-out;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+@keyframes menuAppaer{ 
+    0%
+    {
+        transform: translateY(-200px);
+        filter: blur(10px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateY(0);
+        opacity: 1;
+    }
     
 }
-.entree_1 h3, .entree_2 h3, .entree_3 h3, .entree_4 h3  
+.choix_t
 {
-    margin-left: 25px;
-    margin: 15px;
-    font-size: medium;
-
-    cursor: pointer;
+    margin: 0;
     font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    font-size: 1rem;
 }
-.entree_1, .entree_2, .entree_3, .entree_4
+.choix_f
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.choix_n
+{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer
+}
+.choix_p
+{
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.menu_bloc_part_choice_check
+{
+    display: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.menu_bloc_part_choice_check_faCheck
 {
     background-color: white;
-    margin: 15px;
-    margin-left: 0.4em;
-    border-radius: 15px;
-    color: black;
-    line-height: 5px;
-    height: 85px;
-    max-width: 100%;
-    display: grid;
+    border-radius: 50%;
+    color: #99e2d0;
+    padding: 0.3rem;
+    z-index: 2;
+    font-size: 0.8rem;
+    cursor: pointer;
 }
-.plats_1 h2,.plats_2 h2,.plats_3 h2
+.box_title
 {
-    margin-left: 30px;
-    margin: 15px;
-    font-size: large;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    position: relative;
 }
-.plats_1 h3,.plats_2 h3,.plats_3 h3
+.box_choix
 {
-    margin-left: 30px;
-    margin: 15px;
-    font-size: medium;
+    padding-top: 1.5rem;
 }
-.plats_1 b,.plats_2 b,.plats_3 b 
+.choix_t
 {
-    margin-left: 17em;
-    margin-top: -1em;
-    font-size: large;
+    margin: 0;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.choix_t::before 
+{
+    position: absolute;
+    content: "";
+    background-color: #99e2d0;
+    left: 0;
+    bottom: -0.4rem;
+    width: 2.5rem;
+    height: 0.15rem;
+}
+.choix_f 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.choix_n
+{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.choix_p
+{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.menu_bloc_part_choice_check
+{
+    display: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.menu_bloc_part_choice_check_faCheck
+{
+    background-color: white;
+    border-radius: 50%;
+    color: #99e2d0;
+    padding: 0.3rem;
+    z-index: 2;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.box_choix
+{
+    animation-delay: 0.3s;
+}
+.box_choix
+{
+    background-color: white;
+    border-radius: 12px;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0 0.5rem 0;
+    cursor: pointer;
+    position: relative;
+    animation: menuAppaer 1s both;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: menuAppaer;
+}
+.box_choix::after
+{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0rem;
+    height: 100%;
+    background-color: #99e2d0;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    transition: width 0.3s ease-in-out;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+@keyframes menuAppaer{ 
+    0%
+    {
+        transform: translateY(-200px);
+        filter: blur(10px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.choix_t
+{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+.choix_f
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.choix_n
+{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.choix_p
+{
+    margin: 0;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.menu_bloc_part_choice_check
+{
+    display: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.menu_bloc_part_choice_check_faCheck
+{
+    background-color: white;
+    border-radius: 50%;
+    color: #99e2d0;
+    padding: 0.3rem;
+    z-index: 2;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.box_choix
+{
+    animation-delay: 0.6s;
+}
+.box_choix
+{
+    background-color: white;
+    border-radius: 12px;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0 0.5rem 0;
+    cursor: pointer;
+    position: relative;
+    animation: menuAppaer 1s both;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: menuAppaer;
+}
+.box_choix::after
+{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0rem;
+    height: 100%;
+    background-color: #99e2d0;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    transition: width 0.3s ease-in-out;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+@keyframes menuAppaer{ 
+    0%
+    {
+        transform: translateY(-200px);
+    filter: blur(10px);
+    opacity: 0;
+    }
+    100%
+    {
+        transform: translateY(0);
+        opacity: 1;
+    }
     
-} 
-.desserts_1 b, .desserts_2 b, .desserts_3 b 
-{
-    margin-left: 17em;
-    margin-top: -1em;
-    font-size: large;
 }
-.plats_1, .plats_2, .plats_3
+.choix_t
+{
+    margin: 0;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+.choix_f
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.choix_n
+{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.choix_p
+{
+    margin: 0;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.menu_bloc_part_choice_check
+{
+    display: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.menu_bloc_part_choice_check_faCheck
 {
     background-color: white;
-    margin: 15px;
-    margin-left: 0.4em;
-    border-radius: 15px;
-    color: black;
-    line-height: 5px;
-    height: 85px;
-    max-width: 100%;
-    display: grid;
-
+    border-radius: 50%;
+    color: #99e2d0;
+    padding: 0.3rem;
+    z-index: 2;
+    font-size: 0.8rem;
+    cursor: pointer;
 }
-.desserts_1 h2, .desserts_2 h2, .desserts_3 h2
+.menu_place
 {
-    margin-left: 28px;
-    margin: 15px;
-    font-size: large;
+    padding-top: 1.5rem;
 }
-.desserts_1 h3, .desserts_2 h3, .desserts_3 h3
+.box_title
 {
-    margin-left: 28px;
-    margin: 15px;
-    font-size: medium;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    position: relative;
 }
-.desserts_1,  .desserts_2, .desserts_3
+.box_title ::before
+{
+    position: absolute;
+    content: "";
+    background-color: #99e2d0;
+    left: 0;
+    bottom: -0.4rem;
+    width: 2.5rem;
+    height: 0.15rem;
+}
+.box_choix
+{
+    animation-delay: 0s;
+}
+.box_choix
 {
     background-color: white;
-    margin: 15px;
-    margin-left: 0.4em;
-    border-radius: 15px;
-    color: black;
-    line-height: 5px;
-    height: 85px;
-    max-width: 100%;
-    display: grid;
+    border-radius: 12px;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0 0.5rem 0;
+    cursor: pointer;
+    position: relative;
+    animation: menuAppaer 1s both;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: menuAppaer;
 }
-a, a:hover, a:visited, a:active
+.box_choix::after
 {
-    
-    text-decoration: none;
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0rem;
+    height: 100%;
+    background-color: #99e2d0;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    transition: width 0.3s ease-in-out;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
 }
-section h1
+@keyframes menuAppaer{ 
+    0%
+    {
+        transform: translateY(-200px);
+        filter: blur(10px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.choix_t
 {
-    font-size: 30px;
-    position: relative;top: 3rem;
-    padding-left: 1rem;
-    margin-top: -6rem;
-    height: 5rem;
-    line-height: 5rem;
-    background-color: whitesmoke;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    max-width: 100%;
-    color: #9356DC;
-
-
-    font-family: "Shrikhand", cursive;
+    margin: 0;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
 }
-
-section h4
+.choix_f
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.choix_n
+{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.choix_p
+{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.menu_bloc_part_choice_check
+{
+    display: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.menu_bloc_part_choice_check_faCheck
+{
+    background-color: white;
+    border-radius: 50%;
+    color: #99e2d0;
+    padding: 0.3rem;
+    z-index: 2;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.box_choix
+{
+    animation-delay: 0.3s;
+}
+.box_choix
+{
+    background-color: white;
+    border-radius: 12px;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0 0.5rem 0;
+    cursor: pointer;
+    position: relative;
+    animation: menuAppaer 1s both;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: menuAppaer;
+}
+.box_choix::after
+{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0rem;
+    height: 100%;
+    background-color: #99e2d0;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    transition: width 0.3s ease-in-out;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+@keyframes menuAppaer{ 
+    0%
+    {
+        transform: translateY(-200px);
+        filter: blur(10px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.choix_t
+{
+    margin: 0;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+.choix_f
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.choix_n
+{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.choix_p
+{
+    margin: 0;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.menu_bloc_part_choice_check
+{
+    display: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.menu_bloc_part_choice_check_faCheck
+{
+    background-color: white;
+    border-radius: 50%;
+    color: #99e2d0;
+    padding: 0.3rem;
+    z-index: 2;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.box_choix
+{
+    animation-delay: 0.6s;
+}
+.box_choix
+{
+    background-color: white;
+    border-radius: 12px;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0 0.5rem 0;
+    cursor: pointer;
+    position: relative;
+    animation: menuAppaer 1s both;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: menuAppaer;
+}
+.box_choix::after
+{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0rem;
+    height: 100%;
+    background-color: #99e2d0;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    transition: width 0.3s ease-in-out;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+@keyframes menuAppaer{ 
+    0%
+    {
+        transform: translateY(-200px);
+        filter: blur(10px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.choix_t
+{
+    margin: 0;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+.choix_f
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.choix_n
+{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.choix_p
+{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.menu_bloc_part_choice_check
+{
+    display: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.menu_bloc_part_choice_check_faCheck
+{
+    background-color: white;
+    border-radius: 50%;
+    color: #99e2d0;
+    padding: 0.3rem;
+    z-index: 2;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.command
 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: white;
-    color: black;
-    margin-left: 6rem;
-    line-height: 50px;
-    border-radius: 50px;
-    font-size: 20px;
-    height: 60px;
-    max-width: 50%;
-    background: radial-gradient(ellipse farthest-corner at top left,
-     #FF79DA, #9356DC);
-
-
-    transition-duration: 4000ms;
-    transform: scale(1);
-    
+    margin: 3rem;
 }
-section h4:hover
+.button
 {
-    background-color: #FF79DA;
+    width: 11rem;
+    background: radial-gradient(ellipse farthest-corner at top left, #FF79DA, #9356DC);
     color: white;
-    transform: scale(50%);
-    
-}
-.fa-heart:hover
-{
-    color : #FF79DA;
-    
-}
-.fa-heart
-{
-    margin-left: 13em;
-    position: relative;top: -1.6rem;
-    color: white;
-
-    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 30px;
+    border: none;
     cursor: pointer;
-    color: black;
-    display: inline-block;
+    box-shadow: 0.2rem 0.6rem 0.5rem 0 rgb(92 90 90 / 10%);
+}
 
-    transform: scale(1);
-    transition-duration: 4000ms;
-}
-.fa-heart:hover
+.footer 
 {
-    color: #FF79DA;
+    background-color: #353535;
+    color: white;
+    padding: 1.5rem;
+}
+.footer_h4
+{
+    font-family: "Shrikhand", cursive;
+    font-size: 1.4rem;
+    font-weight: normal;
+}
+.footer .footer a 
+{
+    text-decoration: none;
+    color: white;
+}
+.footer p 
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+.footer .fa-utensils
+{
+    padding-right: 1rem;
+    color: white;
+}
+.footer .fa-hands-helping
+{
+    padding-right: 0.5rem;
+    color: white;
+}
 
-    
-    
-}
-.fa-heart
-{
-    color: white;
-}
-footer p 
-{
-    margin-left: 1rem;
-    margin-top: -0.5rem;
-    color: white;
-    
-}
-footer i  
-{
-    margin-left: 1rem;
-    margin-top: 0rem;
-    color: white;
-    
-}
-footer h3 
-{
-    margin-left: 1rem;
-    color: white;
-    
-}
-footer h5
-{
-    margin-left: 3.5rem;
-    margin-top: -1.5rem;
-    color: white;
-    
-}
-footer
-{
-    display: flex;
-    flex-direction: column;
-    color: white;
-    background-color: rgba(20, 19, 2, 0.788);
-    max-width: 100%;
-    height: auto;
-}
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media (min-width: 601px)  and (max-width: 767px) 
-{
-
-header i
-{
-    margin-left: 5rem;
-    margin-top: 2rem;
-}
-.fa-heart
-{
-    position: relative;left: 19rem;top: -1.5rem;
+@media (min-width: 601px)  and (max-width: 767px){
     
-}
-img  
-{
-    margin-left: 1.5rem;
-    width: 41rem;
-    height: 300px;
-}
-.la_note_enchantee img
-{
-    max-width: 96%;
-    margin-left: 1.4rem;
-}
-section h1 
-{
-    margin-left: 1rem;
-    padding-left: 1.5rem;
-    padding-top: 4rem;
-}
-header img 
-{
-    margin-left: 12rem;
-}
-section p 
-{
-    margin-left: 2.4rem;
-}
-.entree_3 b
-{
-    margin-left: 30rem;
-}
-.entree_1 b, .entree_2 b, .entree_4 b
-{
-    margin-left: 35rem;
-}
-.plats_1 b,.plats_2 b,.plats_3 b 
-{
-    margin-left: 35rem;
-}
-.desserts_1 b, .desserts_2 b, .desserts_3 b
-{
-    margin-left: 35rem;
-}
-.entree_3 .fa-check-circle
-{
-    margin-left: 33.2rem;
-    height: 84px;
-}
-.entree_1, .entree_2, .entree_3, .entree_4
-{
-    text-align: start;
-    margin-left: 2rem;
-    width: 40rem;
-}
-.plats_1, .plats_2, .plats_3
-{
-    text-align: start;
-    margin-left: 2rem;
-    width: 40rem;
-}
-.desserts_1, .desserts_2, .desserts_3
-{
-    text-align: start;
-    margin-left: 2rem;
-    width: 40rem;
-}
+} 
 
-section h4 
-{
-    margin-left: 12rem;
-}
-
-}
 
 /* Small devices (portrait tablets and large phones, 769px and up) */
-@media (min-width: 768px) and (max-width: 1024px) 
-{
+@media (min-width: 768px) and (max-width: 1024px){
 
-header i
-{
-    margin-left: 5rem;
-    margin-top: 3rem;
-}
-.fa-heart
-{
-    position: relative;left: 22rem;top: -5rem;
-    
-}
-img  
-{
-    margin-left: 0.0rem;
-    width: 48rem;
-    height: 350px;
-}
-.la_note_enchantee img
-{
-    max-width: 100%;
-    height: 400px;
-    margin-left: 0rem;
-}
-header i
-{
-    font-size: 3rem;
-    margin-top: 0.1rem;
-    margin-left: 1rem;
-}
-section h1 
-{
-    margin-left: -0.1rem;
-    margin-top: -7rem;
-    height: 10rem;
-    line-height: 9rem;
-    font-size: 3rem;
-    
-}
-.entree_1 h2, .entree_2 h2, .entree_3 h2, .entree_4 h2  
-{
-    font-size: 32px;
-}
-.entree_1 h3, .entree_2 h3, .entree_3 h3, .entree_4 h3
-{
-    font-size: 28px;
-}
-.plats_1 h2,.plats_2 h2,.plats_3 h2
-{
-    font-size: 32px;
-}
-.plats_1 h3,.plats_2 h3,.plats_3 h3
-{
-    font-size: 28px;
-}
-.desserts_1 h2, .desserts_2 h2, .desserts_3 h2
-{
-    font-size: 32px;
-}
-.desserts_1 h3, .desserts_2 h3, .desserts_3 h3
-{
-    font-size: 28px;
-}
-header img 
-{
-    margin-left: 12rem;
-}
-.entree_3 b
-{
-    margin-left: 32rem;
-    margin-top: 0rem;
-    font-size: 2rem;
-}
-.entree_1 b, .entree_2 b, .entree_4 b
-{
-    margin-left: 40rem;
-    font-size: 2rem;
-}
-.plats_1 b,.plats_2 b,.plats_3 b 
-{
-    margin-left: 40rem;
-    font-size: 2rem;
-}
-.desserts_1 b, .desserts_2 b, .desserts_3 b
-{
-    margin-left: 40rem;
-    font-size: 2rem;
-}
-.entree_1, .entree_2, .entree_3, .entree_4
-{
-    text-align: start;
-    margin-left: 1.5rem;
-    width: 45rem;
-    height: 120px;
-}
-.plats_1, .plats_2, .plats_3
-{
-    text-align: start;
-    margin-left: 1.5rem;
-    width: 45rem;
-    height: 120px;
-}
-.desserts_1, .desserts_2, .desserts_3
-{
-    text-align: start;
-    margin-left: 1.5rem;
-    width: 45rem;
-    height: 120px;
-}
-.entree_3 .fa-check-circle
-{
-    height: 120px;
-    margin-left: 37.3rem;
-    margin-top: -4.6rem;
-}
-section p 
-{
-    margin-left: 2rem;
-    font-size: 2rem;
-}
-section h4 
-{
-    margin-left: 12rem;
-    height: 90px;
-    font-size: 30px;
-}
+} 
 
-}
 
 /* Small devices (portrait tablets and large phones, 1200px and up) */
-@media (min-width: 1024px) and (max-width: 1440px) 
-{
-row
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-header i
-{
-    font-size: 3rem;
-    margin-top: 1rem;
-    margin-left: 1rem;
-}
-section .fa-heart
-{
-    position: relative;left: 37rem;top: -6rem;
-    
-}
-img  
-{
-    margin-left: -0.1rem;
-    width: 63.8rem;
-    height: 400px;
-    
-}
-.la_note_enchantee img
-{
-    max-width: 100%;
-    height: 500px;
-    margin-left: -0.2rem;
-    
-}
-section h1 
-{
-    margin-left: -0.2rem;
-    margin-top: -8rem;
-    height: 12rem;
-    line-height: 12rem;
-    font-size: 3rem;
-    padding-left: 2rem;
-}
-header img 
-{
-    margin-left: 15rem;
-    
-}
-.entree_3 b
-{
-    margin-left: 42rem;
-    
-}
-.entree_1 b, .entree_2 b, .entree_4 b
-{
-    margin-left: 52rem;
-}
-.plats_1 b,.plats_2 b,.plats_3 b 
-{
-    margin-left: 52rem;
-}
-.desserts_1 b, .desserts_2 b, .desserts_3 b
-{
-    margin-left: 52rem;
-}
-.entree_1, .entree_2, .entree_3, .entree_4
-{
-    text-align: start;
-    margin-left: 1.8rem;
-    width: 60rem;
-    height: 120px;
-
-    
-}
-.plats_1, .plats_2, .plats_3
-{
-    text-align: start;
-    margin-left: 1.8rem;
-    width: 60rem;
-    height: 120px;
-
-
-    
-}
-.desserts_1, .desserts_2, .desserts_3
-{
-    text-align: start;
-    margin-left: 1.8rem;
-    width: 60rem;
-    height: 140px;
-
-
-    
-}
-.entree_3 .fa-check-circle
-{
-    height: 120px;
-    margin-left: 49.8rem;
-}
-section p  
-{
-    margin-left: 2rem;
-}
-section h4 
-{
-    margin-left: 16rem;
-}
+@media (min-width: 1024px) and (max-width: 1440px) {
 
 }
+
