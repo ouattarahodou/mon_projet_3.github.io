@@ -1,44 +1,250 @@
 img{
     max-width: 100%;
-    
+    border-radius: 25px 25px 0px 0px;
 }
 body{
     margin: 0 auto;
     font-size: 1.5rem;
     background-color: whitesmoke;
+    
 }
-.logo{
-    text-align: center;
-    border-bottom: 1px solid black;
-}
-.logo img {
-    padding: 2rem;
-    width: 50%;
+.loading
+{
+    background: #F6F6F6;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 500%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transform-origin: top;
+    transform: scale(0);
+    animation: loaderAppaer 3s;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: loaderAppaer;
 
+    opacity: 1;
+    transform: scale(1);
+
+    opacity: 0;
+    transform: scale(0);
+    display: none;
+
+}
+
+.loading_spinner
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15rem;
+}
+.loading_title
+{
+    font-family: Shrikhand;
+    font-size: 3rem;
+    padding-bottom: 3rem;
+}
+.loading_ball
+{
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.loading_ball_Color-1 
+{
+    animation: rebound 0.4s alternate infinite;
+    animation-duration: 0.4s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: rebound;
+
+
+}
+.loading_ball_Color-1
+{
+    background: #9356DC;
+}
+.loading_ball_Color-1
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+@keyframes rebound { 
+0%
+{
+    transform: translate3d(0, 10px, 0);
+}
+100%
+{
+    transform: translate3d(0, -20px, 0);
+}
+}
+.loading_ball_Color_2
+{
+    animation: rebound 0.4s 0.1s alternate infinite;
+    animation-duration: 0.4s;
+    animation-timing-function: ease;
+    animation-delay: 0.1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: rebound;
+
+    
+}
+.loading_ball_Color_2
+{
+    background: #FF79DA;
+    background-color: rgb(255, 121, 218);
+}
+.loading_ball_Color_2
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+@keyframes rebound { 
+    0%
+    {
+        transform: translate3d(0, 10px, 0);
+    }
+    100%
+    {
+        transform: translate3d(0, -20px, 0);
+    }
+    }
+.loading_ball_Color_3
+{
+    animation: rebound 0.4s 0.2s alternate infinite;
+    animation-duration: 0.4s;
+    animation-timing-function: ease;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: rebound;
+
+
+}
+.loading_ball_Color_3
+{
+    background: #99e2d0;
+    background-color: rgb(153, 226, 208);
+}
+.loading_ball_Color_3
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+@keyframes rebound { 
+    0%
+    {
+        transform: translate3d(0, 10px, 0);
+    }
+    100%
+    {
+        transform: translate3d(0, -20px, 0);
+    }
+    }
+.loading i 
+{
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+
+    font-size: 2rem;
+    padding-top: 3rem;
+}
+.header_title{
+    text-align: center;
+    font-family: "Shrikhand";
+    font-size: 5rem;
+}
+.location{
+   
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-color: #F6F6F6;
+
+}
+.search_map p 
+{
+    font-weight: bold;
+    width: 12rem;
+    border: none;
+    background-color: #e4e4e4;
+    margin: 0;
+    font-size: 1.6rem;
 }
 .search_map i  
 {
     font-size: 1.5em;
-    position:absolute;left: 14rem;
+    position: absolute;
+    left: 14rem;
 
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
 }
-.fa-heart_1:hover
+.fa-heart
+{
+    font-size: 1.8rem;
+    padding-right: 0.5rem;
+    cursor: pointer;
+    animation-timing-function: ease;
+    
+}
+fa-heart
 {
     color: #FF79DA ;
     
 }
-.fa-heart_2:hover
-{
-    color: #FF79DA;
-}
-.fa-heart_3:hover
-{
-    color: #FF79DA;
-}
-.fa-heart_4:hover
-{
-    color: #FF79DA;
-}
+.fa-heart {
+    width: 50px;
+     
+    font-family: sans-serif;
+  }
+  @keyframes i {
+      0% { font-size: 15px }
+      100% { font-size: 40px }
+  }
+  
+    .fa-heart:hover  {
+      animation-name: grow;
+      animation-duration: 3s;
+      -webkit-animation-name: grow;
+      -webkit-animation-duration: 3s;
+      
+  }
+  
+
 .fa-heart_1 
 {
     margin-left: 50rem;
@@ -47,45 +253,54 @@ body{
     top: -9rem;
     
 }
-.fa-heart_2
-{
-    margin-left: 50rem;
-    font-size: 3rem;
-    position: relative;
-    top: -9rem;
-}
-.fa-heart_3
-{
-    margin-left: 50rem;
-    font-size: 3rem;
-    position: relative;
-    top: -9rem;
-}
-.fa-heart_4
-{
-    margin-left: 50rem;
-    font-size: 3rem;
-    position: relative;
-    top: -9rem;
-}
 .search_map{
-    background-color: lightgray;
+    
+
+    width: 100%;
+    height: 80px;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-color: #e7e7e7f6;
+    box-shadow: 0px -4px 4px #d8d7d7;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2.5rem;
-   
+
+
+
+}
+.presentation h2
+{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    
+}
+.presentation p 
+{
+    font-weight: bold;
+    width: 30rem;
+    border: none;
+    margin: 35px;
+    padding-left: 8rem;
+
 }
 .presentation{
-    background-color: rgb(226, 225, 225);
-    padding: 5rem;
+    background-color: rgba(226, 225, 225, 0.39);
+    padding: 8rem;
     text-align: center;
+    
 }
+
 #restaurant h2
 {
     margin-left: 2rem;
 }
-.presentation h2
+.btn
 {
     
     display: flex;
@@ -93,19 +308,23 @@ body{
     justify-content: center;
     font-size: 40px;
     border-radius: 80px;
-    line-height: 4em;
-    color: white;
-    
-    height: 150px;
-    max-width: 60%;
-
-
+    height: 120px;
+    max-width: 100%;
     background: radial-gradient(ellipse farthest-corner at top left,
      #FF79DA, #9356DC);
     font-weight: bold;
     cursor: pointer;
+    color: white;
+    padding: 1rem;
+    border: none;
     box-shadow: 0.2rem 0.6rem 0.5rem 0 rgb(92 90 90 / 10%);
-   
+
+
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
 }
 a, a:hover, a:visited, a:active
 {
@@ -114,23 +333,57 @@ a, a:hover, a:visited, a:active
 }
 #functioning{
     padding: 2rem;
+    font-family: "Roboto", sans-serif;
+}
+#functioning i 
+{
+    padding-left: 7rem;
+    color: gray;
 }
 #functioning h2
 {
-    margin-left: 2rem;
+    padding-left: 1rem;
 }
-.restaurant_Belleville
+.cardFunction p 
 {
-    background-color: white;
-    border-radius: 0px 0px 30px 30px;
-    justify-content: space-between;
-    max-width: 100%;
-    height: auto;
-    margin: 25px;
-
-
+    margin-left: 6rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.cardFunction
+{
+    display: flex;
+    align-items: center;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    box-shadow: 0.4rem 1rem 0.5rem 0 rgb(92 90 90 / 10%);
+    padding: 0 1rem;
+    margin: 2rem;
+    cursor: pointer;
+}
+#restaurant a 
+{
     box-shadow: 1px 1px 10px #afaeae;
-    font-family: "Roboto", sans-serif;
+    border-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#restaurant
+{
+    margin: 1rem;
+    display: grid;
+    justify-content: space-around;
+    row-gap: 8rem;
+    padding: 1.5rem 1.5rem 3rem 1.5rem;
+    
 }
 .restaurant_Belleville h3
 {
@@ -144,44 +397,98 @@ a, a:hover, a:visited, a:active
 
     
 }
-.new_1 
+.restaurant_Belleville
 {
     position: relative;
-    left: 30em;top: -35rem;
-    color: #2c9c81;
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
     
-    
+}
+.new_1 
+{
     background-color: #99e2d0;
+    border-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: #2c9c81;
     font-weight: bold;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    padding: 0.4rem 0.8rem;
+    padding-top: 0.4rem;
+    padding-right: 0.8rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0.8rem;
     
 }
 .new_2
 {
-    position: relative;
-    left: 30em;top: -70rem;
-    color: #2c9c81;
-    
-
-    
     background-color: #99e2d0;
+    border-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: #2c9c81;
     font-weight: bold;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    padding: 0.4rem 0.8rem;
+    padding-top: 0.4rem;
+    padding-right: 0.8rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0.8rem;
+
+}
+.card__img
+{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    height: 12rem;
+    padding: 0 1.3rem;
+    padding-top: 0px;
+    padding-right: 1.3rem;
+    padding-bottom: 0px;
+    padding-left: 1.3rem;
+}
+.card__text p h3
+{
+    margin: 0 0 1rem 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 1rem;
+    margin-left: 0px;
+    
 }
 .cardFunction p 
 {
-    margin-left: -10rem;
+    width: 100%;
+    font-size: 1.5rem;
 }
 .cardFunction{
     position: relative;
-    background-color: lightgray;
     padding: 2rem;
     margin-bottom: 2rem;
-    border-radius: 60px;
+    border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-size: 3rem;
-    margin-left: 2rem;
-    width: 88%;
+    font-size: 1.5rem;
+    padding-left: 0rem;
+    max-width: 80%;
+    
+    
+    background-color: #F6F6F6;
+    box-shadow: 0.4rem 1rem 0.5rem 0 rgb(92 90 90 / 10%);
+    cursor: pointer;
 }
 .cardFunction:hover{
     background-color: rgb(218, 199, 218);
@@ -195,74 +502,84 @@ a, a:hover, a:visited, a:active
     border-radius: 25px;
     color: white;
     text-align: center;
+
+    
 }
 
-footer p 
+.footer 
 {
-    margin-left: 2rem;
-    margin-top: 1.5rem;
+    background-color: #353535;
+    color: white;
+    padding: 1.5rem;
+}
+.footer_h4
+{
+    font-family: "Shrikhand", cursive;
+    font-size: 1.4rem;
+    font-weight: normal;
+}
+.footer .footer a 
+{
+    text-decoration: none;
     color: white;
 }
-footer i  
+.footer p 
 {
-    margin-left: 2rem;
-    margin-top: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
     color: white;
 }
-footer h3 
+.footer .fa-utensils
 {
-    margin-left: 2rem;
-    font-size: 3rem;
-    
+    padding-right: 1rem;
     color: white;
 }
-footer h5
+.footer .fa-hands-helping
 {
-    margin-left: 6rem;
-    margin-top: -1.6rem;
+    padding-right: 0.5rem;
     color: white;
-}
-footer
-{
-    display: flex;
-    flex-direction: column;
-    font-size: 1.8rem;
-    color: white;
-    background-color: rgba(20, 19, 2, 0.788);
-    max-width: 100%;
-    height: auto;
-    
 }
 
 /* Small devices (portrait tablets and large phones, 1200px and up) */
 @media (min-width: 1024px) and (max-width: 1440px) 
 {
-DD  
+img 
 {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around;
-
     position: absolute;
-    max-width: 40%;
+    max-width: 100%;
     object-fit: cover;
 }
-.restaurant img 
+.functioning p
 {
     display: flex;
-    
+    flex-direction: row;
     justify-content: space-around;
-
-    position: absolute;
-    max-width: 40%;
+    font-size: 1rem;
+}
+.functioning_bloc
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 1rem;
     
     
 }
-footert 
+.resto 
 {
     display: flex;
-    flex-wrap: row;
-    justify-content: space-around;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 13rem 13rem;
+    column-gap: 2rem;
+    
+}
+.footer
+{
+    text-align: center;
 }
 
 
