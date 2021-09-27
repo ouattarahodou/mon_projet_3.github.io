@@ -68,6 +68,30 @@ img
     padding-right: 0.5rem;
     cursor: pointer;
 }
+.fa-heart
+{
+    font-size: 1.8rem;
+    padding-right: 2rem;
+    cursor: pointer;
+    color: black;
+    font-family: sans-serif;
+}
+
+  @keyframes heart-bar {
+      0% { font-size: 15px }
+      100% { font-size: 40px }
+         
+      
+  }
+  
+  .fa-heart:hover {
+      animation-name: heart-bar;
+      animation-duration: 5s;
+      -webkit-animation-name: heart-bar;
+      -webkit-animation-duration: 5s;
+      color: #c156dc;
+      cursor: pointer;
+  }
 .menu_place
 {
     padding-top: 1.5rem;
