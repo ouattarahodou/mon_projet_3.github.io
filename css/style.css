@@ -235,7 +235,7 @@ body{
     text-rendering: auto;
     line-height: 1;
 }
-fa-heart
+.fa-heart
 {
     font-size: 1.8rem;
     padding-right: 0.5rem;
@@ -243,55 +243,25 @@ fa-heart
     color: black;
     font-family: sans-serif;
 }
-.fa-heart {
-    font-size: 1.8rem;
-    padding-right: 0.5rem;
-    cursor: pointer;
-    color: black;
+
+.fa-heart{
+    
     font-family: sans-serif;
-}
-fa-heart:after {
-  border-radius: 50%;
-  font-size: 1.8rem;
-  padding-right: 0.5rem;
-  content: "";
-  
-}
-
-
-fa-heart:active {
-  animation-play-state: timer;
-  -webkit-animation-play-state: timer;
-  cursor: pointer;
-  color: #FF79DA;
-}
-
-
-
-.fa-heart:hover{
-    background: darkturquoise;
-    border-radius: 50px;
-    height: 20px;
-    width: 20px;
-    animation-name: pulse;
+  }
+  @keyframes heart-bar {
+      0% { font-size: 15px }
+      100% { font-size: 40px }
   }
   
+  .fa-heart:hover {
+      animation-name: heart-bar;
+      animation-duration: 5s;
+      -webkit-animation-name: heart-bar;
+      -webkit-animation-duration: 5s;
+      color: #c156dc;
+      cursor: pointer;
+  }
   
-  
-
- 
-  
-  
-  
-
-fa-heart_1 
-{
-    margin-left: 50rem;
-    font-size: 3rem;
-    position: relative;
-    top: -9rem;
-    
-}
 .search_map{
     
 
@@ -590,12 +560,19 @@ a, a:hover, a:visited, a:active
 {
     text-align: center;
 }
-.functioning_blo
+#functioning
 {
     
-    display: flex;
     
+    flex-flow: nowrap;
     justify-content: space-around;
+    
+}
+.resto
+{
+    display: flex;
+    flex-flow: row;
+    
     
 }
 
