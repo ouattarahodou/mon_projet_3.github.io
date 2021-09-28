@@ -8,7 +8,85 @@ body{
     font-size: 1.5rem;
     background-color: whitesmoke;
     
-} 
+}
+.box_choix
+{
+    animation-delay: 0s;
+}
+.box_choix
+{
+    background-color: white;
+    border-radius: 12px;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0 0.5rem 0;
+    cursor: pointer;
+    position: relative;
+    animation: menuAppaer 1s both;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: menuAppaer;
+}
+.box_choix::after
+{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0rem;
+    height: 100%;
+    background-color: #99e2d0;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    transition: width 0.3s ease-in-out;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+@keyframes menuAppaer
+{
+    0%
+    {
+        transform: translateY(-200px);
+        filter: blur(10px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+    .menu_fa-check-circle
+    { 
+
+    display: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.fa-check-circle
+{
+    background-color: white;
+    border-radius: 50%;
+    color: #99e2d0;
+    padding: 0.3rem;
+    z-index: 2;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.fa-check-circle::before
+{
+    content: "\f00c";
+}
+
 .header_title
 { 
     text-align: center;
@@ -199,7 +277,8 @@ img
     cursor: pointer;
 }
 .menu_fa-check-circle
-{
+    { 
+
     display: none;
     font-family: "Roboto", sans-serif;
     font-size: 0.8rem;
@@ -214,8 +293,10 @@ img
     z-index: 2;
     font-size: 0.8rem;
     cursor: pointer;
-
-    
+}
+.fa-check-circle::before
+{
+    content: "\f00c";
 }
 .box_choix
 {
@@ -303,14 +384,15 @@ img
     font-size: 0.8rem;
     cursor: pointer;
 }
-.menu_bloc_part_choice_check
-{
+.menu_fa-check-circle
+    { 
+
     display: none;
     font-family: "Roboto", sans-serif;
     font-size: 0.8rem;
     cursor: pointer;
 }
-.menu_bloc_part_choice_check_faCheck
+.fa-check-circle
 {
     background-color: white;
     border-radius: 50%;
@@ -319,6 +401,10 @@ img
     z-index: 2;
     font-size: 0.8rem;
     cursor: pointer;
+}
+.fa-check-circle::before
+{
+    content: "\f00c";
 }
 .box_choix
 {
@@ -426,14 +512,15 @@ img
     font-size: 0.8rem;
     cursor: pointer;
 }
-.menu_bloc_part_choice_check
-{
+.menu_fa-check-circle
+    { 
+
     display: none;
     font-family: "Roboto", sans-serif;
     font-size: 0.8rem;
     cursor: pointer;
 }
-.menu_bloc_part_choice_check_faCheck
+.fa-check-circle
 {
     background-color: white;
     border-radius: 50%;
@@ -442,6 +529,10 @@ img
     z-index: 2;
     font-size: 0.8rem;
     cursor: pointer;
+}
+.fa-check-circle::before
+{
+    content: "\f00c";
 }
 .box_choix
 {
@@ -528,14 +619,15 @@ img
     font-size: 0.8rem;
     cursor: pointer;
 }
-.menu_bloc_part_choice_check
-{
+.menu_fa-check-circle
+    { 
+
     display: none;
     font-family: "Roboto", sans-serif;
     font-size: 0.8rem;
     cursor: pointer;
 }
-.menu_bloc_part_choice_check_faCheck
+.fa-check-circle
 {
     background-color: white;
     border-radius: 50%;
@@ -544,6 +636,10 @@ img
     z-index: 2;
     font-size: 0.8rem;
     cursor: pointer;
+}
+.fa-check-circle::before
+{
+    content: "\f00c";
 }
 .box_choix
 {
@@ -632,14 +728,15 @@ img
     font-size: 0.8rem;
     cursor: pointer;
 }
-.menu_bloc_part_choice_check
-{
+.menu_fa-check-circle
+    { 
+
     display: none;
     font-family: "Roboto", sans-serif;
     font-size: 0.8rem;
     cursor: pointer;
 }
-.menu_bloc_part_choice_check_faCheck
+.fa-check-circle
 {
     background-color: white;
     border-radius: 50%;
@@ -648,6 +745,10 @@ img
     z-index: 2;
     font-size: 0.8rem;
     cursor: pointer;
+}
+.fa-check-circle::before
+{
+    content: "\f00c";
 }
 .box_choix
 {
@@ -719,14 +820,15 @@ img
     font-size: 0.8rem;
     cursor: pointer;
 }
-.menu_bloc_part_choice_check
-{
+.menu_fa-check-circle
+    { 
+
     display: none;
     font-family: "Roboto", sans-serif;
     font-size: 0.8rem;
     cursor: pointer;
 }
-.menu_bloc_part_choice_check_faCheck
+.fa-check-circle
 {
     background-color: white;
     border-radius: 50%;
@@ -735,6 +837,10 @@ img
     z-index: 2;
     font-size: 0.8rem;
     cursor: pointer;
+}
+.fa-check-circle::before
+{
+    content: "\f00c";
 }
 .menu_place
 {
@@ -842,14 +948,15 @@ img
     font-size: 0.8rem;
     cursor: pointer;
 }
-.menu_bloc_part_choice_check
-{
+.menu_fa-check-circle
+    { 
+
     display: none;
     font-family: "Roboto", sans-serif;
     font-size: 0.8rem;
     cursor: pointer;
 }
-.menu_bloc_part_choice_check_faCheck
+.fa-check-circle
 {
     background-color: white;
     border-radius: 50%;
@@ -858,6 +965,10 @@ img
     z-index: 2;
     font-size: 0.8rem;
     cursor: pointer;
+}
+.fa-check-circle::before
+{
+    content: "\f00c";
 }
 .box_choix
 {
@@ -945,14 +1056,15 @@ img
     font-size: 0.8rem;
     cursor: pointer;
 }
-.menu_bloc_part_choice_check
-{
+.menu_fa-check-circle
+    { 
+
     display: none;
     font-family: "Roboto", sans-serif;
     font-size: 0.8rem;
     cursor: pointer;
 }
-.menu_bloc_part_choice_check_faCheck
+.fa-check-circle
 {
     background-color: white;
     border-radius: 50%;
@@ -961,6 +1073,10 @@ img
     z-index: 2;
     font-size: 0.8rem;
     cursor: pointer;
+}
+.fa-check-circle::before
+{
+    content: "\f00c";
 }
 .box_choix
 {
@@ -1047,14 +1163,15 @@ img
     font-size: 0.8rem;
     cursor: pointer;
 }
-.menu_bloc_part_choice_check
-{
+.menu_fa-check-circle
+    { 
+
     display: none;
     font-family: "Roboto", sans-serif;
     font-size: 0.8rem;
     cursor: pointer;
 }
-.menu_bloc_part_choice_check_faCheck
+.fa-check-circle
 {
     background-color: white;
     border-radius: 50%;
@@ -1063,6 +1180,10 @@ img
     z-index: 2;
     font-size: 0.8rem;
     cursor: pointer;
+}
+.fa-check-circle::before
+{
+    content: "\f00c";
 }
 .command
 {
