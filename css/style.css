@@ -1,10 +1,14 @@
 img{
-    position: absolute;
-    width: 100%;
    
+    max-width: 100%;
+    padding: 0rem;
+    margin: 0rem 0 0 0;
     object-fit: cover;
     font-family: "Roboto", sans-serif;
+    justify-content: space-around;
+    white-space: pre-line;
     border-radius: 25px 25px 0px 0px;
+    
 }
 body{
     margin: 0 auto;
@@ -239,14 +243,6 @@ body{
     text-rendering: auto;
     line-height: 1;
 }
-.fa-heart
-{
-    font-size: 1.8rem;
-    padding-right: 0.5rem;
-    cursor: pointer;
-    color: black;
-    font-family: sans-serif;
-}
 
 .fa-heart{
     
@@ -366,7 +362,7 @@ a, a:hover, a:visited, a:active
     align-items: center;
     background-color: #F6F6F6;
     border-radius: 20px;
-    box-shadow: 1rem 1rem 1rem 0 rgb(92 90 90 / 10%);
+    box-shadow: 10px 10px 1px 1px rgb(92 90 90 / 10%);
     padding: 0 1rem;
     margin: 2rem;
     cursor: pointer;
@@ -381,19 +377,32 @@ a, a:hover, a:visited, a:active
     font-family: "Roboto", sans-serif;
     background-color: #F6F6F6;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 13rem 13rem 13rem 13rem;
-    row-gap: 2rem;
+    row-gap: 4rem;
     padding: 1.5rem 1.5rem 3rem 1.5rem;
-    margin: 4rem 0 0 0;
+    margin: 0rem 0 0 0;
     
 }
-.restaurant_Belleville h3
+.img
+{
+    box-shadow: 1px 1px 10px #afaeae;
+    border-radius: 2rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.restaurant_Belleville
+{
+    
+    margin: 0rem;
+    
+}
+.card__img h3
 {
     margin-left: 2rem;
     padding-bottom: 0rem;
 }
-.restaurant_Belleville h4
+.card__img h4
 {
     margin-left: 2rem;
     padding-bottom: 3rem;
@@ -455,12 +464,13 @@ a, a:hover, a:visited, a:active
 }
 .text_3
 {
-    margin: 1rem 0 0 0;
-    font-size: 1rem;
+    margin-left: 2rem;
+    padding-bottom: 0rem;
 }
 .text_4
 {
-    margin: 0 0 1rem 0;
+    margin-left: 2rem;
+    padding-bottom: 3rem;
     
 }
 .far
@@ -470,8 +480,9 @@ a, a:hover, a:visited, a:active
 .fa-heart
 {
     font-size: 1.5rem;
-    padding-right: 0.5rem;
+    padding-right: 1.5rem;
     cursor: pointer;
+    
 }
 .cardFunction p 
 {
@@ -489,8 +500,6 @@ a, a:hover, a:visited, a:active
     font-size: 1.5rem;
     padding-left: 0rem;
     max-width: 80%;
-    
-    
     background-color: #F6F6F6;
     box-shadow: 0.4rem 1rem 0.5rem 0 rgb(92 90 90 / 10%);
     cursor: pointer;
@@ -546,35 +555,29 @@ a, a:hover, a:visited, a:active
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media (min-width: 601px)  and (max-width: 767px){
+@media (min-width: 601px)and (max-width: 767px) {
 
-    functioning_bloc 
-    {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .footer
+    .footer 
     {
         text-align: center;
     }
     
+    
 } 
 
-
 /* Small devices (portrait tablets and large phones, 769px and up) */
-@media (min-width: 600px){
+@media (min-width: 768px) and (max-width: 1024px){
     .footer
 {
     text-align: center;
 }
-.functioning_bloc
+functioning_bloc
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-#functioning
+functioning
 {
     
     
@@ -582,12 +585,26 @@ a, a:hover, a:visited, a:active
     justify-content: space-around;
     
 }
-.restaurant
+restaurant
 {
     display: flex;
     flex-flow: row;
     
 }
+
+}
+/* Small devices (portrait tablets and large phones, 1200px and up) */
+@media (min-width: 1024px) and (max-width: 1440px) {
+
+    .footer
+    {
+        text-align: center;
+    }
+    img 
+    {
+        display: flex;
+        
+    }
 
 }
 
