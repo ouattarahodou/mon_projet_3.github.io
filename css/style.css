@@ -1,19 +1,44 @@
-img{
-   
-    max-width: 100%;
+
+body{
+    margin: 0 auto;
+    font-size: 1.5rem;
+    background-color: whitesmoke;
+    
+}
+img{   
+    width: 100%;
+    
     padding: 0rem;
     margin: 0rem 0 0 0;
     object-fit: cover;
     font-family: "Roboto", sans-serif;
     justify-content: space-around;
-    white-space: pre-line;
     border-radius: 25px 25px 0px 0px;
     
 }
-body{
-    margin: 0 auto;
+.img
+{
+    box-shadow: 1px 1px 10px #afaeae;
+    border-radius: 2rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    height: 20rem; 
+}
+
+.restaurant h2
+{
     font-size: 1.5rem;
-    background-color: whitesmoke;
+}
+.restaurant
+{
+    font-family: "Roboto", sans-serif;
+    background-color: #F6F6F6;
+    display: grid;
+    row-gap: 2rem;
+    padding: 1.5rem 1.5rem 3rem 1.5rem;
+    margin: 0rem 0 0 0;
     
 }
 .loading
@@ -214,14 +239,15 @@ body{
 .header_title{
     text-align: center;
     font-family: "Shrikhand";
-    font-size: 5rem;
+    font-size: 2rem;
 }
 .location{
    
     text-align: center;
     font-family: "Roboto", sans-serif;
     background-color: #F6F6F6;
-
+    margin: 0;
+    height: 21rem;
 }
 .search_map p 
 {
@@ -230,17 +256,13 @@ body{
     border: none;
     background-color: #e4e4e4;
     margin: 0;
-    font-size: 1.6rem;
+    font-size: 1rem;
 }
 .search_map i  
 {
-    font-size: 1.5em;
+    font-size: 1em;
     position: absolute;
-    left: 14rem;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
+    left: 5rem;
     line-height: 1;
 }
 
@@ -278,22 +300,23 @@ body{
 }
 .presentation h2
 {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    display: flex;
+    position: relative;
+    left: 5rem;top: -8rem;
+    font-size: 1em;
     font-weight: bold;
+    margin-left: -9rem;
     
 }
 .presentation p 
 {
+    display: flex;
     font-weight: bold;
-    width: 30rem;
-    border: none;
-    margin: 35px;
-    padding-left: 8rem;
+    margin-left: -9rem;
+    font-size: 0.5em;
+    position: relative;
+    left: 5rem;top: -8rem;
+    
 
 }
 .presentation{
@@ -313,13 +336,14 @@ body{
 {
     
     display: flex;
-    margin-left: 7rem;
+    margin-left: -3rem;
+    position: relative;top: -6rem;
     justify-content: center;
-    font-size: 40px;
-    border-radius: 80px;
-    height: 120px;
-    max-width: 100%;
-    background: radial-gradient(ellipse farthest-corner at top left,
+    font-size: 15px;
+    border-radius: 25px;
+    height: 50px;
+    width: 14rem;
+    background:  radial-gradient(ellipse farthest-corner at top left,
      #FF79DA, #9356DC);
     font-weight: bold;
     cursor: pointer;
@@ -336,25 +360,27 @@ a, a:hover, a:visited, a:active
     text-decoration: none;
     color: black;
 }
-#functioning{
+.functioning{
     padding: 2rem;
     font-family: "Roboto", sans-serif;
-    margin-left: 4rem;
+    margin-left: -0.5rem;
 }
-#functioning i 
+.functioning h2
 {
-    padding-left: 7rem;
+    padding-left: 0rem;
+    font-size: 1.3rem;
+}
+.cardFunction i 
+{
+    font-size: 1rem;
     color: gray;
-}
-#functioning h2
-{
-    padding-left: 1rem;
+    margin-left: -4rem;
 }
 .cardFunction p 
 {
-    margin-left: 6rem;
-    font-size: 2rem;
+    margin-left: 0rem;
     font-weight: bold;
+    font-size: 0.8rem;
 }
 .cardFunction
 {
@@ -364,96 +390,49 @@ a, a:hover, a:visited, a:active
     border-radius: 20px;
     box-shadow: 10px 10px 1px 1px rgb(92 90 90 / 10%);
     padding: 0 1rem;
-    margin: 2rem;
+    margin: 1rem;
     cursor: pointer;
+    max-width: 60%;
+    height: 2rem;
 }
 .restaurant .restaurant a 
 {
     text-decoration: none;
     color: black;
 }
-.restaurant
-{
-    font-family: "Roboto", sans-serif;
-    background-color: #F6F6F6;
-    display: grid;
-    row-gap: 4rem;
-    padding: 1.5rem 1.5rem 3rem 1.5rem;
-    margin: 0rem 0 0 0;
-    
-}
-.img
-{
-    box-shadow: 1px 1px 10px #afaeae;
-    border-radius: 2rem;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
 .restaurant_Belleville
 {
     
     margin: 0rem;
-    
+    position: relative;
+    flex: 1;
 }
 .card__img h3
 {
-    margin-left: 2rem;
+    margin-left: 0rem;
     padding-bottom: 0rem;
+    font-size: 1rem;
 }
 .card__img h4
 {
-    margin-left: 2rem;
-    padding-bottom: 3rem;
+    margin-left: 0rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    
+}
 
-    
-}
-.restaurant_Belleville
-{
-    position: relative;
-    flex: 1;
-    
-}
-.new_1 
+.new_1, .new_2
 {
     background-color: #99e2d0;
+    font-family: "Roboto", sans-serif;
     border-radius: 2px;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
     color: #2c9c81;
     font-weight: bold;
     position: absolute;
     right: 1rem;
     top: 1rem;
     padding: 0.4rem 0.8rem;
-    padding-top: 0.4rem;
-    padding-right: 0.8rem;
-    padding-bottom: 0.4rem;
-    padding-left: 0.8rem;
     
-}
-.new_2
-{
-    background-color: #99e2d0;
-    border-radius: 2px;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
-    color: #2c9c81;
-    font-weight: bold;
-    position: absolute;
-    right: 1rem;
-    top: 1rem;
-    padding: 0.4rem 0.8rem;
-    padding-top: 0.4rem;
-    padding-right: 0.8rem;
-    padding-bottom: 0.4rem;
-    padding-left: 0.8rem;
-
 }
 .card__img
 {
@@ -462,17 +441,7 @@ a, a:hover, a:visited, a:active
     align-items: center;
     padding: 0 1.3rem;
 }
-.text_3
-{
-    margin-left: 2rem;
-    padding-bottom: 0rem;
-}
-.text_4
-{
-    margin-left: 2rem;
-    padding-bottom: 3rem;
-    
-}
+
 .far
 {
     font-family: "Font Awesome 5 Free";
@@ -484,22 +453,17 @@ a, a:hover, a:visited, a:active
     cursor: pointer;
     
 }
-.cardFunction p 
-{
-    width: 100%;
-    font-size: 1.5rem;
-}
+
 .cardFunction{
     position: relative;
     padding: 2rem;
     margin-bottom: 2rem;
-    border-radius: 50px;
-    display: flex;
+    border-radius: 15px;
     align-items: center;
     justify-content: space-around;
-    font-size: 1.5rem;
-    padding-left: 0rem;
-    max-width: 80%;
+    font-size: 0.8rem;
+    padding-left: 6rem;
+    width: 50%;
     background-color: #F6F6F6;
     box-shadow: 0.4rem 1rem 0.5rem 0 rgb(92 90 90 / 10%);
     cursor: pointer;
@@ -507,16 +471,16 @@ a, a:hover, a:visited, a:active
 .cardFunction:hover{
     background-color: rgb(218, 199, 218);
 }
-.cardNumber {
+.cardNumber{
     position: absolute;
     left: -20px;
     background-color: #9356DC;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 25px;
     color: white;
     text-align: center;
-    line-height: 3.2rem;
+    line-height: 2.2rem;
     
 }
 
@@ -557,45 +521,6 @@ a, a:hover, a:visited, a:active
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (min-width: 601px)and (max-width: 767px) {
 
-    .footer 
-    {
-        text-align: center;
-    }
-    
-    
-} 
-
-/* Small devices (portrait tablets and large phones, 769px and up) */
-@media (min-width: 768px) and (max-width: 1024px){
-    .footer
-{
-    text-align: center;
-}
-functioning_bloc
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-functioning
-{
-    
-    
-    flex-flow: nowrap;
-    justify-content: space-around;
-    
-}
-restaurant
-{
-    display: flex;
-    flex-flow: row;
-    
-}
-
-}
-/* Small devices (portrait tablets and large phones, 1200px and up) */
-@media (min-width: 1024px) and (max-width: 1440px) {
-
     .footer
     {
         text-align: center;
@@ -603,8 +528,31 @@ restaurant
     img 
     {
         display: flex;
-        
+        flex-flow: row;
+        justify-content: space-around;
     }
-
+    .functioning_bloc
+    {
+        flex-flow: row;
+        display: flex;
+        padding-left: 2rem;
+    }
+    
 }
+
+/* Small devices (portrait tablets and large phones, 769px and up) */
+@media (min-width: 768px) and (max-width: 1024px){
+    .footer
+    {
+        text-align: center;
+    }
+    img 
+    {
+        display: flex;
+        flex-flow: row;
+    }
+}
+
+
+
 
