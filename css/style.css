@@ -6,7 +6,7 @@ body{
     
 }
 img{   
-    width: 100%;
+    max-width: 100%;
     
     padding: 0rem;
     margin: 0rem 0 0 0;
@@ -24,7 +24,7 @@ img{
     display: flex;
     flex-direction: column;
     position: relative; 
-    height: 20rem; 
+     
 }
 
 .restaurant h2
@@ -266,24 +266,30 @@ img{
     line-height: 1;
 }
 
-.fa-heart{
-    
-    font-family: sans-serif;
+  .hearts
+  {
+      position: relative;
+      font-size: 35px;
+      
   }
-  @keyframes heart-bar {
-      0% { font-size: 15px }
-      100% { font-size: 40px }
+  .empty, .full
+  {
+      position: absolute;
+      right: 10px;
+      
   }
-  
-  .fa-heart:hover {
-      animation-name: heart-bar;
-      animation-duration: 5s;
-      -webkit-animation-name: heart-bar;
-      -webkit-animation-duration: 5s;
-      color: #c156dc;
-      cursor: pointer;
+  .full 
+  {
+      opacity: 0;
+      color: #c01690;
+      
   }
-  
+  .full:hover
+  {
+      opacity: 1;
+      transition-duration: 2s;
+      
+  }
 .search_map{
     
 
@@ -412,12 +418,14 @@ a, a:hover, a:visited, a:active
     margin-left: 0rem;
     padding-bottom: 0rem;
     font-size: 1rem;
+    font-weight: bold;
 }
 .card__img h4
 {
     margin-left: 0rem;
     padding-bottom: 1rem;
     font-size: 1rem;
+    font-weight: 100;
     
 }
 
@@ -546,7 +554,7 @@ a, a:hover, a:visited, a:active
     {
         text-align: center;
     }
-    img 
+    img
     {
         display: flex;
         flex-flow: row;
