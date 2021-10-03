@@ -15,6 +15,8 @@ body{
 }
 .box_choix
 {
+    
+
     background-color: white;
     border-radius: 12px;
     font-family: "Roboto", sans-serif;
@@ -24,6 +26,7 @@ body{
     cursor: pointer;
     position: relative;
     animation: menuAppaer 1s both;
+    
 }
 .box_choix::after
 {
@@ -37,6 +40,7 @@ body{
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
     transition: width 0.3s ease-in-out;
+
 }
 @keyframes menuAppaer{ 
 0%
@@ -51,14 +55,12 @@ body{
     opacity: 1;
 }
 }
-.menu_bloc_part_choice_check
+.check
 {
     display: none;
-    font-size: 0.8rem;
-    cursor: pointer;
 }
 
-.menu_bloc_part_choice_check_faCheck
+.fa-check-circle
 {
     background-color: white;
     border-radius: 50%;
@@ -128,61 +130,7 @@ body{
     animation: menuAppaer 1s both;
 }
 */
-.menu__bloc__part__choice
-{
-    animation-delay: 0s;
-}
-.menu__bloc__part__choice
-{
-    background-color: white;
-    border-radius: 12px;
-    font-family: "Roboto", sans-serif;
-    font-size: 0.8rem;
-    padding: 0.5rem;
-    margin: 0.5rem 0 0.5rem 0;
-    cursor: pointer;
-    position: relative;
-    animation: menuAppaer 1s both;
-}
-.menu__bloc__part__choice
-{
-    content: "";
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 0rem;
-    height: 100%;
-    background-color: #99e2d0;
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
-    transition: width 0.3s ease-in-out;
-}
-@keyframes menuAppaer
-{
-    0%
-    {
-        transform: translateY(-200px);
-        filter: blur(10px);
-        opacity: 0;
-    }
-    100%
-    {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-.menu__bloc__part__choice__check
-{
-    display: none;
-}
-.menu__bloc__part__choice__check__faCheck
-{
-    background-color: white;
-    border-radius: 50%;
-    color: #99e2d0;
-    padding: 0.3rem;
-    z-index: 2;
-}
+
 /*
 box_choix::afterV
 {
@@ -338,6 +286,7 @@ img
   {
       position: absolute;
       right: 25px;
+      font-size: 35px;
   }
   .full 
   {
@@ -440,9 +389,7 @@ img
     justify-content: space-between;
     align-items: flex-end;
     position: relative;
-    font-family: "Roboto", sans-serif;
-    font-size: 0.8rem;
-    cursor: pointer;
+    
 }
 .choix_n
 {
@@ -552,9 +499,7 @@ img
     justify-content: space-between;
     align-items: flex-end;
     position: relative;
-    font-family: "Roboto", sans-serif;
-    font-size: 0.8rem;
-    cursor: pointer;
+    
 }
 .choix_n
 {
@@ -570,14 +515,7 @@ img
     font-size: 0.8rem;
     cursor: pointer;
 }
-menu_fa-check-circle
-    { 
 
-    display: none;
-    font-family: "Roboto", sans-serif;
-    font-size: 0.8rem;
-    cursor: pointer;
-}
 /*
 .fa-check-circle
 {
@@ -667,7 +605,7 @@ menu_fa-check-circle
     font-size: 1rem;
     cursor: pointer;
 }
-.choix_t::before 
+.choix_t::before
 {
     position: absolute;
     content: "";
@@ -683,9 +621,7 @@ menu_fa-check-circle
     justify-content: space-between;
     align-items: flex-end;
     position: relative;
-    font-family: "Roboto", sans-serif;
-    font-size: 0.8rem;
-    cursor: pointer;
+    
 }
 .choix_n
 {
@@ -792,9 +728,7 @@ menu_fa-check-circle
     justify-content: space-between;
     align-items: flex-end;
     position: relative;
-    font-family: "Roboto", sans-serif;
-    font-size: 0.8rem;
-    cursor: pointer;
+    
 }
 .choix_n
 {
@@ -904,9 +838,7 @@ menu_fa-check-circle
     justify-content: space-between;
     align-items: flex-end;
     position: relative;
-    font-family: "Roboto", sans-serif;
-    font-size: 0.8rem;
-    cursor: pointer;
+    
 }
 .choix_n
 {
@@ -1132,9 +1064,7 @@ menu_fa-check-circle
     justify-content: space-between;
     align-items: flex-end;
     position: relative;
-    font-family: "Roboto", sans-serif;
-    font-size: 0.8rem;
-    cursor: pointer;
+    
 }
 .choix_n
 {
@@ -1242,9 +1172,7 @@ menu_fa-check-circle
     justify-content: space-between;
     align-items: flex-end;
     position: relative;
-    font-family: "Roboto", sans-serif;
-    font-size: 0.8rem;
-    cursor: pointer;
+    
 }
 .choix_n
 {
@@ -1346,9 +1274,7 @@ menu_fa-check-circle
     justify-content: space-between;
     align-items: flex-end;
     position: relative;
-    font-family: "Roboto", sans-serif;
-    font-size: 0.8rem;
-    cursor: pointer;
+    
 }
 .choix_n
 {
