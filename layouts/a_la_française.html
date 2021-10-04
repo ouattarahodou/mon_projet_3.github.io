@@ -1,155 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/resto.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/79e163a779.js" crossorigin="anonymous"></script>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Ohmyfood</title>
+    <title>Ohmyfood - À la française</title>
 </head>
 
 <body>
-    <header>
-        <a href="../index.html"><i class="fas fa-arrow-left"></i></a>
-            <h1 class="header_title">ohmyfood</h1>
-    </header>
+    <main>
+        <header class="headerMenu">
+            <a href="../index.html"><i class="fas fa-arrow-left headerMenu__arrow"></i></a>
+            <h1 class="header__title">ohmyfood</h1>
+        </header>
 
-    <div class="menu-img">
-        <img src="../img/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="#">
-    </div>
+        <div class="menuImg">
+            <img class="menuImg__img" src="../img/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+                alt="Photo d'un plat du restaurant La palette du goût">
+        </div>
 
-    <section class="menu">
-        <div class="menu_header">
-            <h2 class="menu_title">À la française</h2>
-            <div class="hearts">
-                <i class="empty far fa-heart"></i>
-                <i class="full fas fa-heart"></i>
+        <section class="menu">
+            <div class="menu__header">
+                <h2 class="menu__header__title">À la française</h2>
+                <i class="far fa-heart"></i>
             </div>
-        </div>
 
-        <div class="menu_box">
-            <article class="menu_place">
-                <h3 class="box_title">ENTRÉES</h3>
-                <div class="box_choix">
-                    <h4 class="choix_t">Tartare de poulpe acidulé</h4>
-                    <div class="choix_f">
-                        <p class="choix_n">Aux zests d'orange</p>
-                        <p class="choix_p">25€</p>
+            <div class="menu__bloc">
+                <article class="menu__bloc__part">
+                    <h3 class="menu__bloc__part__title">ENTRÉES</h3>
+                    <div class="menu__bloc__part__choice">
+                        <h4 class="menu__bloc__part__choice__title">Tartare de poulpe acidulé</h4>
+                        <div class="menu__bloc__part__choice__desc">
+                            <p class="menu__bloc__part__choice__desc__food">Aux zestes d'orange</p>
+                            <p class="menu__bloc__part__choice__desc__price">25€</p>
+                        </div>
+                        <span class="menu__bloc__part__choice__check"><i
+                                class="fas fa-check menu__bloc__part__choice__check__faCheck"></i></span>
                     </div>
-                    <span class="menu_bloc_part_choice_check">
-                        <i class="fas fa-check menu_bloc_part_choice_check_faCheck"></i></span>
-                </div>
 
-                <div class="box_choix">
-                    <h4 class="choix_t">Velouté de légumes d'antan</h4>
-                    <div class="choix_f">
-                        <p class="choix_n">Carotte, panais, topinambour</p>
-                        <p class="choix_p">35€</p>
+                    <div class="menu__bloc__part__choice">
+                        <h4 class="menu__bloc__part__choice__title">Velouté de légumes d'antan</h4>
+                        <div class="menu__bloc__part__choice__desc">
+                            <p class="menu__bloc__part__choice__desc__food">Carotte, panais, topinambour</p>
+                            <p class="menu__bloc__part__choice__desc__price">35€</p>
+                        </div>
+                        <span class="menu__bloc__part__choice__check"><i
+                                class="fas fa-check menu__bloc__part__choice__check__faCheck"></i></span>
                     </div>
-                    <span class="menu_bloc_part_choice_check">
-                        <i class="fas fa-check menu_bloc_part_choice_check_faCheck"></i></span>
-                </div>
 
-                <div class="box_choix">
-                    <h4 class="choix_t">Soupe à l'oignon</h4>
-                    <div class="choix_f">
-                        <p class="choix_n">Revisitée</p>
-                        <p class="choix_p">20€</p>
+                    <div class="menu__bloc__part__choice">
+                        <h4 class="menu__bloc__part__choice__title">Soupe à l'oignon</h4>
+                        <div class="menu__bloc__part__choice__desc">
+                            <p class="menu__bloc__part__choice__desc__food">Revisitée</p>
+                            <p class="menu__bloc__part__choice__desc__price">20€</p>
+                        </div>
+                        <span class="menu__bloc__part__choice__check"><i
+                                class="fas fa-check menu__bloc__part__choice__check__faCheck"></i></span>
                     </div>
-                    <span class="menu_bloc_part_choice_check">
-                        <i class="fas fa-check menu_bloc_part_choice_check_faCheck"></i></span>
-                </div>
-            </article>
+                </article>
 
-            <article class="menu_place">
-                <h3 class="box_title">PLATS</h3>
-                <div class="box_choix">
-                    <h4 class="choix_t">Coquilles Saint-Jacques</h4>
-                    <div class="choix_f">
-                        <p class="choix_n">Accomppagnées d'une purée de panais</p>
-                        <p class="choix_p">40€</p>
+                <article class="menu__bloc__part">
+                    <h3 class="menu__bloc__part__title">PLATS</h3>
+                    <div class="menu__bloc__part__choice">
+                        <h4 class="menu__bloc__part__choice__title">Coquilles Saint-Jacques</h4>
+                        <div class="menu__bloc__part__choice__desc">
+                            <p class="menu__bloc__part__choice__desc__food">Accompagnées d'une purée de panais</p>
+                            <p class="menu__bloc__part__choice__desc__price">40€</p>
+                        </div>
+                        <span class="menu__bloc__part__choice__check"><i
+                                class="fas fa-check menu__bloc__part__choice__check__faCheck"></i></span>
                     </div>
-                    <span class="menu_bloc_part_choice_check">
-                        <i class="fas fa-check menu_bloc_part_choice_check_faCheck"></i></span>
-                </div>
 
-                <div class="box_choix">
-                    <h4 class="choix_t">Magret de canard</h4>
-                    <div class="choix_f">
-                        <p class="choix_n">Et parmentier de pommes de terres</p>
-                        <p class="choix_p">35€</p>
+                    <div class="menu__bloc__part__choice">
+                        <h4 class="menu__bloc__part__choice__title">Magret de canard</h4>
+                        <div class="menu__bloc__part__choice__desc">
+                            <p class="menu__bloc__part__choice__desc__food">Et parmentier de pommes de terre</p>
+                            <p class="menu__bloc__part__choice__desc__price">35€</p>
+                        </div>
+                        <span class="menu__bloc__part__choice__check"><i
+                                class="fas fa-check menu__bloc__part__choice__check__faCheck"></i></span>
                     </div>
-                    <span class="menu_bloc_part_choice_check">
-                        <i class="fas fa-check menu_bloc_part_choice_check_faCheck"></i></span>
-                </div>
 
-                <div class="box_choix">
-                    <h4 class="choix_t">Pigeonneau d'Ille-et-Vilaine</h4>
-                    <div class="choix_f">
-                        <p class="choix_n">Sur son lit de gnocchis aus légumes</p>
-                        <p class="choix_p">44€</p>
+                    <div class="menu__bloc__part__choice">
+                        <h4 class="menu__bloc__part__choice__title">Pigeonneau d’Ille-et-Vilaine</h4>
+                        <div class="menu__bloc__part__choice__desc">
+                            <p class="menu__bloc__part__choice__desc__food">Sur son lit de gnocchis aux légumes</p>
+                            <p class="menu__bloc__part__choice__desc__price">44€</p>
+                        </div>
+                        <span class="menu__bloc__part__choice__check"><i
+                                class="fas fa-check menu__bloc__part__choice__check__faCheck"></i></span>
                     </div>
-                    <span class="menu_bloc_part_choice_check">
-                        <i class="fas fa-check menu_bloc_part_choice_check_faCheck"></i></span>
-                </div>
-            </article>
+                </article>
 
-            <article class="menu_place">
-                <h3 class="box_title">DESSERTS</h3>
-                <div class="box_choix">
-                    <h4 class="choix_t">Pétales de violettes glacés</h4>
-                    <div class="choix_f">
-                        <p class="choix_n">Et purée de noisettes</p>
-                        <p class="choix_p">18€</p>
+                <article class="menu__bloc__part">
+                    <h3 class="menu__bloc__part__title">DESSERTS</h3>
+                    <div class="menu__bloc__part__choice">
+                        <h4 class="menu__bloc__part__choice__title">Pétales de violettes glacés</h4>
+                        <div class="menu__bloc__part__choice__desc">
+                            <p class="menu__bloc__part__choice__desc__food">Et purée de noisettes</p>
+                            <p class="menu__bloc__part__choice__desc__price">18€</p>
+                        </div>
+                        <span class="menu__bloc__part__choice__check"><i
+                                class="fas fa-check menu__bloc__part__choice__check__faCheck"></i></span>
                     </div>
-                    <span class="menu_bloc_part_choice_check">
-                        <i class="fas fa-check menu_bloc_part_choice_check_faCheck"></i></span>
-                </div>
 
-                <div class="box_choix">
-                    <h4 class="choix_t">Fondant au chocolat</h4>
-                    <div class="choix_f">
-                        <p class="choix_n">Revisité</p>
-                        <p class="choix_p">22€</p>
+                    <div class="menu__bloc__part__choice">
+                        <h4 class="menu__bloc__part__choice__title">Fondant au chocolat</h4>
+                        <div class="menu__bloc__part__choice__desc">
+                            <p class="menu__bloc__part__choice__desc__food">Revisité</p>
+                            <p class="menu__bloc__part__choice__desc__price">22€</p>
+                        </div>
+                        <span class="menu__bloc__part__choice__check"><i
+                                class="fas fa-check menu__bloc__part__choice__check__faCheck"></i></span>
                     </div>
-                    <span class="menu_bloc_part_choice_check">
-                        <i class="fas fa-check menu_bloc_part_choice_check_faCheck"></i></span>
-                </div>
 
-                <div class="box_choix">
-                    <h4 class="choix_t">Millefeuille croustillant</h4>
-                    <div class="choix_f">
-                        <p class="choix_n">Myrtilles et pâte d'amande</p>
-                        <p class="choix_p">23€</p>
+                    <div class="menu__bloc__part__choice">
+                        <h4 class="menu__bloc__part__choice__title">Millefeuille croustillant</h4>
+                        <div class="menu__bloc__part__choice__desc">
+                            <p class="menu__bloc__part__choice__desc__food">Myrtilles et pâte d’amande</p>
+                            <p class="menu__bloc__part__choice__desc__price">23€</p>
+                        </div>
+                        <span class="menu__bloc__part__choice__check"><i
+                                class="fas fa-check menu__bloc__part__choice__check__faCheck"></i></span>
                     </div>
-                    <span class="menu_bloc_part_choice_check">
-                        <i class="fas fa-check menu_bloc_part_choice_check_faCheck"></i></span>
-                </div>
-            </article>
-        </div>
+                </article>
+            </div>
 
-        <div class="command">
-            <input class="button" type="button" value="Commander">
-        </div>
-    </section>
 
-    <footer class="footer">
-        <h4 class="footer__h4">ohmyfood</h4>
-        <a href="#">
-            <p><i class="fas fa-utensils"></i> Proposer un restaurant</p>
-        </a>
-        <a href="#">
-            <p><i class="fas fa-hands-helping"></i> Devenir partenaire</p>
-        </a>
-        <a href="#">
-            <p>Mentions légales</p>
-        </a>
-        <a href="mailto:contact@ohmyfood.com">
-            <p>Contact</p>
-        </a>
-    </footer>
+            <div class="menu__command">
+                <input class="btn menu__command__button" type="button" value="Commander">
+            </div>
+        </section>
 
+        <footer class="footer">
+            <h4 class="footer__h4">ohmyfood</h4>
+            <a href="#">
+                <p><i class="fas fa-utensils"></i> Proposer un restaurant</p>
+            </a>
+            <a href="#">
+                <p><i class="fas fa-hands-helping"></i> Devenir partenaire</p>
+            </a>
+            <a href="#">
+                <p>Mentions légales</p>
+            </a>
+            <a href="mailto:contact@ohmyfood.com">
+                <p>Contact</p>
+            </a>
+        </footer>
+    </main>
 </body>
+
 </html>
