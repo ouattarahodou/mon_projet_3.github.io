@@ -481,7 +481,32 @@
     {
         margin: 0 0 1rem 0;
     }
-    .fa-heart 
+    .hearts
+{
+    position: relative;
+    font-size: 35px;
+    
+}
+.empty, .full
+{
+    position: absolute;
+    right: 10px;
+    
+}
+.full 
+{
+    opacity: 0;
+    color: #FF79DA;
+    
+    
+}
+.full:hover
+{
+    opacity: 1;
+    transition-duration: 2s;
+    
+}
+    fa-heart 
     {
         font-size: 1.5rem;
         padding-right: 0.5rem;
@@ -549,4 +574,73 @@
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
 }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 601px)  and (max-width: 767px){
+
+    .operation__bloc
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .restaurant
+    {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 13rem 13rem;
+        column-gap: 2rem;
+    }
+    
+    .footer
+    {
+        text-align: center;
+    }
+    
+} 
+
+
+/* Small devices (portrait tablets and large phones, 769px and up) */
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .operation__bloc
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .restaurant
+    {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 13rem 13rem;
+        column-gap: 2rem;
+    }
+    .footer
+    {
+        text-align: center;
+    }
+
+} 
+
+
+/* Small devices (portrait tablets and large phones, 1200px and up) */
+@media (min-width: 1224px)  {
+
+    .operation__bloc
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .restaurant
+    {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 13rem 13rem;
+        column-gap: 2rem;
+    }
+    .footer
+    {
+        text-align: center;
+    }
+
+}
+
 
