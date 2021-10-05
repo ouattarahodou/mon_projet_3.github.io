@@ -83,6 +83,27 @@ fa-heart
     transition-duration: 2s;
     
 }
+hearts
+{
+    position: relative;
+    font-size: 35px;
+    
+    animation-duration: 3s;
+    animation-name: glissement;
+    animation-iteration-count: infinite;
+
+}
+@keyframes glissement {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 .menu__bloc__part
 {
     padding-top: 1.5rem;
@@ -104,11 +125,11 @@ fa-heart
     width: 2.5rem;
     height: 0.15rem;
 }
-.menu__bloc__part__choice:nth-child(2)
+menu__bloc__part__choice:nth-child(2)
 {
     animation-delay: 0s;
 }
-.menu__bloc__part__choice
+menu__bloc__part__choice
 {
     background-color: white;
     border-radius: 12px;
@@ -122,7 +143,7 @@ fa-heart
     box-shadow: 0px 0px 20px rgb(186 182 182);
 }
 
-.menu__bloc__part__choice::after
+menu__bloc__part__choice::afterN
 {
     content: "";
     position: absolute;
@@ -200,11 +221,11 @@ fa-heart
     z-index: 2;
     
 }
-.menu__bloc__part__choice:nth-child(3)
+menu__bloc__part__choice:nth-child(3)
 {
     animation-delay: 0.3s;
 }
-.menu__bloc__part__choice
+menu__bloc__part__choice
 {
     background-color: white;
     border-radius: 12px;
@@ -216,7 +237,7 @@ fa-heart
     position: relative;
     animation: menuAppaer 1s both;
 }
-.menu__bloc__part__choice::after
+menu__bloc__part__choice::afterI
 {
     position: absolute;
     right: 0;
@@ -280,7 +301,7 @@ fa-heart
 }
 .menu__bloc__part__choice:nth-child(4)
 {
-    animation-delay: 0.6s;
+    animation-delay: 0.5s;
 }
 .menu__bloc__part__choice
 {
@@ -292,9 +313,20 @@ fa-heart
     margin: 0.5rem 0 0.5rem 0;
     cursor: pointer;
     position: relative;
-    animation: menuAppaer 1s both;
+   
+    
     height: 50px;
+   
+   
+
+    Animation-name :   menuAppaer;
+    Animation-delay : 15s ;
+    Animation-duration : 4s ;
+    Animation-iteration-count : infinite ;
+  
 }
+
+
 .menu__bloc__part__choice::after
 {
     position: absolute;
@@ -305,23 +337,9 @@ fa-heart
     background-color: #99e2d0;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
-    transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;    
 }
 
-@keyframes menuAppaer
-{
-    0%
-    {
-        transform: translateY(-200px);
-        filter: blur(10px);
-        opacity: 0;
-    }
-    100%
-    {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
 .menu__bloc__part__choice h4,.menu__bloc__part__choice p
 {
     margin: 0;
@@ -340,11 +358,28 @@ fa-heart
 .menu__bloc__part__choice__desc__price
 {
     font-weight: bold;
+    position: relative;left: -4rem;
 }
 .menu__bloc__part__choice__check
 {
-    display: none;
+    background-color: #99e2d0;
+    position: relative;top: -2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    margin-left: 26.7rem;
+    border-radius: 0px 12px 12px 0px;
+    height: 65px;
+    
+    
+    animation-duration: 5s;
+    animation-name: menuAppaer;
+    animation-iteration-count: infinite;
+
+    
 }
+
 .menu__bloc__part__choice__check__faCheck
 {
     background-color: white;
@@ -354,6 +389,7 @@ fa-heart
     z-index: 2;
     
 }
+
 .menu__command
 {
     display: flex;
