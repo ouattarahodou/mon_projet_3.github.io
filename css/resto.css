@@ -53,12 +53,6 @@ img
     font-family: "Shrikhand", cursive;
     margin-bottom: 0;
 }
-fa-heart
-{
-    font-size: 1.5rem;
-    padding-right: 0.5rem;
-    cursor: pointer;
-}
 .hearts
 {
     position: relative;
@@ -83,27 +77,6 @@ fa-heart
     transition-duration: 2s;
     
 }
-hearts
-{
-    position: relative;
-    font-size: 35px;
-    
-    animation-duration: 3s;
-    animation-name: glissement;
-    animation-iteration-count: infinite;
-
-}
-@keyframes glissement {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 .menu__bloc__part
 {
     padding-top: 1.5rem;
@@ -125,54 +98,6 @@ hearts
     width: 2.5rem;
     height: 0.15rem;
 }
-menu__bloc__part__choice:nth-child(2)
-{
-    animation-delay: 0s;
-}
-menu__bloc__part__choice
-{
-    background-color: white;
-    border-radius: 12px;
-    font-family: "Roboto", sans-serif;
-    font-size: 0.8rem;
-    padding: 0.5rem;
-    margin: 0.5rem 0 0.5rem 0;
-    cursor: pointer;
-    position: relative;
-    animation: menuAppaer 1s both;
-    box-shadow: 0px 0px 20px rgb(186 182 182);
-}
-
-menu__bloc__part__choice::afterN
-{
-    content: "";
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 0rem;
-    height: 100%;
-    background-color: #99e2d0;
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
-    transition: width 0.3s ease-in-out;
-    
-}
-@keyframes menuAppaer{ 
-
-0% {
-       transform: translateY(-200px);
-       filter: blur(10px);
-       opacity: 0;
-   
-    
-    }
-    100%{
-    
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
 .menu__bloc__part__choice h4,.menu__bloc__part__choice p 
 {
     margin: 0;
@@ -205,27 +130,12 @@ menu__bloc__part__choice::afterN
     font-family: "Roboto", sans-serif;
     font-size: 0.8rem;
 }
-.menu__bloc__part__choice__check
-{
-    display: none;
-    font-family: "Roboto", sans-serif;
-    font-size: 0.8rem;
-    cursor: pointer;
-}
-.menu__bloc__part__choice__check__faCheck
-{
-    background-color: white;
-    border-radius: 50%;
-    color: #99e2d0;
-    padding: 0.3rem;
-    z-index: 2;
-    
-}
-menu__bloc__part__choice:nth-child(3)
+
+.menu__bloc__part__choice:nth-child(3)
 {
     animation-delay: 0.3s;
 }
-menu__bloc__part__choice
+.menu__bloc__part__choice
 {
     background-color: white;
     border-radius: 12px;
@@ -236,19 +146,10 @@ menu__bloc__part__choice
     cursor: pointer;
     position: relative;
     animation: menuAppaer 1s both;
+
+    
 }
-menu__bloc__part__choice::afterI
-{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 0rem;
-    height: 100%;
-    background-color: #99e2d0;
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
-    transition: width 0.3s ease-in-out;
-}
+
 @keyframes menuAppaer
 {
     0%
@@ -299,9 +200,17 @@ menu__bloc__part__choice::afterI
     z-index: 2;
     
 }
+.menu__bloc__part__choice:nth-child(2)
+{
+    animation-delay: 0s;
+}
+.menu__bloc__part__choice:nth-child(3)
+{
+    animation-delay: 0.3s;
+}
 .menu__bloc__part__choice:nth-child(4)
 {
-    animation-delay: 0.5s;
+    animation-delay: 0.6s;
 }
 .menu__bloc__part__choice
 {
@@ -313,19 +222,40 @@ menu__bloc__part__choice::afterI
     margin: 0.5rem 0 0.5rem 0;
     cursor: pointer;
     position: relative;
-   
-    
     height: 50px;
-   
-   
+    
+    animation: menuAppaer 1s both;
 
-    Animation-name :   menuAppaer;
-    Animation-delay : 15s ;
-    Animation-duration : 4s ;
-    Animation-iteration-count : infinite ;
+
+    animation-fill-mode: both;
+    transform: scale(0);
+    animation-duration: .6s;
+    
   
 }
+@keyframes menuAppaer{ 
+    0% { 
+        transform: scale(0);
+     }
+    100% { transform: scale(1); }
+}
 
+
+.menu__bloc__part__choice:hover .menu__bloc__part__choice__check{
+    animation-name: menuAppaer;
+    animation-duration: 1s;
+
+    background-color: #99e2d0;
+    position: relative;top: -2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    margin-left: 26.7rem;
+    border-radius: 0px 12px 12px 0px;
+    height: 65px;
+     
+}
 
 .menu__bloc__part__choice::after
 {
@@ -371,25 +301,9 @@ menu__bloc__part__choice::afterI
     margin-left: 26.7rem;
     border-radius: 0px 12px 12px 0px;
     height: 65px;
-    
-    
-    animation-duration: 5s;
-    animation-name: menuAppaer;
-    animation-iteration-count: infinite;
-
+    display: none;
     
 }
-
-.menu__bloc__part__choice__check__faCheck
-{
-    background-color: white;
-    border-radius: 50%;
-    color: #99e2d0;
-    padding: 0.3rem;
-    z-index: 2;
-    
-}
-
 .menu__command
 {
     display: flex;
