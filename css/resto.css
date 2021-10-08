@@ -98,6 +98,7 @@ img
     width: 2.5rem;
     height: 0.15rem;
 }
+/*
 .menu__bloc__part__choice:nth-child(2)
 {
     animation-delay: 0s;
@@ -219,7 +220,200 @@ img
     
 }
 
+/* code popup*/
+.menu__bloc__part__choice {
+    
 
+    background-color:white;
+    border-radius: 12px;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0 0.5rem 0;
+    cursor: pointer;
+    position: relative;
+    
+    height: 4rem;
+    
+    
+    
+}
+
+@keyframes check {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100px;
+        opacity: 100;
+    }
+}
+
+.menu__bloc__part__choice:hover .menu__bloc__part__choice__check,
+.menu__bloc__part__choice:hover .menu__bloc__part__choice__check__faCheck {
+    animation: 0.5s linear check forwards;
+    margin-left: -3rem;
+    
+}
+
+.menu__bloc__part__choice__desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+    
+}
+
+.menu__bloc__part__choice__check {
+    
+    text-align: center;
+    position: relative;left: 25rem;
+    margin-top: -3rem;
+    background-color: #99e2d0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0%;
+    height: 5rem;
+    border-radius: 0px 12px 12px 0px;
+    
+    transition-duration: .5s;
+    
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+.menu__bloc__part__choice__check__faCheck {
+    opacity: 0;
+
+
+    
+    
+
+}
+.menu__bloc__part__choice__check__faCheck
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 0rem;
+    position: absolute;
+    color: #99e2d0;
+    background-color: white;
+    padding: 0rem;
+    
+    z-index: 2;
+    border-radius: 90%;
+    width: 1.5rem;
+    height: 1.5rem
+    
+}
+
+/* code popup*/
+
+
+/*
+.choix 
+{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(186 182 182);
+    overflow: hidden;
+    white-space: nowrap;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    transform: scale(0);
+    animation-duration: .1s;
+    animation-name: popup;
+}
+@keyframes popup
+{
+0%
+{
+    transform: scale(0);
+}
+100%
+{
+    transform: scale(1);
+}
+}
+.desc
+{
+    width: 100%;
+    overflow-x: auto;
+}
+.dish 
+{
+    margin-bottom: 0px;
+    white-space: nowrap;
+    
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.line2
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.compo
+{
+    margin-top: 5px;
+    font-weight: 100;
+    text-overflow: ellipsis;
+   
+    overflow: hidden;
+}
+.price
+{
+    margin-top: 5px;
+}
+.price
+{
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.check
+{
+    position: relative;
+    background-color: #99e2d0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    margin-right: -110px;
+    transition-duration: 1s;
+    
+}
+.fa-check-circle
+{
+    position: relative;
+    font-size: 30px;
+    color: white;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    margin-top: 10px;
+}
 
 /*
 .menu__bloc__part__choice
@@ -514,15 +708,34 @@ menu__bloc__part__choice__check
     border-bottom-right-radius: 12px;
     transition: width 0.3s ease-in-out;    
 }
-
+*/
+menu__bloc__part__choice p
+{
+    margin-left: -2rem;
+}
 .menu__bloc__part__choice h4,.menu__bloc__part__choice p
 {
     margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-size: 18px;
+}
+.menu__bloc__part__choice__desc__price 
+{
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+    
 }
 .menu__bloc__part__choice__title
 {
     font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
 }
+/*
 .menu__bloc__part__choice__desc 
 {
     display: flex;
