@@ -769,7 +769,7 @@ menu__bloc__part__choice__check
   }
   .price 
   {
-    padding-right: 30px;
+    padding-left: 0px;
     font-weight: bold;
     font-size: 15px;
     white-space: nowrap;
