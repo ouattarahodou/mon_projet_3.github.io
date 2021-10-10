@@ -27,6 +27,7 @@ body{
     font-family: fantasy;
     
     
+    
 }
 .menuImg__img 
 {
@@ -453,7 +454,6 @@ img
 {
     margin-bottom: 0px;
     white-space: nowrap;
-    
     text-overflow: ellipsis;
     overflow: hidden;
 }
@@ -473,7 +473,6 @@ img
     margin-top: 5px;
     font-weight: 100;
     text-overflow: ellipsis;
-   
     overflow: hidden;
 }
 .price
@@ -482,10 +481,12 @@ img
 }
 .price
 {
-    padding-right: 30px;
+    padding-left: -50px;
     font-weight: bold;
     font-size: 20px;
+    
 }
+
 .check:hover
 {
     position: relative;
@@ -517,7 +518,7 @@ img
     font-family: "Roboto", sans-serif;
     cursor: pointer;
 }
-
+ animation: 0.5s linear check forwards;
 .menu__bloc__part__choice 
 {
     font-family: "Roboto", sans-serif;
@@ -883,6 +884,9 @@ menu__bloc__part__choice p
 {
     width: 11rem;
     
+}
+.btn:hover{
+    opacity: 0.8;
 }
 .btn 
 {
