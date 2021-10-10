@@ -196,6 +196,9 @@
         cursor: pointer;
         box-shadow: 0.2rem 0.6rem 0.5rem 0 rgb(92 90 90 / 10%);
     }
+    .btn:hover{
+        opacity: 0.8;
+    }
     .operation
     {
         font-family: "Roboto", sans-serif;
@@ -203,6 +206,9 @@
     .operation__title
     {
         padding-left: 1rem;
+    }
+    .operation__bloc__line:hover{
+        background-color: rgb(218, 199, 218);
     }
     .operation__bloc__line
     {
