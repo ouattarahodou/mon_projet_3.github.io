@@ -72,8 +72,8 @@ img
 .full 
 {
     opacity: 0;
-    color: #c01690;
     
+    color: 	#EE82EE;
 }
 .full:hover
 {
@@ -378,6 +378,7 @@ img
     margin-right: 15px;
     margin-top: 10px;
 }
+
 
 .menu__command
 {
