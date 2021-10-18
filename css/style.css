@@ -150,6 +150,7 @@
     {
         text-align: center;
         font-family: "Shrikhand", cursive;
+        
     }
     .location
     {
@@ -186,7 +187,7 @@
     }
     .btn
     {
-        background: radial-gradient(ellipse farthest-corner at top left, #FF79DA, #9356DC);
+        background: radial-gradient(ellipse farthest-corner at top left, #FF79DA, #6a38a7);
         color: white;
         font-weight: bold;
         padding: 1.2rem;
@@ -208,7 +209,7 @@
         padding-left: 1rem;
     }
     .operation__bloc__line:hover{
-        background-color: rgb(218, 199, 218);
+        background-color: #e7a0d3;
     }
     .operation__bloc__line
     {
@@ -267,6 +268,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .operation__bloc__line__icon:hover
+    {
+        color: #e256bb;
     }
     .operation__bloc__line__icon
     {
