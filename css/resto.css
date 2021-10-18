@@ -24,8 +24,8 @@ body{
 .header__title
 {
     text-align: center;
-    font-family: fantasy;
-    
+    font-family: "Shrikhand", cursive;
+    font-weight: 900;
     
     
 }
@@ -53,7 +53,8 @@ img
 }
 .menu .menu__header__title
 {
-    font-family: fantasy;
+    font-family: "Shrikhand", cursive;
+    font-weight: 1000;
     margin-bottom: 0;
     font-size: 1.8rem;
 }
@@ -72,8 +73,7 @@ img
 .full 
 {
     opacity: 0;
-    
-    color: 	#EE82EE;
+    color: 	rgb(238,130,238);
 }
 .full:hover
 {
@@ -92,7 +92,7 @@ img
     width: max-content;
     margin-left: 20px;
     font-weight: 100;
-    
+    font-family: "Roboto", sans-serif;
 }
 .entree_choice
 {
@@ -179,6 +179,7 @@ img
     animation-name: popup;
     animation-delay: .8s;
 }
+
 .choix 
 {
     width: 90%;
@@ -219,6 +220,7 @@ img
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+    font-family: "Roboto", sans-serif;
 }
 .line2
 {
@@ -237,6 +239,7 @@ img
     font-weight: 100;
     text-overflow: ellipsis;
     overflow: hidden;
+    font-family: "Roboto", sans-serif;
 }
 .price
 {
@@ -396,7 +399,7 @@ img
 }
 .btn 
 {
-    background: radial-gradient(ellipse farthest-corner at top left, #FF79DA, #9356DC);
+    background: radial-gradient(ellipse farthest-corner at top left, #FF79DA, #6a38a7);
     color: white;
     font-weight: bold;
     padding: 1.2rem;
