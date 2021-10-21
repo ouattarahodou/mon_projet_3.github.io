@@ -73,13 +73,15 @@ img
 .full 
 {
     opacity: 0;
-    color: 	rgb(238,130,238);
+    color: linear-gradient(to top, #9356DC, #FF79DA);
+    color: linear-gradient(to bottom, rgb(147, 86, 220), rgb(255, 121, 218));
+    
 }
 .full:hover
 {
     opacity: 1;
     transition-duration: 2s;
-    
+    color: linear-gradient(176deg,rgba(233, 13, 174, 0.7) 29%, rgba(128,128,165,0.8) 61%);
 }
 
 
@@ -146,7 +148,7 @@ img
     width: 45px;
     margin-left: 0px;
 }
-/*
+
 #delay1
 {
     animation-name: popup;
@@ -184,7 +186,7 @@ img
     animation-name: popup;
     animation-delay: .8s;
 }
-*/
+
 .choix 
 {
     width: 90%;
@@ -218,9 +220,6 @@ img
 }
 }
 
-
-
-
 .desc
 {
     width: 100%;
@@ -239,7 +238,7 @@ img
 }
 .line2
 {
-    width: 100%;
+    width: 85%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -265,7 +264,7 @@ img
 {
     font-weight: bold;
     font-size: 20px;
-    
+    padding-left: 30px;
 }
 
 .check:hover
@@ -342,7 +341,7 @@ img
   }
   .line2
   {
-    width: 100%;
+    width: 85%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -364,15 +363,18 @@ img
   }
   .price
   {
-     margin-top: 5px;
+    margin-top: 5px;
+    
+
   }
   .price 
   {
-    padding-left: 0px;
+    padding-left: 30px;
     font-weight: bold;
     font-size: 15px;
     white-space: nowrap;
     font-family: 'Roboto', sans-serif;
+    
   }
   .check
   {
@@ -382,8 +384,8 @@ img
     justify-content: center;
     align-items: center;
     width: 120px;
-    margin-right: -91px;
-    transition-duration: .5s;
+    margin-right: -100px;
+    transition-duration: .3s;
     white-space: nowrap;
     font-family: 'Roboto', sans-serif;
     
@@ -401,17 +403,6 @@ img
 }
 
 
-@keyframes  rotation {
-    0% {
-        transforme:  turn ( 180deg);
-    }
-
-    100% {
-        transform:  rotation ( 0deg);
-    }
-}
-
-
   .fa-check-circle
   {
     position: relative;
@@ -424,7 +415,9 @@ img
     margin-right: 16px;
     margin-top: 10px;
 }
-
+@keyframes mymove {
+    50% {transform: rotate(180deg);}
+  }
 
 .menu__command
 {
@@ -439,6 +432,7 @@ img
 }
 .btn:hover{
     opacity: 0.8;
+    box-shadow: 2px 3px 1px 2px #888888;
 }
 .btn 
 {
