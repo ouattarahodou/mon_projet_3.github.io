@@ -149,13 +149,14 @@
     .header__title
     {
         text-align: center;
-        font-family: "Shrikhand", cursive;
+        font-family: "Shrikhand",cursive;
+        font-weight: 900;
         
     }
     .location
     {
         text-align: center;
-        font-family: "Roboto", sans-serif;
+        font-family: "Roboto";
         background-color: #F6F6F6;
     }
     .location__area
@@ -207,7 +208,7 @@
     }
     .operation
     {
-        font-family: "Roboto", sans-serif;
+        font-family: "Roboto";
     }
     .operation__title
     {
@@ -325,7 +326,7 @@
     }
     .restaurant
     {
-        font-family: "Roboto", sans-serif;
+        font-family: "Roboto";
         background-color: #F6F6F6;
         display: grid;
         grid-template-columns: 1fr;
@@ -533,7 +534,7 @@
 }
 .footer__h4
 {
-    font-family: "Shrikhand", cursive;
+    font-family: "Shrikhand",cursive;
     font-size: 1.4rem;
     font-weight: normal;
 }
