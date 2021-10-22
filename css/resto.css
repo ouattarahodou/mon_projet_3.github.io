@@ -19,6 +19,7 @@ body{
 {
     margin-left: -3rem;
     margin-right: 3rem;
+    margin-top: 1rem;
     color: black;
 }
 .header__title
@@ -51,12 +52,13 @@ img
     justify-content: space-between;
     align-items: center;
 }
-.menu .menu__header__title
+.menu__header__title
 {
     font-family: "Shrikhand", cursive;
-    font-weight: 1000;
-    margin-bottom: 0;
+    font-weight: 700;
+    margin-bottom: 20px;
     font-size: 1.8rem;
+    margin-left: 1rem;
 }
 .hearts
 {
@@ -73,24 +75,20 @@ img
 .full 
 {
     opacity: 0;
-    color: linear-gradient(to top, #9356DC, #FF79DA);
-    color: linear-gradient(to bottom, rgb(147, 86, 220), rgb(255, 121, 218));
-    
 }
 .full:hover
 {
     opacity: 1;
     transition-duration: 2s;
-    color: linear-gradient(176deg,rgba(233, 13, 174, 0.7) 29%, rgba(128,128,165,0.8) 61%);
+    background: -webkit-linear-gradient(#FF79DA, #9356DC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-
-
 .content
 {
     border-top-left-radius: 50px;
 
 }
-
 .title
 {
     width: max-content;
@@ -105,7 +103,6 @@ img
     display: flex;
     flex-direction: column;
     align-items: center;
-
     animation: popup 800ms 3500ms linear both;
 }
 .plats_choice 
@@ -148,7 +145,7 @@ img
     width: 45px;
     margin-left: 0px;
 }
-
+/*
 #delay1
 {
     animation-name: popup;
@@ -186,7 +183,7 @@ img
     animation-name: popup;
     animation-delay: .8s;
 }
-
+*/
 .choix 
 {
     width: 90%;
@@ -384,18 +381,18 @@ img
     justify-content: center;
     align-items: center;
     width: 120px;
-    margin-right: -100px;
+    margin-right: -120px;
     transition-duration: .3s;
     white-space: nowrap;
     font-family: 'Roboto', sans-serif;
     
+   
     
   }
 
-  .choix:hover .check {
+.choix:hover .check {
     margin-right: -16px;   
 }
-
 .choix:hover .fa-check-cercle {
     animation-name: rotation;
     animation-duration: .5s;
@@ -414,10 +411,27 @@ img
     align-items: center;
     margin-right: 16px;
     margin-top: 10px;
+   
 }
-@keyframes mymove {
-    50% {transform: rotate(180deg);}
-  }
+
+
+
+
+.choix:hover .fa-check-circle {
+    animation-name: rotation;
+    animation-duration: .5s;
+    animation-timing-function: ease;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(180deg); 
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
 
 .menu__command
 {
@@ -432,7 +446,7 @@ img
 }
 .btn:hover{
     opacity: 0.8;
-    box-shadow: 2px 3px 1px 2px #888888;
+    box-shadow: 2px 1px 10px 5px #888888;
 }
 .btn 
 {
