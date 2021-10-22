@@ -25,10 +25,9 @@ body{
 .header__title
 {
     text-align: center;
-    font-family: "Shrikhand", cursive;
+    font-family: "Shrikhand";
     font-weight: 900;
-    
-    
+    font-style: oblique; 
 }
 .menuImg__img 
 {
@@ -54,10 +53,11 @@ img
 }
 .menu__header__title
 {
-    font-family: "Shrikhand", cursive;
+    font-family: "Shrikhand";
     font-weight: 700;
+    font-style: oblique;
     margin-bottom: 20px;
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-left: 2rem;
 }
 .hearts
@@ -287,7 +287,7 @@ img
     overflow-x: auto;
     text-overflow: ellipsis;
     overflow: hidden;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
   }
   .line2
   {
@@ -308,7 +308,7 @@ img
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-size: 15px;
   }
   .price
