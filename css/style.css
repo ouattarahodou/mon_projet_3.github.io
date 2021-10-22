@@ -197,13 +197,13 @@
         cursor: pointer;
         box-shadow: 0.2rem 0.6rem 0.5rem 0 rgb(92 90 90 / 10%);
         background: linear-gradient(to top, #9356DC, #FF79DA);
-        background-image: linear-gradient(to top, rgb(147, 86, 220), rgb(255, 121, 218));
+        
 
         
     }
     .btn:hover{
         opacity: 0.8;
-        box-shadow: 2px 3px 1px 2px #888888;
+        box-shadow: 2px 1px 10px 5px #888888;
     }
     .operation
     {
@@ -214,7 +214,7 @@
         padding-left: 1rem;
     }
     .operation__bloc__line:hover{
-        background-color: #efeff8;
+        background-color: #9256dc36;
     }
     .operation__bloc__line
     {
@@ -515,24 +515,17 @@
 {
     opacity: 0;
     
-    color: 	rgb(238,130,238);
-    
 }
 .full:hover
 {
     opacity: 1;
     transition-duration: 2s;
+    background: -webkit-linear-gradient(#FF79DA, #9356DC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     
 }
-    fa-heart 
-    {
-        font-size: 1.5rem;
-        padding-right: 0.5rem;
-        cursor: pointer;
-    }
-
-
-    .footer 
+.footer 
 {
     background-color: #353535;
     color: white;
