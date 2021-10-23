@@ -55,7 +55,7 @@
    }
    .loading__spinner__title
    {
-       font-family: Shrikhand;
+       font-family: "Shrikhand";
        font-size: 3rem;
        padding-bottom: 3rem;
    }
@@ -149,7 +149,7 @@
     .header__title
     {
         text-align: center;
-        font-family: "Shrikhand",cursive;
+        font-family: "Shrikhand";
         font-weight: 900;
         
     }
@@ -215,7 +215,7 @@
         padding-left: 1rem;
     }
     .operation__bloc__line:hover{
-        background-color: #9256dc36;
+        background-color: #9256dc2a;
     }
     .operation__bloc__line
     {
@@ -534,7 +534,7 @@
 }
 .footer__h4
 {
-    font-family: "Shrikhand",cursive;
+    font-family: "Shrikhand";
     font-size: 1.4rem;
     font-weight: normal;
 }
@@ -545,7 +545,7 @@
 }
 .footer p
 {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     font-size: 1rem;
 }
 .footer .fa-utensils
@@ -559,7 +559,7 @@
 }
 .footer p
 {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     font-size: 1rem;
 }
 .footer .fa-hands-helping
@@ -573,7 +573,7 @@
 }
 .footer p
 {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     font-size: 1rem;
 }
 .footer.footer a
@@ -583,7 +583,7 @@
 }
 .footer p 
 {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     font-size: 1rem;
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
