@@ -144,6 +144,38 @@ img
     width: 45px;
     margin-left: 0px;
 }
+
+
+.choix{
+    
+    animation: popup 2s;
+
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgb(186 182 182);
+    overflow: hidden;
+    white-space: nowrap;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    transform: scale(0);
+    animation-duration: .6s;
+    
+}
+@keyframes popup {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+
 .choix 
 {
     width: 90%;
@@ -162,6 +194,7 @@ img
     animation-duration: .1s;
     animation-name: popup;
     animation: opacity 2000ms 3500ms linear both;
+    
 }
 @keyframes popup
 {
@@ -262,6 +295,7 @@ img
     transform: scale(0);
     animation-duration: .6s;
     animation-name: popup;
+    
   }
   @keyframes popup{ 
     0%{
